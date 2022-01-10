@@ -1,0 +1,5 @@
+  File "/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/slam_navigation.py", line 215
+    if min(arr_d[mid_n+i+1 : mid_n+i+2+check_n])>self.car_width and
+                                                                   ^
+SyntaxError: invalid syntax
+

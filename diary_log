@@ -27,7 +27,7 @@ The components of agv are setted to "ArticulationBody", that forms part of a Phy
 
 0625
 1.Rebuild control algorithm.
-The orignal controller was making the agv towards target but not follow the path. But the ideal controller is make the agv follow the path and back to the path fast and smooth when agv not on it. Normally, people use PID control, but kp ki and kd have to setted by try error when we don't have mathematical model of our system. In addition, kp ki and kd may need adjust when system is changed. Therefore I tried to design a new controller that can preformance like ideal PID controller. First, I analyzed the path of a agv which controled by ideal PID controller. The angle between agv and target path are static whan error (distance between agv and path) is larger than a value, and the angle decrease when agv get closer to the path. Second, write a function that caculate the ideal angle correspond to the error. Last calculate angle between agv and target path, and we can get 'fix angle' that ideal angle minus agv angle. But agv could be at left or right of the path, so we need to calaulate the fix angle is postive or negative. After all, the simulation looks well, maby when agv fixing angle gose alittle too fast. Besides, when agv are hand moved and move exceed the target point, it will run forward forever. I'll fix this tomorrowXD
+The orignal controller was making the agv towards target but not follow the path. But the ideal controller is make the agv follow the path and back to the path fast and smooth when agv not on it. Normally, people use PID control, but kp ki and kd have to setted by try error when we don't have mathematical model of our system. In addition, kp ki and kd may need adjust when system is changed. Therefore I tried to design a new controller that can preformance like ideal PID controller. First, I analyzed the path of a agv which controled by ideal PID controller. The angle between agv and target path are static whan error (distance between agv and path) is larger than a value, and the angle decrease when agv get closer to the path. Second, write a function that caculate the ideal angle correspond to the error. Last caculate angle between agv and target path, and we can get 'fix angle' that ideal angle minus agv angle. But agv could be at left or right of the path, so we need to caculate the fix angle is postive or negative. After all, the simulation looks well, maby when agv fixing angle gose alittle too fast. Besides, when agv are hand moved and move exceed the target point, it will run forward forever. I'll fix this tomorrowXD
 
 0626
 The stable time of this controller seems not so ideal. But this can be fix well and immediately by decrease control period from 1.0 to 0.25.
@@ -38,11 +38,65 @@ publish a marker shows the path that agv gose through.
 timeout stop
 make motor_cmd node send stop command automatic if it dosen't receive data for 1 sec.
 wait first data
-the navigation node will run what ever it get TF from agv or not in the first. But this will cost the command navigation calculated are wrong and the agv still active according to this wrong command.
+the navigation node will run what ever it get TF from agv or not in the first. But this will cost the command navigation caculated are wrong and the agv still active according to this wrong command.
 Adding a flag that check is the TF are received to solve this problem.
 
-0707
+0714
+add check_crush mark and stop the agv
+create a new marker that shows the area for checking obstacles. The checting area angle is decide by the width of agv. Set the color of marker in purple if there is no obstacle in front of agv, and red if finding any obstacle.
+
+find the gap agv can go thew
+if there is only a simple obstacle on the path then it eazy to slove this. Just caculate offset angle that can avoid the obstacle. Calaulate lidar data from the offset angle to offset angle add the angle of agv width, if all the data langth between first point, then this range is save. Otherwise caculate next angle offset. But if more then one obstacles are there and has gap detween it, this will cost wrong path output.
+
+polar coordinates
+for lidar data, it express by polar coordinates. Therefore, I can caculate two point distance by sqrt(r1**2+r2**2-2*r1*r2*cos(n1-n2)). But for program efficiency, still transfrom Polar coordinates to Cartesian coordinate.
+
+when diong those, the start and end point of the array takes so much time for me to make them correct. For both postive and nagtive range needs to be set carefully!!!
+
+0718
+the array save_arr mark the point that is save
+to check is the turning ang is save or not, create an array first. When finding save angle, mark the angle which is not save, length between the point to first point in the range smaller then agv width, in the range. The save range for path must satisfy two condition, the length from first point in the range to anyothers are bigger then agv width, and no any point is marked non-save. But found that this can only deal with if there's gap between two obstacle. If there's another obstacle at back of the gap, output new path wont avoid it.
+
+the orignal way to mark save_arr was  only check points in the range check this time. But this will make wrong output when the ovstacle is at out of the checking range. Thus, we check all points in these group of data.
+
+inorder to reduce the caculation in the algorithm, caculate Cartesian coordinate of all points first.
+
+when using save_arr, one way is set and update by booling, anther is add one to the index that is not save, and check is the index is zero or not. Cannot set the result of this time to save_arr or it will coverd the old result, must use logic "or" or just add to the old result.
+
+finding the actual path
+First new point, from save_arr point add another half check_ang angle to avoid hitting obstacle. Second point, form save_arr point add another agv_width/2 distence that perpendicular to the path.
+
+make drew path function to update path data real time.
+
+save the main path be the refer of the new path.
+
+set the check_ang from static value, according to car width, to changed by distance between obstacle.
+
+rewrite render in unity to make gray depth img become hex number in RGB.
+
+send id, gray, hex in one topic and check sending frquence. indeed, it's three times then normal img.
+then, create a reciver to handle this topic msg, sending to the topic it should be. The benefit it makes, the node receive both img and depth, it's make pcl2 edit eazier.
+
+
+
+
+
+
+
+
+
 calculate new path
+
+
+
+
+
+
+
+
+
+
+
 
 
 

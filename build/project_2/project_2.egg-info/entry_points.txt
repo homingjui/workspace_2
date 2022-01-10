@@ -1,13 +1,6 @@
 [console_scripts]
-client = project_2.test_client:main
-client2 = project_2.test_mysrv2:main
-listener = project_2.test_sub:main
-listener2 = project_2.test_mymsg2:main
+img_processor = project_2.img_processor:main
+imu_reader = project_2.imu_reader:main
 motor_cmd = project_2.motor_cmd:main
-param_test = project_2.test_parm:main
-service = project_2.test_service:main
-service2 = project_2.test_mysrv:main
 slam_navigation = project_2.slam_navigation:main
-talker = project_2.test_pub:main
-talker2 = project_2.test_mymsg:main
 

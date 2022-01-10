@@ -1,0 +1,189 @@
+[4.110s] Invoking command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs -- -j4 -l4
+[4.593s] [  1%] Built target unity_robotics_demo_msgs__cpp
+[4.647s] [ 12%] Built target unity_robotics_demo_msgs__rosidl_generator_c
+[4.922s] [ 23%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp
+[4.971s] [ 34%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp
+[4.987s] [ 45%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[5.027s] [ 56%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c
+[5.173s] [ 67%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c
+[5.288s] [ 78%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c
+[5.469s] [ 78%] Built target unity_robotics_demo_msgs
+[5.660s] [ 80%] Built target unity_robotics_demo_msgs__py
+[5.913s] [ 89%] Built target unity_robotics_demo_msgs__python
+[6.316s] [ 92%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[6.340s] [ 96%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.365s] [100%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c__pyext
+[6.475s] Invoked command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs -- -j4 -l4
+[8.445s] Invoking command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs
+[8.508s] -- Install configuration: ""
+[8.509s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/unity_robotics_demo_msgs
+[8.512s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs
+[8.514s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv
+[8.515s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail
+[8.516s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__functions.h
+[8.517s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.c
+[8.518s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.h
+[8.520s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.h
+[8.520s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.h
+[8.521s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.h
+[8.524s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__functions.c
+[8.525s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__struct.h
+[8.525s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/position_service.h
+[8.526s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/object_pose_service.h
+[8.526s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg
+[8.531s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail
+[8.534s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__functions.c
+[8.535s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.h
+[8.535s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.h
+[8.536s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.h
+[8.536s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.h
+[8.537s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__struct.h
+[8.541s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__functions.h
+[8.542s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.c
+[8.544s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/unity_color.h
+[8.544s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.545s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_rot.h
+[8.547s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.sh
+[8.551s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.dsv
+[8.553s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_generator_c.so
+[8.553s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs
+[8.554s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv
+[8.554s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail
+[8.555s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_c.h
+[8.555s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_c.h
+[8.556s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg
+[8.556s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail
+[8.557s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_c.h
+[8.557s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_c.h
+[8.558s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.567s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[8.572s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs
+[8.576s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv
+[8.578s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail
+[8.578s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_cpp.hpp
+[8.579s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_cpp.hpp
+[8.580s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/dds_fastrtps
+[8.581s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg
+[8.582s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail
+[8.582s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_cpp.hpp
+[8.583s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_cpp.hpp
+[8.583s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/dds_fastrtps
+[8.584s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.594s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.595s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs
+[8.595s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv
+[8.598s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail
+[8.599s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_c.h
+[8.600s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.c
+[8.600s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_c.h
+[8.600s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.c
+[8.601s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg
+[8.601s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail
+[8.609s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.c
+[8.609s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.c
+[8.613s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_c.h
+[8.613s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_c.h
+[8.615s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.615s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_c.so
+[8.616s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_c.so
+[8.616s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs
+[8.616s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv
+[8.617s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail
+[8.617s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__traits.hpp
+[8.618s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__struct.hpp
+[8.618s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__traits.hpp
+[8.618s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__builder.hpp
+[8.619s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.hpp
+[8.619s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__builder.hpp
+[8.620s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/object_pose_service.hpp
+[8.621s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/position_service.hpp
+[8.622s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg
+[8.622s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/unity_color.hpp
+[8.623s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail
+[8.624s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__traits.hpp
+[8.624s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__struct.hpp
+[8.624s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__builder.hpp
+[8.625s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.hpp
+[8.625s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__builder.hpp
+[8.626s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__traits.hpp
+[8.626s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_rot.hpp
+[8.627s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs
+[8.627s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv
+[8.628s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail
+[8.628s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_cpp.hpp
+[8.628s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.cpp
+[8.629s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_cpp.hpp
+[8.629s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.cpp
+[8.630s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg
+[8.631s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail
+[8.632s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_cpp.hpp
+[8.636s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.cpp
+[8.638s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.cpp
+[8.638s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_cpp.hpp
+[8.641s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[8.647s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_cpp.so
+[8.648s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.sh
+[8.648s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.dsv
+[8.649s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/__init__.py
+[8.933s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg
+[8.934s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_rot.py
+[8.935s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_unity_color_s.c
+[8.936s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_unity_color.py
+[8.936s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/__init__.py
+[8.937s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_rot_s.c
+[8.937s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv
+[8.938s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_position_service.py
+[8.938s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_object_pose_service_s.c
+[8.939s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_object_pose_service.py
+[8.939s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/__init__.py
+[8.940s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_position_service_s.c
+[8.940s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[8.942s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[8.948s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[8.953s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__python.so
+[8.967s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.idl
+[8.969s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.idl
+[8.971s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.idl
+[8.975s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.idl
+[8.976s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.msg
+[8.976s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.msg
+[8.977s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.srv
+[8.978s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Request.msg
+[8.978s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Response.msg
+[8.979s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.srv
+[8.983s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Request.msg
+[8.984s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Response.msg
+[8.986s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/ament_index/resource_index/package_run_dependencies/unity_robotics_demo_msgs
+[8.987s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/ament_index/resource_index/parent_prefix_path/unity_robotics_demo_msgs
+[8.990s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.sh
+[8.990s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.dsv
+[8.991s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.sh
+[8.992s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.dsv
+[8.999s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.bash
+[8.999s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.sh
+[9.001s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.zsh
+[9.001s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.dsv
+[9.002s] -- Installing: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv
+[9.002s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/ament_index/resource_index/packages/unity_robotics_demo_msgs
+[9.003s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cExport.cmake
+[9.004s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.004s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.005s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.011s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport.cmake
+[9.012s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.015s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cppExport.cmake
+[9.017s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.018s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.020s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport.cmake
+[9.021s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.021s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[9.022s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.023s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.024s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.024s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.025s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.025s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.026s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig.cmake
+[9.027s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig-version.cmake
+[9.027s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.xml
+[9.040s] Invoked command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs

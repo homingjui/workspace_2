@@ -1,6 +1,7 @@
 import rclpy
 import time
 import numpy as np
+import cv2
 from rclpy.node import Node
 from msg_manage.srv import TwistSrv
 from tf2_msgs.msg import TFMessage
@@ -38,24 +39,12 @@ class slam_navigation_node(Node):
         self.car_last_pos = [0,0]
         self.car_tf = [0,0,0]
         self.now_dot = -1
-        self.rout = np.array([[0,0],[0,5.5],[-3,5.5],[-3,4.5],[0,4.5],[0,0]])
+        #self.rout = np.array([[0,0],[0,5.5],[-3,5.5],[-3,4.5],[-0.3,4.5],[-0.3,0]])
+        self.rout = np.array([[0,0],[0,10]],dtype=np.float)
+        self.main_rout = np.arange(len(self.rout))
         self.done_turning = True
         self.min_dist = np.inf
         self.reach_dist = np.array([0.2,0.2,0.2])
-
-        self.path_msg = Path()
-        self.path_msg.header.frame_id = "/odom"
-        for i in self.rout:
-            pose = PoseStamped()
-            pose.pose.position.x = i[0]
-            pose.pose.position.y = i[1]
-            pose.pose.position.z = 0.0
-
-            pose.pose.orientation.x = 0.0
-            pose.pose.orientation.y = 0.0
-            pose.pose.orientation.z = 0.0
-            pose.pose.orientation.w = 0.0
-            self.path_msg.poses.append(pose)
 
         self.markers = Marker()
         self.markers.header.frame_id = '/base_scan'
@@ -81,9 +70,29 @@ class slam_navigation_node(Node):
         self.check_dist = 3
         self.color_a = 0.2
         self.back_ang = 60
-        self.adjustment_dist = 1
+        self.adjustment_dist = 0.5
+
+        self.car_width = 0.6
+        self.crash_check = 1.5
+
         self.logger("car pos initial")
 
+    def path_draw_pub(self):
+
+        path_msg = Path()
+        path_msg.header.frame_id = "/odom"
+        for i in self.rout:
+            pose = PoseStamped()
+            pose.pose.position.x = i[0]
+            pose.pose.position.y = i[1]
+            pose.pose.position.z = 0.0
+
+            pose.pose.orientation.x = 0.0
+            pose.pose.orientation.y = 0.0
+            pose.pose.orientation.z = 0.0
+            pose.pose.orientation.w = 0.0
+            path_msg.poses.append(pose)
+        self.path_pub.publish(path_msg)
 
 
     def logger(self,data):
@@ -129,38 +138,199 @@ class slam_navigation_node(Node):
         return self.motor_cmd_client.call_async(request)
 
     def get_scan(self,data):
+        self.path_draw_pub()
         if not self.new_pose:
             return
         points = []
         colors = []
         point0 = Point()
-        #print(data.angle_max)
-        #print(np.pi/data.angle_increment)
+        #print(data.angle_min)
+        #print(2*np.pi/data.angle_increment)
+        #print(data.angle_increment)
         #print(len(data.ranges))
+
+        check_ang = np.arctan2(self.car_width/2, self.crash_check)
+        crash_color = ColorRGBA()
+        crash_color.r, crash_color.b, crash_color.a=1.0, 1.0, self.color_a*2
+        save_arr = np.zeros(len(data.ranges))
+
+
         for index,item in enumerate(data.ranges):
-            if index % 4 != 0:
-                continue
+            #if index % 4 != 0:
+            #    continue
             point1 = Point()
             color = ColorRGBA()
             color.a = self.color_a
+            now_ang = data.angle_min+data.angle_increment*index
 
             if item < self.check_dist:
-                point1.x = item * np.cos(data.angle_min+data.angle_increment*index)
-                point1.y = item * np.sin(data.angle_min+data.angle_increment*index)
+                point1.x = item * np.cos(now_ang)
+                point1.y = item * np.sin(now_ang)
                 color.g = min(0.7,item/self.check_dist)
                 color.r= max(0.3,1-item/self.check_dist)
             else:
-                point1.x = self.check_dist * np.cos(data.angle_min+data.angle_increment*index)
-                point1.y = self.check_dist * np.sin(data.angle_min+data.angle_increment*index)
+                point1.x = self.check_dist * np.cos(now_ang)
+                point1.y = self.check_dist * np.sin(now_ang)
                 point1.z = -1.0
                 color.g = 1.0
             points.extend([point0,point1])
             colors.extend([color,color])
 
+            if now_ang>-check_ang and now_ang<check_ang:
+                point1 = Point()
+                point1.x = self.crash_check
+                point1.y = self.crash_check * np.tan(now_ang)
+                points.extend([point0, point1])
+                colors.extend([crash_color, crash_color])
+                if item < np.sqrt(point1.x**2+point1.y**2):
+                    crash_color.b = 0.0
+                    save_arr[index]=1
+
+        
+        if sum(save_arr)>0 and self.done_turning :
+            print("cal_new_pose")
+            self.send_motor_cmd(0.0,0.0)
+            #self.now_dot = 0
+            time.sleep(1)
+        
+
+            start_ang = 180-np.where(save_arr==1)[0][0]
+            color = ColorRGBA()
+            color.r, color.g, color.a = 1.0, 1.0, self.color_a*2
+            check_n = int((check_ang*2)/data.angle_increment)
+            mid_n = int(len(data.ranges)/2)
+
+            ang_arr_all = np.arange(0,len(data.ranges))*data.angle_increment+data.angle_min
+            arrx_all = data.ranges*np.cos(ang_arr_all)
+            arry_all = data.ranges*np.sin(ang_arr_all)
+
+
+
+            for i in range(-start_ang,180):
+                arrx_0 = arrx_all[mid_n+i]
+                arry_0 = arry_all[mid_n+i]
+                #arrx = arrx_all[mid_n+i+1 : mid_n+i+2+check_n]-arrx_0
+                #arry = arry_all[mid_n+i+1 : mid_n+i+2+check_n]-arry_0
+                arrx = arrx_all-arrx_0
+                arry = arry_all-arry_0
+                arr_d = np.sqrt(arrx**2+arry**2)
+                    
+                check_ang = np.arctan2(self.car_width/2, data.ranges[mid_n+i])
+                check_ang += data.angle_increment
+                check_n = int((check_ang*2)/data.angle_increment)
+                
+                arr_n = np.array(arr_d)
+                arr_n[arr_d <= self.car_width]=1
+                arr_n[arr_d > self.car_width]=0
+                if save_arr[mid_n+i] >= 1:
+                    save_arr+=arr_n
+
+                if (min(arr_d[mid_n+i+1 : mid_n+i+2+check_n])>self.car_width and 
+                        (save_arr[mid_n+i+1 : mid_n+i+2+check_n]==0).all()):
+                    #add new first p
+                    point1 = Point()
+                    point1.x = arrx_0
+                    point1.y = arry_0
+                    points.extend([point0, point1])
+                    colors.extend([color, color])
+                    
+                    #turn for a car width
+                    ang_now = ang_arr_all[mid_n+i]
+                    point11 = Point()
+                    point11.x = data.ranges[mid_n+i]*np.cos(ang_now+check_ang)
+                    point11.y = data.ranges[mid_n+i]*np.sin(ang_now+check_ang)
+                    points.extend([point0, point11])
+                    colors.extend([color, color])
+
+
+                    
+                    #remove the extra points
+                    lest= self.rout[-1]
+                    self.rout = self.rout[:self.now_dot+1]
+                    self.rout = np.vstack((self.rout,lest))
+
+                    #add now pos
+                    new_rout_x = self.car_pos[0]
+                    new_rout_y = self.car_pos[1]
+                    self.rout = np.insert(self.rout, self.now_dot+1, 
+                                            np.array((new_rout_x, new_rout_y)), 0)
+                    
+                    #p11 according to map tf
+                    new_rout_x1 = new_rout_x+point11.x*np.cos(self.car_tf[2])
+                    new_rout_x1 -= point11.y*np.sin(self.car_tf[2])
+                    new_rout_y1 = new_rout_y+point11.x*np.sin(self.car_tf[2])
+                    new_rout_y1 += point11.y*np.cos(self.car_tf[2])
+                    self.rout = np.insert(self.rout, self.now_dot+2, 
+                                            np.array((new_rout_x1, new_rout_y1)), 0)
+
+
+
+                    #get main rout vector, add to last point
+                    unit_rout = (self.rout[-1]-self.rout[0])/self.get_dist(self.rout[-1],self.rout[0])
+                    new_rout_x2 = new_rout_x1+unit_rout[0]*(self.car_width/2)
+                    new_rout_y2 = new_rout_y1+unit_rout[1]*(self.car_width/2)
+                    
+                    deg = self.get_deg([0,1],
+                                [new_rout_x1-new_rout_x,new_rout_y1-new_rout_x])+self.car_tf[2]
+                    pointd = Point()
+                    pointd.x = 3.0*np.cos(deg)
+                    pointd.y = 3.0*np.sin(deg)
+                    points.extend([point0, point11])
+                    colors.extend([color, color])
+
+                    self.rout = np.insert(self.rout, self.now_dot+3,
+                                            np.array((new_rout_x2, new_rout_y2)), 0)
+
+                    #back to the main path
+                    n = self.p4( self.rout[0],
+                                   self.rout[-1],
+                                   [new_rout_x2, new_rout_y2])
+                    self.rout = np.insert(self.rout, self.now_dot+4,
+                                            np.array((n[0], n[1])), 0)
+
+                    self.main_rout[self.now_dot+1:]+=4
+                  
+                    self.logger(self.show_going_str())
+                    #while len(self.rout)>8:
+                    #    self.path_draw_pub()
+                    #    self.markers.points=points
+                    #    self.markers.colors=colors
+                    #    self.marker_pub.publish(self.markers)
+
+
+
+                    break
+
+            for i in range(start_ang,180):
+                arrx_0 = arrx_all[mid_n-i]
+                arry_0 = arry_all[mid_n-i]
+                #arrx = arrx_all[mid_n-i-1-check_n : mid_n-i]-arrx_0
+                #arry = arry_all[mid_n-i-1-check_n : mid_n-i]-arry_0
+                arrx = arrx_all-arrx_0
+                arry = arry_all-arry_0
+                arr_d = np.sqrt(arrx**2+arry**2)
+                
+                arr_n = np.array(arr_d)
+                arr_n[arr_d <= self.car_width]=1
+                arr_n[arr_d > self.car_width]=0
+                if save_arr[mid_n-i] >= 1:
+                    save_arr+=arr_n
+
+                if (min(arr_d[mid_n-i-1-check_n : mid_n-i])>self.car_width and 
+                        (save_arr[mid_n-i-1-check_n : mid_n-i]==0).all()):
+                    point1 = Point()
+                    point1.x = arrx_0
+                    point1.y = arry_0
+                    points.extend([point0, point1])
+                    colors.extend([color, color])
+                    break
+            
         self.markers.points=points
         self.markers.colors=colors
         self.marker_pub.publish(self.markers)
         self.new_pose = False
+        self.path_draw_pub()
+
             
 
     def get_tf(self,data):
@@ -194,6 +364,8 @@ class slam_navigation_node(Node):
             else:
                 run_str="start__"
             for i in range(len(self.rout)):
+                if i in self.main_rout:
+                    run_str+="."
                 if i == self.now_dot:
                     run_str += str(i)+"->"
                 else:
@@ -212,19 +384,17 @@ class slam_navigation_node(Node):
         return str(run_str[:-2])
 
     def nonPID_controller(self,e):
-        self.back_ang = 60
-        self.adjustment_dist = 0.5
         if e >= self.adjustment_dist:
             return self.back_ang
         return self.back_ang * ( e / self.adjustment_dist )
 
 
     def controller(self):
-        self.path_pub.publish(self.path_msg)
+        self.path_draw_pub()
 
         if self.car_pos == [0,0]:
             return
-            
+
         points=[]
         colors=[]
         point0 = Point()
@@ -233,12 +403,22 @@ class slam_navigation_node(Node):
         points.extend(self.add_point(point0,self.rout[self.now_dot+1]))
         colors.extend(self.add_color([0.5, 0.0, 1.0, 1.0]))
 
+        if not self.done_turning:
+            print(self.show_going_str()+"  wait turn"+"."*(self.count%5)+" "*5,end='\r')
+            self.count += 1
+            if self.response.done():
+                self.done_turning = True
+                print("\ndone turn!")
+                self.count = 0
+
+
         if self.done_turning:       ##### check turning
             self.logger(self.show_going_str())
 
             if self.car_last_pos != [0,0]:
                 if (self.reach_dist == 0).all() :
                     self.reach_dist[:] = self.get_dist(self.car_pos,self.car_last_pos)
+                    #self.reach_dist[:] = 0.07411
                 else:
                     self.reach_dist = np.append(self.reach_dist,
                                                 [self.get_dist(self.car_pos,self.car_last_pos)]*2)
@@ -257,13 +437,13 @@ class slam_navigation_node(Node):
                 deg2 = self.get_deg([np.cos(self.car_tf[2]),np.sin(self.car_tf[2])],
                                     self.rout[1]-self.car_pos)
                 
-                if abs(deg) > 5 and self.min_dist > self.reach_dist[1]:
+                if abs(deg) > 5 and self.min_dist > self.reach_dist[1]*1.1:
                     self.logger("turn:"+str(deg))
                     self.response = self.send_motor_cmd(0.0,deg)
                     self.done_turning = False
 
                 elif self.min_dist > self.reach_dist[1]:
-                    self.logger("dist:"+str(dist)+" "+str(deg))
+                    self.logger("dist:"+str(dist)+" "+str(deg)+str(self.reach_dist[1]))
                     self.response = self.send_motor_cmd(0.3,deg)
                 elif abs(deg2) > 5:
                     self.logger("turn2:"+str(deg2))
@@ -297,15 +477,16 @@ class slam_navigation_node(Node):
                     
                     deg2 = self.nonPID_controller(error)*np.sign(error_sign) - deg_car2path
 
-                    print(deg2, error_sign, deg_car2path)
+                    print(deg2, self.nonPID_controller(error)*np.sign(error_sign), deg_car2path)
 
                     self.response = self.send_motor_cmd(0.3,deg2)
-                    self.logger("dist:"+str(dist)+" "+str(deg2))
+                    self.logger("dist:"+str(dist)+" "+str(deg2)+" "+str(self.reach_dist[1]))
                     
                     points.extend(self.add_point(point0,error_point))
                     colors.extend(self.add_color([0.0, 0.0, 1.0, 1.0]))
 
                 else: ##### turn to next point
+                    self.logger("dist:"+str(dist))
                     if self.now_dot+1 == len(self.rout)-1:
                         self.send_motor_cmd(0.0,0.0)
                         self.logger("done all")
@@ -322,15 +503,7 @@ class slam_navigation_node(Node):
                     else:
                         self.now_dot += 1
                         self.min_dist = np.inf
-
-
-        else:
-            print(self.show_going_str()+"  wait turn"+"."*(self.count%5)+" "*5,end='\r')
-            self.count += 1
-            if self.response.done():
-                self.done_turning = True
-                print("\ndone turn!")
-                self.count = 0
+                        print("next point!")
             
         self.car_markers.points=points
         self.car_markers.colors=colors

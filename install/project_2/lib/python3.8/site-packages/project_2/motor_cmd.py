@@ -41,7 +41,7 @@ class motor_cmd_node(Node):
                 self.car_tf = np.rad2deg(rot.as_euler('xyz'))
                 #self.logger(self.car_tf)
                 if self.going:
-                    if time.time() - self.update_time > 1.0:
+                    if time.time() - self.update_time > 1.5:
                         self.logger("timeout stop !!")
                         motor_data = Motor2()
                         motor_data.speed_l = 0.0
@@ -104,7 +104,7 @@ class motor_cmd_node(Node):
         else:
             self.going = True
             self.update_time = time.time()
-            kp = 1/25
+            kp = 1/20
             p = 0.05*abs(data.angular)*kp
             if data.angular > 0 :
                 self.logger("running L")

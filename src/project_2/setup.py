@@ -32,17 +32,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = project_2.test_pub:main',
-            'listener = project_2.test_sub:main',
-            'service = project_2.test_service:main',
-            'client = project_2.test_client:main',
-            'talker2 = project_2.test_mymsg:main',
-            'listener2 = project_2.test_mymsg2:main',
-            'service2 = project_2.test_mysrv:main',
-            'client2 = project_2.test_mysrv2:main',
-            'param_test = project_2.test_parm:main',
             'motor_cmd = project_2.motor_cmd:main',
             'slam_navigation = project_2.slam_navigation:main',
+            'img_processor = project_2.img_processor:main',
+            'imu_reader = project_2.imu_reader:main',
 
 
         ],

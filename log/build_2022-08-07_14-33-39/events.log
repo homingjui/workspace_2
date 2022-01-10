@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001467] (-) JobUnselected: {'identifier': 'msg_manage'}
+[0.002967] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.009883] (-) JobUnselected: {'identifier': 'unity_robotics_demo'}
+[0.010138] (-) JobUnselected: {'identifier': 'unity_robotics_demo_msgs'}
+[0.010360] (-) JobUnselected: {'identifier': 'unity_slam_example'}
+[0.010588] (project_2) JobQueued: {'identifier': 'project_2', 'dependencies': OrderedDict([('msg_manage', '/home/jetson/Desktop/workspace_2/install/msg_manage')])}
+[0.011042] (project_2) JobStarted: {'identifier': 'project_2'}
+[0.098097] (-) TimerEvent: {}
+[0.199251] (-) TimerEvent: {}
+[0.300245] (-) TimerEvent: {}
+[0.400978] (-) TimerEvent: {}
+[0.501614] (-) TimerEvent: {}
+[0.602233] (-) TimerEvent: {}
+[0.702860] (-) TimerEvent: {}
+[0.804031] (-) TimerEvent: {}
+[0.905606] (-) TimerEvent: {}
+[1.006690] (-) TimerEvent: {}
+[1.108292] (-) TimerEvent: {}
+[1.208929] (-) TimerEvent: {}
+[1.310908] (-) TimerEvent: {}
+[1.411625] (-) TimerEvent: {}
+[1.512442] (-) TimerEvent: {}
+[1.613970] (-) TimerEvent: {}
+[1.714727] (-) TimerEvent: {}
+[1.815458] (-) TimerEvent: {}
+[1.916540] (-) TimerEvent: {}
+[2.017418] (-) TimerEvent: {}
+[2.118237] (-) TimerEvent: {}
+[2.219021] (-) TimerEvent: {}
+[2.319806] (-) TimerEvent: {}
+[2.420923] (-) TimerEvent: {}
+[2.521607] (-) TimerEvent: {}
+[2.622517] (-) TimerEvent: {}
+[2.723427] (-) TimerEvent: {}
+[2.824154] (-) TimerEvent: {}
+[2.924972] (-) TimerEvent: {}
+[3.026189] (-) TimerEvent: {}
+[3.126802] (-) TimerEvent: {}
+[3.227466] (-) TimerEvent: {}
+[3.328211] (-) TimerEvent: {}
+[3.429394] (-) TimerEvent: {}
+[3.530004] (-) TimerEvent: {}
+[3.630636] (-) TimerEvent: {}
+[3.731285] (-) TimerEvent: {}
+[3.831928] (-) TimerEvent: {}
+[3.932607] (-) TimerEvent: {}
+[4.033290] (-) TimerEvent: {}
+[4.133957] (-) TimerEvent: {}
+[4.234689] (-) TimerEvent: {}
+[4.335463] (-) TimerEvent: {}
+[4.389691] (project_2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/project_2', 'build', '--build-base', '/home/jetson/Desktop/workspace_2/build/project_2/build', 'install', '--prefix', '/home/jetson/Desktop/workspace_2/install/project_2', '--record', '/home/jetson/Desktop/workspace_2/build/project_2/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/Desktop/workspace_2/src/project_2', 'env': {'JETSON_BOARD': 'P3449-0000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'Nano (Developer Kit Version)', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'JETSON_CUDA': '10.2.300', 'SSH_AGENT_PID': '8128', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_TENSORRT': '8.0.1.6', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '7540', 'JETSON_OPENCV_CUDA': 'YES', 'JETSON_VISIONWORKS': '1.6.0.501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'P3448-0000', 'JETSON_SERIAL_NUMBER': '1424520038953', 'JETSON_CUDNN': '8.2.1.32', 'JOURNAL_STREAM': '8:45812', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig', 'JETSON_CODENAME': 'porg', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano20:@/tmp/.ICE-unix/8184,unix/nano20:/tmp/.ICE-unix/8184', 'INVOCATION_ID': '95d1aec1d8404c4b865d5df686813931', 'JETSON_OPENCV': '4.5.3', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bb311bb6_519c_4b33_80ae_87616fc715b9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'JETSON_MACHINE': 'NVIDIA Jetson Nano (Developer Kit Version)', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'JETSON_L4T_REVISION': '6.1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/msg_manage:/opt/ros/foxy:/home/jetson/ros2_foxy/ros2-linux', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'JETSON_VULKAN_INFO': '1.2.141', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/Desktop/workspace_2/build/project_2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'JETSON_VPI': 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library', 'PYTHONPATH': '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '4.6', 'CMAKE_PREFIX_PATH': '/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux'}, 'shell': False}
+[4.435821] (-) TimerEvent: {}
+[4.536737] (-) TimerEvent: {}
+[4.637781] (-) TimerEvent: {}
+[4.739623] (-) TimerEvent: {}
+[4.840286] (-) TimerEvent: {}
+[4.941397] (-) TimerEvent: {}
+[5.042051] (-) TimerEvent: {}
+[5.148478] (-) TimerEvent: {}
+[5.249917] (-) TimerEvent: {}
+[5.350889] (-) TimerEvent: {}
+[5.451545] (-) TimerEvent: {}
+[5.552745] (-) TimerEvent: {}
+[5.653372] (-) TimerEvent: {}
+[5.755044] (-) TimerEvent: {}
+[5.855658] (-) TimerEvent: {}
+[5.934621] (project_2) StdoutLine: {'line': b'running egg_info\n'}
+[5.942917] (project_2) StdoutLine: {'line': b'writing ../../build/project_2/project_2.egg-info/PKG-INFO\n'}
+[5.943754] (project_2) StdoutLine: {'line': b'writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt\n'}
+[5.944433] (project_2) StdoutLine: {'line': b'writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt\n'}
+[5.944935] (project_2) StdoutLine: {'line': b'writing requirements to ../../build/project_2/project_2.egg-info/requires.txt\n'}
+[5.945411] (project_2) StdoutLine: {'line': b'writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt\n'}
+[5.955836] (-) TimerEvent: {}
+[5.956669] (project_2) StdoutLine: {'line': b"reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'\n"}
+[5.961793] (project_2) StdoutLine: {'line': b"writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'\n"}
+[5.962653] (project_2) StdoutLine: {'line': b'running build\n'}
+[5.963154] (project_2) StdoutLine: {'line': b'running build_py\n'}
+[5.963939] (project_2) StdoutLine: {'line': b'copying project_2/slam_navigation.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2\n'}
+[5.967763] (project_2) StdoutLine: {'line': b'running install\n'}
+[5.971287] (project_2) StdoutLine: {'line': b'running install_lib\n'}
+[5.975512] (project_2) StdoutLine: {'line': b'copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/slam_navigation.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2\n'}
+[5.980517] (project_2) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/slam_navigation.py to slam_navigation.cpython-38.pyc\n'}
+[5.993844] (project_2) StdoutLine: {'line': b'running install_data\n'}
+[5.997268] (project_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.005011] (project_2) StdoutLine: {'line': b"removing '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.006217] (project_2) StdoutLine: {'line': b'Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info\n'}
+[6.010413] (project_2) StdoutLine: {'line': b'running install_scripts\n'}
+[6.055996] (-) TimerEvent: {}
+[6.095402] (project_2) StdoutLine: {'line': b'Installing client script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.096379] (project_2) StdoutLine: {'line': b'Installing client2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.096977] (project_2) StdoutLine: {'line': b'Installing listener script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.098300] (project_2) StdoutLine: {'line': b'Installing listener2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.099522] (project_2) StdoutLine: {'line': b'Installing motor_cmd script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.101004] (project_2) StdoutLine: {'line': b'Installing param_test script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.101696] (project_2) StdoutLine: {'line': b'Installing service script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.102124] (project_2) StdoutLine: {'line': b'Installing service2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.102547] (project_2) StdoutLine: {'line': b'Installing slam_navigation script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.102915] (project_2) StdoutLine: {'line': b'Installing talker script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.103275] (project_2) StdoutLine: {'line': b'Installing talker2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.103969] (project_2) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'\n"}
+[6.156193] (-) TimerEvent: {}
+[6.211795] (project_2) CommandEnded: {'returncode': 0}
+[6.258446] (-) TimerEvent: {}
+[6.278982] (project_2) JobEnded: {'identifier': 'project_2', 'rc': 0}
+[6.281912] (-) EventReactorShutdown: {}

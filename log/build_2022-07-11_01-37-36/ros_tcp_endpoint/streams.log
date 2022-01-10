@@ -1,0 +1,22 @@
+[7.371s] Invoking command in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build install --prefix /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint --record /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[9.298s] running egg_info
+[9.302s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[9.304s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[9.306s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[9.307s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[9.307s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[9.331s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[9.333s] adding license file 'LICENSE'
+[9.337s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[9.338s] running build
+[9.339s] running build_py
+[9.345s] running install
+[9.349s] running install_lib
+[9.360s] running install_data
+[9.363s] running install_egg_info
+[9.370s] removing '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)
+[9.372s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[9.377s] running install_scripts
+[9.479s] Installing default_server_endpoint script to /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[9.492s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log'
+[10.400s] Invoked command in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build install --prefix /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint --record /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log --single-version-externally-managed

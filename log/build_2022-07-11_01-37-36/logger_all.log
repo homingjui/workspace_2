@@ -1,0 +1,438 @@
+[0.949s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.949s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f877b59a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f877b59a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f877b5f10>)
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.988s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.988s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.988s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/Desktop/workspace_2'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[1.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extensions ['ignore', 'ignore_ament_install']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extension 'ignore'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extension 'ignore_ament_install'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extensions ['colcon_pkg']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extension 'colcon_pkg'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extensions ['colcon_meta']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extension 'colcon_meta'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extensions ['ros']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_manage) by extension 'ros'
+[1.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_manage' with type 'ros.ament_cmake' and name 'msg_manage'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extension 'ignore_ament_install'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extensions ['colcon_pkg']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extensions ['colcon_meta']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extension 'colcon_meta'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extensions ['ros']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_2) by extension 'ros'
+[1.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_2' with type 'ros.ament_python' and name 'project_2'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore_ament_install'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_pkg']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_pkg'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_meta']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_meta'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ros']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ros'
+[1.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo' with type 'ros.ament_python' and name 'unity_robotics_demo'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore_ament_install'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_pkg']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_pkg'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_meta']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_meta'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ros']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo_msgs' with type 'ros.ament_cmake' and name 'unity_robotics_demo_msgs'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'colcon_meta'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extensions ['ros']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_slam_example) by extension 'ros'
+[1.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_slam_example' with type 'ros.ament_python' and name 'unity_slam_example'
+[1.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'cmake_target' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'cmake_clean_cache' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'cmake_clean_first' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'cmake_force_configure' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'ament_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'catkin_cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'msg_manage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.260s] DEBUG:colcon.colcon_core.verb:Building package 'msg_manage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Desktop/workspace_2/build/msg_manage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Desktop/workspace_2/install/msg_manage', 'merge_install': False, 'path': '/home/jetson/Desktop/workspace_2/src/msg_manage', 'symlink_install': False, 'test_result_base': None}
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.266s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.272s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo', 'merge_install': False, 'path': '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo', 'symlink_install': False, 'test_result_base': None}
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.277s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.277s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.277s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.277s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.277s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.278s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.278s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.278s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.279s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs', 'merge_install': False, 'path': '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_args' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_target' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.285s] Level 5:colcon.colcon_core.verb:set package 'unity_slam_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.285s] DEBUG:colcon.colcon_core.verb:Building package 'unity_slam_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Desktop/workspace_2/build/unity_slam_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Desktop/workspace_2/install/unity_slam_example', 'merge_install': False, 'path': '/home/jetson/Desktop/workspace_2/src/unity_slam_example', 'symlink_install': False, 'test_result_base': None}
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'cmake_args' from command line to 'None'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'cmake_target' from command line to 'None'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'cmake_clean_first' from command line to 'False'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'cmake_force_configure' from command line to 'False'
+[1.291s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'ament_cmake_args' from command line to 'None'
+[1.291s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.291s] Level 5:colcon.colcon_core.verb:set package 'project_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.291s] DEBUG:colcon.colcon_core.verb:Building package 'project_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/Desktop/workspace_2/build/project_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/Desktop/workspace_2/install/project_2', 'merge_install': False, 'path': '/home/jetson/Desktop/workspace_2/src/project_2', 'symlink_install': False, 'test_result_base': None}
+[1.352s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'msg_manage' is in: /home/jetson/Desktop/workspace_2/install/msg_manage
+	'ros_tcp_endpoint' is in: /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint
+	'unity_robotics_demo' is in: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo
+	'unity_robotics_demo_msgs' is in: /home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs
+	'unity_slam_example' is in: /home/jetson/Desktop/workspace_2/install/unity_slam_example
+	'project_2' is in: /home/jetson/Desktop/workspace_2/install/project_2
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding msg_manage project_2 ros_tcp_endpoint unity_robotics_demo unity_robotics_demo_msgs unity_slam_example
+
+This may be promoted to an error in a future release of colcon-core.
+[1.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/Desktop/workspace_2/src/msg_manage' with build type 'ament_cmake'
+[1.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/Desktop/workspace_2/src/msg_manage'
+[1.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.459s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[1.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[1.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[1.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.553s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo' with build type 'ament_python'
+[1.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'ament_prefix_path')
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.sh'
+[1.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.630s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo_msgs' with build type 'ament_cmake'
+[1.631s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo_msgs'
+[1.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/build/msg_manage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/msg_manage -- -j4 -l4
+[3.599s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint'
+[3.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.236s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo'
+[5.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/build/msg_manage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/msg_manage -- -j4 -l4
+[5.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs -- -j4 -l4
+[7.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/build/msg_manage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/msg_manage
+[7.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_manage)
+[7.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/build/msg_manage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/msg_manage
+[7.949s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage' for CMake module files
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage' for CMake config files
+[7.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_manage', 'cmake_prefix_path')
+[7.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/cmake_prefix_path.ps1'
+[7.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/cmake_prefix_path.dsv'
+[7.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/cmake_prefix_path.sh'
+[7.984s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/lib'
+[7.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_manage', 'ld_library_path_lib')
+[7.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/ld_library_path_lib.ps1'
+[7.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/ld_library_path_lib.dsv'
+[7.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/ld_library_path_lib.sh'
+[7.995s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/bin'
+[7.995s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/pkgconfig/msg_manage.pc'
+[7.996s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages'
+[7.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_manage', 'pythonpath')
+[7.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/pythonpath.ps1'
+[8.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/pythonpath.dsv'
+[8.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/pythonpath.sh'
+[8.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.ps1'
+[8.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.dsv'
+[8.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.sh'
+[8.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.bash'
+[8.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.zsh'
+[8.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/msg_manage/share/colcon-core/packages/msg_manage)
+[8.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs -- -j4 -l4
+[8.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_robotics_demo --record /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log --single-version-externally-managed
+[8.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build install --prefix /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint --record /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[9.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs
+[9.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_manage)
+[9.528s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage' for CMake module files
+[9.557s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage' for CMake config files
+[9.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_manage', 'cmake_prefix_path')
+[9.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/cmake_prefix_path.ps1'
+[9.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/cmake_prefix_path.dsv'
+[9.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/cmake_prefix_path.sh'
+[9.578s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/lib'
+[9.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_manage', 'ld_library_path_lib')
+[9.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/ld_library_path_lib.ps1'
+[9.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/ld_library_path_lib.dsv'
+[9.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/ld_library_path_lib.sh'
+[9.588s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/bin'
+[9.589s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/pkgconfig/msg_manage.pc'
+[9.590s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages'
+[9.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_manage', 'pythonpath')
+[9.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/pythonpath.ps1'
+[9.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/pythonpath.dsv'
+[9.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/hook/pythonpath.sh'
+[9.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.ps1'
+[9.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.dsv'
+[9.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.sh'
+[9.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.bash'
+[9.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.zsh'
+[9.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/msg_manage/share/colcon-core/packages/msg_manage)
+[9.662s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/Desktop/workspace_2/src/unity_slam_example' with build type 'ament_python'
+[9.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_slam_example', 'ament_prefix_path')
+[9.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/hook/ament_prefix_path.ps1'
+[9.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/hook/ament_prefix_path.dsv'
+[9.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/hook/ament_prefix_path.sh'
+[9.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.676s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/Desktop/workspace_2/src/unity_slam_example'
+[11.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[11.748s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs' for CMake module files
+[11.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs
+[11.754s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs' for CMake config files
+[11.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[11.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[11.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[11.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[11.771s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib'
+[11.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[11.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[11.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[11.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[11.779s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/bin'
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages'
+[11.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'pythonpath')
+[11.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.ps1'
+[11.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.dsv'
+[11.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.sh'
+[11.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[11.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[11.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[11.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[11.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[11.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[11.818s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo' for CMake module files
+[11.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_robotics_demo --record /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log --single-version-externally-managed
+[11.823s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo' for CMake config files
+[11.826s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib'
+[11.826s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/bin'
+[11.827s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc'
+[11.827s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages'
+[11.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'pythonpath')
+[11.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.ps1'
+[11.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.dsv'
+[11.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.sh'
+[11.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo)
+[11.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/package.ps1'
+[11.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/package.dsv'
+[11.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/package.sh'
+[11.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/package.bash'
+[11.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo/package.zsh'
+[11.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/colcon-core/packages/unity_robotics_demo)
+[11.855s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint' for CMake module files
+[11.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build install --prefix /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint --record /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint' for CMake config files
+[11.866s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib'
+[11.867s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/bin'
+[11.867s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[11.868s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages'
+[11.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[11.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[11.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[11.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[11.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[11.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[11.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[11.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[11.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[11.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[11.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[11.894s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/Desktop/workspace_2/src/project_2' with build type 'ament_python'
+[11.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_2', 'ament_prefix_path')
+[11.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/hook/ament_prefix_path.ps1'
+[11.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/hook/ament_prefix_path.dsv'
+[11.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/hook/ament_prefix_path.sh'
+[11.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.735s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/Desktop/workspace_2/src/project_2'
+[13.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.741s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[13.822s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs' for CMake module files
+[13.826s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs' for CMake config files
+[13.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[13.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[13.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[13.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[13.840s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib'
+[13.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[13.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[13.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[13.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[13.848s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/bin'
+[13.849s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[13.850s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages'
+[13.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'pythonpath')
+[13.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.ps1'
+[13.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.dsv'
+[13.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.sh'
+[13.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[13.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[13.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[13.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[13.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[13.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[14.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/src/unity_slam_example': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jetson/Desktop/workspace_2/build/unity_slam_example/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_slam_example --record /home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log --single-version-externally-managed
+[16.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/src/unity_slam_example' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jetson/Desktop/workspace_2/build/unity_slam_example/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_slam_example --record /home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log --single-version-externally-managed
+[16.242s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_slam_example' for CMake module files
+[16.247s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_slam_example' for CMake config files
+[16.252s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib'
+[16.253s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_slam_example/bin'
+[16.254s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/pkgconfig/unity_slam_example.pc'
+[16.254s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages'
+[16.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_slam_example', 'pythonpath')
+[16.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/hook/pythonpath.ps1'
+[16.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/hook/pythonpath.dsv'
+[16.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/hook/pythonpath.sh'
+[16.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_slam_example)
+[16.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/package.ps1'
+[16.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/package.dsv'
+[16.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/package.sh'
+[16.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/package.bash'
+[16.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/unity_slam_example/package.zsh'
+[16.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/unity_slam_example/share/colcon-core/packages/unity_slam_example)
+[16.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/Desktop/workspace_2/src/project_2': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[18.228s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/project_2' for CMake module files
+[18.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/Desktop/workspace_2/src/project_2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[18.236s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/project_2' for CMake config files
+[18.239s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/project_2/lib'
+[18.240s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/project_2/bin'
+[18.240s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/project_2/lib/pkgconfig/project_2.pc'
+[18.241s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages'
+[18.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_2', 'pythonpath')
+[18.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/hook/pythonpath.ps1'
+[18.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/hook/pythonpath.dsv'
+[18.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/hook/pythonpath.sh'
+[18.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_2)
+[18.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/package.ps1'
+[18.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/package.dsv'
+[18.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/package.sh'
+[18.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/package.bash'
+[18.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/package.zsh'
+[18.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/Desktop/workspace_2/install/project_2/share/colcon-core/packages/project_2)
+[18.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.266s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.267s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.299s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.384s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/Desktop/workspace_2/install/local_setup.ps1'
+[18.392s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/Desktop/workspace_2/install/_local_setup_util_ps1.py'
+[18.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/Desktop/workspace_2/install/setup.ps1'
+[18.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/Desktop/workspace_2/install/local_setup.sh'
+[18.415s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/Desktop/workspace_2/install/_local_setup_util_sh.py'
+[18.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/Desktop/workspace_2/install/setup.sh'
+[18.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/Desktop/workspace_2/install/local_setup.bash'
+[18.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/Desktop/workspace_2/install/setup.bash'
+[18.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/Desktop/workspace_2/install/local_setup.zsh'
+[18.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/Desktop/workspace_2/install/setup.zsh'

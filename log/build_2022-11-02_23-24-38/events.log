@@ -1,0 +1,25 @@
+[0.000000] (-) TimerEvent: {}
+[0.001358] (-) JobUnselected: {'identifier': 'msg_manage'}
+[0.001776] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.002616] (-) JobUnselected: {'identifier': 'unity_robotics_demo'}
+[0.002733] (-) JobUnselected: {'identifier': 'unity_robotics_demo_msgs'}
+[0.003615] (-) JobUnselected: {'identifier': 'unity_slam_example'}
+[0.005587] (project_2) JobQueued: {'identifier': 'project_2', 'dependencies': OrderedDict([('msg_manage', '/home/jetson/Desktop/workspace_2/install/msg_manage')])}
+[0.005821] (project_2) JobStarted: {'identifier': 'project_2'}
+[0.098294] (-) TimerEvent: {}
+[0.199337] (-) TimerEvent: {}
+[0.300266] (-) TimerEvent: {}
+[0.401320] (-) TimerEvent: {}
+[0.502056] (-) TimerEvent: {}
+[0.602796] (-) TimerEvent: {}
+[0.703416] (-) TimerEvent: {}
+[0.804473] (-) TimerEvent: {}
+[0.905167] (-) TimerEvent: {}
+[1.005867] (-) TimerEvent: {}
+[1.106591] (-) TimerEvent: {}
+[1.207195] (-) TimerEvent: {}
+[1.307825] (-) TimerEvent: {}
+[1.408741] (-) TimerEvent: {}
+[1.509692] (-) TimerEvent: {}
+[1.578308] (project_2) JobEnded: {'identifier': 'project_2', 'rc': 0}
+[1.584602] (-) EventReactorShutdown: {}

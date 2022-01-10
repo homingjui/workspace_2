@@ -1,0 +1,22 @@
+[7.218s] Invoking command in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_robotics_demo --record /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log --single-version-externally-managed
+[9.060s] running egg_info
+[9.064s] writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[9.067s] writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[9.070s] writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[9.071s] writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[9.075s] writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[9.120s] reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[9.126s] writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[9.129s] running build
+[9.130s] running build_py
+[9.133s] running install
+[9.141s] running install_lib
+[9.164s] running install_data
+[9.167s] running install_egg_info
+[9.185s] removing '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info' (and everything under it)
+[9.186s] Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info
+[9.194s] running install_scripts
+[9.303s] Installing color_publisher script to /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/unity_robotics_demo
+[9.305s] Installing position_service script to /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/unity_robotics_demo
+[9.309s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log'
+[10.262s] Invoked command in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_robotics_demo --record /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log --single-version-externally-managed
