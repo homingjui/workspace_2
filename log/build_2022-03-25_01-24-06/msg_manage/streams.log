@@ -1,0 +1,55 @@
+[0.090s] Invoking command in '/home/jetson/Desktop/workspace_2/build/msg_manage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/my_package2 /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/msg_manage -- -j4 -l4
+[0.227s] -- Found ament_cmake: 0.9.9 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.335s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.335s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.266s] -- Found ament_lint_auto: 0.9.6 (/home/jetson/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[1.539s] -- Found rosidl_default_generators: 1.0.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)
+[1.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.566s] -- Found rosidl_adapter: 1.2.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[2.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.324s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.051s] CMake Error at /home/jetson/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[3.051s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.052s]   msg_manage --arguments-file
+[3.052s]   /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter__arguments__msg_manage.json
+[3.052s]   --output-dir
+[3.053s]   /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage
+[3.053s]   --output-file
+[3.053s]   /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage.idls)
+[3.054s]   returned error code 1:
+[3.054s] 
+[3.055s]   Traceback (most recent call last):
+[3.055s] 
+[3.056s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[3.056s]       return _run_code(code, main_globals, None,
+[3.058s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[3.059s]       exec(code, run_globals)
+[3.060s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.060s]       sys.exit(main())
+[3.061s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.061s]       abs_idl_file = convert_to_idl(
+[3.062s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[3.062s]       return convert_action_to_idl(
+[3.063s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[3.063s]       action = parse_action_string(package_name, input_file.stem, content)
+[3.064s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string
+[3.064s]       goal_message = parse_message_string(
+[3.064s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[3.065s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[3.065s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[3.066s]       self.base_type = BaseType(
+[3.066s]     File "/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[3.067s]       raise InvalidResourceName(
+[3.068s] 
+[3.068s]   rosidl_adapter.parser.InvalidResourceName: 'testaction_Goal' is an invalid
+[3.069s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[3.069s] 
+[3.070s] Call Stack (most recent call first):
+[3.070s]   /home/jetson/ros2_foxy/ros2-linux/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.070s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[3.071s] 
+[3.071s] 
+[3.072s] -- Configuring incomplete, errors occurred!
+[3.072s] See also "/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles/CMakeOutput.log".
+[3.078s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[3.084s] Invoked command in '/home/jetson/Desktop/workspace_2/build/msg_manage' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/my_package2 /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/msg_manage -- -j4 -l4

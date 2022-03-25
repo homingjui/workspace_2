@@ -1,0 +1,258 @@
+[0.000000] (-) TimerEvent: {}
+[0.001957] (msg_manage) JobQueued: {'identifier': 'msg_manage', 'dependencies': OrderedDict()}
+[0.002156] (project_2) JobQueued: {'identifier': 'project_2', 'dependencies': OrderedDict([('msg_manage', '/home/jetson/Desktop/workspace_2/install/msg_manage')])}
+[0.002299] (msg_manage) JobStarted: {'identifier': 'msg_manage'}
+[0.074819] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'cmake'}
+[0.077865] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'build'}
+[0.080837] (msg_manage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/workspace_2/build/msg_manage', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/workspace_2/build/msg_manage', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7814'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Desktop/workspace_2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '7399'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1424520038953'), ('JETSON_CUDNN', '8.2.1.32'), ('JOURNAL_STREAM', '8:42625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/7851,unix/nano:/tmp/.ICE-unix/7851'), ('INVOCATION_ID', '87e99a01cf2b460c93bf1f71ebad3223'), ('JETSON_OPENCV', '4.5.3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa087745_9bce_49d0_b1b7_beafefc403c7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/my_package2:/home/jetson/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/workspace_2/build/msg_manage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/my_package2')]), 'shell': False}
+[0.099597] (-) TimerEvent: {}
+[0.200637] (-) TimerEvent: {}
+[0.293101] (msg_manage) StdoutLine: {'line': b'[  2%] Built target msg_manage__cpp\n'}
+[0.295727] (msg_manage) StdoutLine: {'line': b'[ 12%] Built target msg_manage__rosidl_generator_c\n'}
+[0.300812] (-) TimerEvent: {}
+[0.401067] (msg_manage) StdoutLine: {'line': b'[ 23%] Built target msg_manage__rosidl_typesupport_introspection_cpp\n'}
+[0.401784] (-) TimerEvent: {}
+[0.418633] (msg_manage) StdoutLine: {'line': b'[ 33%] Built target msg_manage__rosidl_typesupport_cpp\n'}
+[0.419840] (msg_manage) StdoutLine: {'line': b'[ 43%] Built target msg_manage__rosidl_typesupport_introspection_c\n'}
+[0.427740] (msg_manage) StdoutLine: {'line': b'[ 53%] Built target msg_manage__rosidl_typesupport_fastrtps_cpp\n'}
+[0.499298] (msg_manage) StdoutLine: {'line': b'[ 64%] Built target msg_manage__rosidl_typesupport_c\n'}
+[0.501956] (-) TimerEvent: {}
+[0.538946] (msg_manage) StdoutLine: {'line': b'[ 74%] Built target msg_manage__rosidl_typesupport_fastrtps_c\n'}
+[0.602176] (-) TimerEvent: {}
+[0.613142] (msg_manage) StdoutLine: {'line': b'[ 74%] Built target msg_manage\n'}
+[0.689183] (msg_manage) StdoutLine: {'line': b'[ 76%] Built target msg_manage__py\n'}
+[0.702344] (-) TimerEvent: {}
+[0.795403] (msg_manage) StdoutLine: {'line': b'[ 84%] Built target msg_manage__python\n'}
+[0.802553] (-) TimerEvent: {}
+[0.903252] (-) TimerEvent: {}
+[0.909639] (msg_manage) StdoutLine: {'line': b'[ 89%] Built target msg_manage__rosidl_typesupport_c__pyext\n'}
+[0.939156] (msg_manage) StdoutLine: {'line': b'[ 94%] Built target msg_manage__rosidl_typesupport_introspection_c__pyext\n'}
+[0.942871] (msg_manage) StdoutLine: {'line': b'[100%] Built target msg_manage__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.989299] (msg_manage) CommandEnded: {'returncode': 0}
+[1.003495] (-) TimerEvent: {}
+[1.106278] (-) TimerEvent: {}
+[1.207128] (-) TimerEvent: {}
+[1.239563] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'install'}
+[1.277414] (msg_manage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Desktop/workspace_2/build/msg_manage'], 'cwd': '/home/jetson/Desktop/workspace_2/build/msg_manage', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7814'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Desktop/workspace_2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '7399'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1424520038953'), ('JETSON_CUDNN', '8.2.1.32'), ('JOURNAL_STREAM', '8:42625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/7851,unix/nano:/tmp/.ICE-unix/7851'), ('INVOCATION_ID', '87e99a01cf2b460c93bf1f71ebad3223'), ('JETSON_OPENCV', '4.5.3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa087745_9bce_49d0_b1b7_beafefc403c7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/my_package2:/home/jetson/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/workspace_2/build/msg_manage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/my_package2')]), 'shell': False}
+[1.307391] (-) TimerEvent: {}
+[1.309318] (msg_manage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.310112] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/rosidl_interfaces/msg_manage\n'}
+[1.310918] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[1.311574] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[1.312504] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/add_three_ints.h\n'}
+[1.313093] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[1.313515] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.h\n'}
+[1.314035] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__struct.h\n'}
+[1.314456] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__functions.c\n'}
+[1.315078] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__functions.h\n'}
+[1.315661] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[1.316308] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[1.316793] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__struct.h\n'}
+[1.317294] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.h\n'}
+[1.317709] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__functions.c\n'}
+[1.318311] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__functions.h\n'}
+[1.318944] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/num.h\n'}
+[1.319507] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.319996] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/library_path.sh\n'}
+[1.320627] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/library_path.dsv\n'}
+[1.321116] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_generator_c.so\n'}
+[1.321721] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[1.322312] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[1.322892] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[1.323356] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[1.323876] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[1.324414] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[1.324830] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[1.325360] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.325789] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_c.so\n'}
+[1.326318] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[1.327055] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[1.327863] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[1.328599] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/dds_fastrtps\n'}
+[1.329395] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.329991] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[1.330453] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[1.331053] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.331523] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/dds_fastrtps\n'}
+[1.331973] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.332662] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.333157] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[1.333906] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[1.334435] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[1.334947] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[1.335503] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.c\n'}
+[1.336057] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[1.337019] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[1.337786] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[1.338347] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.c\n'}
+[1.338908] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.339561] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_c.so\n'}
+[1.340083] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_c.so\n'}
+[1.340677] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[1.341186] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[1.341632] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[1.342115] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__traits.hpp\n'}
+[1.342639] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__builder.hpp\n'}
+[1.343131] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__struct.hpp\n'}
+[1.343611] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/add_three_ints.hpp\n'}
+[1.344140] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[1.344827] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/num.hpp\n'}
+[1.345377] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[1.345876] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__builder.hpp\n'}
+[1.346422] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__traits.hpp\n'}
+[1.346994] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__struct.hpp\n'}
+[1.347523] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[1.348015] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[1.348542] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[1.349103] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.cpp\n'}
+[1.349628] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.350087] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[1.350520] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[1.350993] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.351508] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.cpp\n'}
+[1.352032] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_cpp.so\n'}
+[1.352643] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_cpp.so\n'}
+[1.353078] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/pythonpath.sh\n'}
+[1.353508] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/pythonpath.dsv\n'}
+[1.353915] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/__init__.py\n'}
+[1.407601] (-) TimerEvent: {}
+[1.498173] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg\n'}
+[1.499551] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/__init__.py\n'}
+[1.500063] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_num.py\n'}
+[1.500986] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_num_s.c\n'}
+[1.501625] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv\n'}
+[1.502257] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_add_three_ints_s.c\n'}
+[1.502795] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/__init__.py\n'}
+[1.503794] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_add_three_ints.py\n'}
+[1.504418] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.504900] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.505571] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.507744] (-) TimerEvent: {}
+[1.508424] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__python.so\n'}
+[1.509945] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Num.idl\n'}
+[1.510942] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts.idl\n'}
+[1.512910] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Num.msg\n'}
+[1.513679] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts.srv\n'}
+[1.514179] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts_Request.msg\n'}
+[1.514725] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts_Response.msg\n'}
+[1.515470] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/package_run_dependencies/msg_manage\n'}
+[1.515993] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/parent_prefix_path/msg_manage\n'}
+[1.516595] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/ament_prefix_path.sh\n'}
+[1.517063] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/ament_prefix_path.dsv\n'}
+[1.517790] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/path.sh\n'}
+[1.519136] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/path.dsv\n'}
+[1.519756] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.bash\n'}
+[1.521039] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.sh\n'}
+[1.521695] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.zsh\n'}
+[1.522412] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.dsv\n'}
+[1.522870] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.dsv\n'}
+[1.523640] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/packages/msg_manage\n'}
+[1.524496] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cExport.cmake\n'}
+[1.525015] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.525500] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.526112] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.526525] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cExport.cmake\n'}
+[1.527232] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.527944] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cppExport.cmake\n'}
+[1.528691] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.529204] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.529660] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cppExport.cmake\n'}
+[1.530083] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.530857] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake-extras.cmake\n'}
+[1.531687] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.535666] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.538576] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.540319] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.541047] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.541660] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.542423] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manageConfig.cmake\n'}
+[1.543169] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manageConfig-version.cmake\n'}
+[1.543697] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.xml\n'}
+[1.544251] (msg_manage) CommandEnded: {'returncode': 0}
+[1.608149] (-) TimerEvent: {}
+[1.709322] (-) TimerEvent: {}
+[1.810341] (-) TimerEvent: {}
+[1.909203] (msg_manage) JobEnded: {'identifier': 'msg_manage', 'rc': 0}
+[1.919677] (-) TimerEvent: {}
+[1.920571] (project_2) JobStarted: {'identifier': 'project_2'}
+[2.020014] (-) TimerEvent: {}
+[2.121120] (-) TimerEvent: {}
+[2.221811] (-) TimerEvent: {}
+[2.322532] (-) TimerEvent: {}
+[2.423216] (-) TimerEvent: {}
+[2.523978] (-) TimerEvent: {}
+[2.624844] (-) TimerEvent: {}
+[2.725493] (-) TimerEvent: {}
+[2.826147] (-) TimerEvent: {}
+[2.927325] (-) TimerEvent: {}
+[3.028027] (-) TimerEvent: {}
+[3.128683] (-) TimerEvent: {}
+[3.229366] (-) TimerEvent: {}
+[3.332982] (-) TimerEvent: {}
+[3.433992] (-) TimerEvent: {}
+[3.535139] (-) TimerEvent: {}
+[3.635862] (-) TimerEvent: {}
+[3.736854] (-) TimerEvent: {}
+[3.837460] (-) TimerEvent: {}
+[3.938077] (-) TimerEvent: {}
+[4.038732] (-) TimerEvent: {}
+[4.139392] (-) TimerEvent: {}
+[4.240291] (-) TimerEvent: {}
+[4.340905] (-) TimerEvent: {}
+[4.441567] (-) TimerEvent: {}
+[4.542234] (-) TimerEvent: {}
+[4.642914] (-) TimerEvent: {}
+[4.743630] (-) TimerEvent: {}
+[4.844416] (-) TimerEvent: {}
+[4.945377] (-) TimerEvent: {}
+[5.046042] (-) TimerEvent: {}
+[5.146716] (-) TimerEvent: {}
+[5.238466] (project_2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/project_2', 'build', '--build-base', '/home/jetson/Desktop/workspace_2/build/project_2/build', 'install', '--prefix', '/home/jetson/Desktop/workspace_2/install/project_2', '--record', '/home/jetson/Desktop/workspace_2/build/project_2/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/Desktop/workspace_2/src/project_2', 'env': {'JETSON_BOARD': 'P3449-0000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'Nano (Developer Kit Version)', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'JETSON_CUDA': '10.2.300', 'SSH_AGENT_PID': '7814', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/Desktop/workspace_2/src', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_TENSORRT': '8.0.1.6', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '7399', 'JETSON_OPENCV_CUDA': 'YES', 'JETSON_VISIONWORKS': '1.6.0.501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'P3448-0000', 'JETSON_SERIAL_NUMBER': '1424520038953', 'JETSON_CUDNN': '8.2.1.32', 'JOURNAL_STREAM': '8:42625', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig', 'JETSON_CODENAME': 'porg', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/7851,unix/nano:/tmp/.ICE-unix/7851', 'INVOCATION_ID': '87e99a01cf2b460c93bf1f71ebad3223', 'JETSON_OPENCV': '4.5.3', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fa087745_9bce_49d0_b1b7_beafefc403c7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'JETSON_MACHINE': 'NVIDIA Jetson Nano (Developer Kit Version)', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'JETSON_L4T_REVISION': '6.1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'GNOME_TERMINAL_SERVICE': ':1.138', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/my_package2:/home/jetson/ros2_foxy/ros2-linux', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'JETSON_VULKAN_INFO': '1.2.141', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/Desktop/workspace_2/build/project_2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'JETSON_VPI': 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library', 'PYTHONPATH': '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '4.6', 'CMAKE_PREFIX_PATH': '/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux'}, 'shell': False}
+[5.247122] (-) TimerEvent: {}
+[5.349588] (-) TimerEvent: {}
+[5.450562] (-) TimerEvent: {}
+[5.551238] (-) TimerEvent: {}
+[5.651839] (-) TimerEvent: {}
+[5.752509] (-) TimerEvent: {}
+[5.853175] (-) TimerEvent: {}
+[5.953812] (-) TimerEvent: {}
+[6.054452] (-) TimerEvent: {}
+[6.155127] (-) TimerEvent: {}
+[6.255790] (-) TimerEvent: {}
+[6.259941] (project_2) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.262446] (project_2) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.262940] (project_2) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[6.263321] (project_2) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.355987] (-) TimerEvent: {}
+[6.392340] (project_2) StdoutLine: {'line': b'running egg_info\n'}
+[6.394878] (project_2) StdoutLine: {'line': b'writing ../../build/project_2/project_2.egg-info/PKG-INFO\n'}
+[6.395890] (project_2) StdoutLine: {'line': b'writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt\n'}
+[6.396642] (project_2) StdoutLine: {'line': b'writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt\n'}
+[6.397277] (project_2) StdoutLine: {'line': b'writing requirements to ../../build/project_2/project_2.egg-info/requires.txt\n'}
+[6.397860] (project_2) StdoutLine: {'line': b'writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt\n'}
+[6.410453] (project_2) StdoutLine: {'line': b"reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'\n"}
+[6.414546] (project_2) StdoutLine: {'line': b"writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'\n"}
+[6.415210] (project_2) StdoutLine: {'line': b'running build\n'}
+[6.415617] (project_2) StdoutLine: {'line': b'running build_py\n'}
+[6.417908] (project_2) StdoutLine: {'line': b'running install\n'}
+[6.420913] (project_2) StdoutLine: {'line': b'running install_lib\n'}
+[6.427685] (project_2) StdoutLine: {'line': b'running install_data\n'}
+[6.429817] (project_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.435250] (project_2) StdoutLine: {'line': b"removing '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.436443] (project_2) StdoutLine: {'line': b'Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info\n'}
+[6.439670] (project_2) StdoutLine: {'line': b'running install_scripts\n'}
+[6.456203] (-) TimerEvent: {}
+[6.514834] (project_2) StdoutLine: {'line': b'Installing client script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.517044] (project_2) StdoutLine: {'line': b'Installing client2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.518152] (project_2) StdoutLine: {'line': b'Installing listener script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.518727] (project_2) StdoutLine: {'line': b'Installing listener2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.519326] (project_2) StdoutLine: {'line': b'Installing service script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.520150] (project_2) StdoutLine: {'line': b'Installing service2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.520780] (project_2) StdoutLine: {'line': b'Installing talker script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.521573] (project_2) StdoutLine: {'line': b'Installing talker2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2\n'}
+[6.522221] (project_2) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'\n"}
+[6.556422] (-) TimerEvent: {}
+[6.628641] (project_2) CommandEnded: {'returncode': 0}
+[6.656237] (project_2) JobEnded: {'identifier': 'project_2', 'rc': 0}
+[6.659033] (-) TimerEvent: {}
+[6.659338] (-) EventReactorShutdown: {}

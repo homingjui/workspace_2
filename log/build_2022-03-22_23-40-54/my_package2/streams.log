@@ -1,0 +1,41 @@
+[4.503s] Invoking command in '/home/jetson/Desktop/workspace_2/src/my_package2': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package2 build --build-base /home/jetson/Desktop/workspace_2/build/my_package2/build install --prefix /home/jetson/Desktop/workspace_2/install/my_package2 --record /home/jetson/Desktop/workspace_2/build/my_package2/install.log --single-version-externally-managed
+[5.552s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.554s]   warnings.warn(
+[5.555s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.555s]   warnings.warn(
+[5.691s] running egg_info
+[5.693s] creating ../../build/my_package2/my_package2.egg-info
+[5.693s] writing ../../build/my_package2/my_package2.egg-info/PKG-INFO
+[5.694s] writing dependency_links to ../../build/my_package2/my_package2.egg-info/dependency_links.txt
+[5.695s] writing entry points to ../../build/my_package2/my_package2.egg-info/entry_points.txt
+[5.695s] writing requirements to ../../build/my_package2/my_package2.egg-info/requires.txt
+[5.696s] writing top-level names to ../../build/my_package2/my_package2.egg-info/top_level.txt
+[5.701s] writing manifest file '../../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[5.708s] reading manifest file '../../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[5.711s] writing manifest file '../../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[5.713s] running build
+[5.713s] running build_py
+[5.713s] creating /home/jetson/Desktop/workspace_2/build/my_package2/build
+[5.714s] creating /home/jetson/Desktop/workspace_2/build/my_package2/build/lib
+[5.714s] creating /home/jetson/Desktop/workspace_2/build/my_package2/build/lib/my_package2
+[5.715s] copying my_package2/my_node_py.py -> /home/jetson/Desktop/workspace_2/build/my_package2/build/lib/my_package2
+[5.715s] copying my_package2/__init__.py -> /home/jetson/Desktop/workspace_2/build/my_package2/build/lib/my_package2
+[5.716s] running install
+[5.717s] running install_lib
+[5.720s] creating /home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages/my_package2
+[5.721s] copying /home/jetson/Desktop/workspace_2/build/my_package2/build/lib/my_package2/my_node_py.py -> /home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages/my_package2
+[5.722s] copying /home/jetson/Desktop/workspace_2/build/my_package2/build/lib/my_package2/__init__.py -> /home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages/my_package2
+[5.723s] byte-compiling /home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages/my_package2/my_node_py.py to my_node_py.cpython-38.pyc
+[5.724s] byte-compiling /home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages/my_package2/__init__.py to __init__.cpython-38.pyc
+[5.725s] running install_data
+[5.727s] creating /home/jetson/Desktop/workspace_2/install/my_package2/share/ament_index
+[5.728s] creating /home/jetson/Desktop/workspace_2/install/my_package2/share/ament_index/resource_index
+[5.728s] creating /home/jetson/Desktop/workspace_2/install/my_package2/share/ament_index/resource_index/packages
+[5.729s] copying resource/my_package2 -> /home/jetson/Desktop/workspace_2/install/my_package2/share/ament_index/resource_index/packages
+[5.729s] copying package.xml -> /home/jetson/Desktop/workspace_2/install/my_package2/share/my_package2
+[5.730s] running install_egg_info
+[5.735s] Copying ../../build/my_package2/my_package2.egg-info to /home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages/my_package2-0.0.0-py3.8.egg-info
+[5.738s] running install_scripts
+[5.816s] Installing my_node_py script to /home/jetson/Desktop/workspace_2/install/my_package2/lib/my_package2
+[5.817s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/my_package2/install.log'
+[5.930s] Invoked command in '/home/jetson/Desktop/workspace_2/src/my_package2' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/my_package2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package2 build --build-base /home/jetson/Desktop/workspace_2/build/my_package2/build install --prefix /home/jetson/Desktop/workspace_2/install/my_package2 --record /home/jetson/Desktop/workspace_2/build/my_package2/install.log --single-version-externally-managed

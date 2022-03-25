@@ -1,0 +1,44 @@
+{
+  "package_name": "msg_manage",
+  "output_dir": "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_c/msg_manage",
+  "template_dir": "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:msg/Num.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:srv/AddThreeInts.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:action/Testaction.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/msg/Num.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/srv/AddThreeInts.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/action/Testaction.idl",
+    "/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalInfo.idl",
+    "/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalStatus.idl",
+    "/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalStatusArray.idl",
+    "/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/srv/CancelGoal.idl",
+    "/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/msg/Duration.idl",
+    "/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/msg/Time.idl",
+    "/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

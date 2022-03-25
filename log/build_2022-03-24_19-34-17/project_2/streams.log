@@ -1,0 +1,35 @@
+[3.587s] Invoking command in '/home/jetson/Desktop/workspace_2/src/project_2': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[4.667s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.668s]   warnings.warn(
+[4.669s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[4.670s]   warnings.warn(
+[4.806s] running egg_info
+[4.808s] writing ../../build/project_2/project_2.egg-info/PKG-INFO
+[4.810s] writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+[4.811s] writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+[4.811s] writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+[4.813s] writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+[4.825s] reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.829s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.829s] running build
+[4.830s] running build_py
+[4.830s] copying project_2/test_mymsg2.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.831s] copying project_2/test_mymsg.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.832s] running install
+[4.835s] running install_lib
+[4.839s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_mymsg2.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.841s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_mymsg.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.843s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_mymsg2.py to test_mymsg2.cpython-38.pyc
+[4.844s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_mymsg.py to test_mymsg.cpython-38.pyc
+[4.846s] running install_data
+[4.848s] copying package.xml -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.849s] running install_egg_info
+[4.855s] removing '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info' (and everything under it)
+[4.856s] Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info
+[4.859s] running install_scripts
+[4.937s] Installing client script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.939s] Installing listener script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.940s] Installing service script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.940s] Installing talker script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.942s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'
+[5.051s] Invoked command in '/home/jetson/Desktop/workspace_2/src/project_2' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed

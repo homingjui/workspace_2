@@ -1,0 +1,37 @@
+[4.467s] Invoking command in '/home/jetson/Desktop/workspace_2/src/project_2': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[5.523s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.529s]   warnings.warn(
+[5.529s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.530s]   warnings.warn(
+[5.670s] running egg_info
+[5.673s] creating ../../build/project_2/project_2.egg-info
+[5.673s] writing ../../build/project_2/project_2.egg-info/PKG-INFO
+[5.674s] writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+[5.675s] writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+[5.675s] writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+[5.676s] writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+[5.681s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[5.689s] reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[5.692s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[5.693s] running build
+[5.694s] running build_py
+[5.694s] creating /home/jetson/Desktop/workspace_2/build/project_2/build
+[5.695s] creating /home/jetson/Desktop/workspace_2/build/project_2/build/lib
+[5.696s] creating /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[5.696s] copying project_2/__init__.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[5.697s] running install
+[5.698s] running install_lib
+[5.701s] creating /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[5.702s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/__init__.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[5.703s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/__init__.py to __init__.cpython-38.pyc
+[5.704s] running install_data
+[5.707s] creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index
+[5.707s] creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index
+[5.708s] creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index/packages
+[5.708s] copying resource/project_2 -> /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index/packages
+[5.709s] copying package.xml -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[5.709s] running install_egg_info
+[5.715s] Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info
+[5.719s] running install_scripts
+[5.807s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'
+[5.927s] Invoked command in '/home/jetson/Desktop/workspace_2/src/project_2' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed

@@ -1,0 +1,16 @@
+show msg
+ros2 interface show /msg
+
+show path
+ros2 pkg prefix <pkg_name>
+
+creat new pkg
+ros2 pkg create --build-type ament_cmake project2
+
+build workspace
+colcon build
+
+source setup file
+. install/setup.bash
+
+

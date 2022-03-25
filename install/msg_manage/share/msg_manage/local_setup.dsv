@@ -1,0 +1,4 @@
+source;share/msg_manage/environment/ament_prefix_path.sh
+source;share/msg_manage/environment/library_path.sh
+source;share/msg_manage/environment/path.sh
+source;share/msg_manage/environment/pythonpath.sh

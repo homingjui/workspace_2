@@ -1,0 +1,28 @@
+[3.197s] Invoking command in '/home/jetson/Desktop/workspace_2/src/project_2': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[4.195s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.196s]   warnings.warn(
+[4.197s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[4.197s]   warnings.warn(
+[4.325s] running egg_info
+[4.329s] writing ../../build/project_2/project_2.egg-info/PKG-INFO
+[4.329s] writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+[4.330s] writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+[4.331s] writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+[4.331s] writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+[4.342s] reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.345s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.346s] running build
+[4.346s] running build_py
+[4.347s] running install
+[4.350s] running install_lib
+[4.357s] running install_data
+[4.360s] running install_egg_info
+[4.366s] removing '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info' (and everything under it)
+[4.367s] Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info
+[4.370s] running install_scripts
+[4.442s] Installing client script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.444s] Installing listener script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.445s] Installing service script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.445s] Installing talker script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.446s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'
+[4.548s] Invoked command in '/home/jetson/Desktop/workspace_2/src/project_2' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed

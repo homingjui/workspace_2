@@ -1,0 +1,4 @@
+source;share/msg_manage/local_setup.bash
+source;share/msg_manage/local_setup.dsv
+source;share/msg_manage/local_setup.sh
+source;share/msg_manage/local_setup.zsh
