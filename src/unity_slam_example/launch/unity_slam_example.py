@@ -24,23 +24,5 @@ def generate_launch_description():
             output='screen',
             arguments=['-d', os.path.join(package_dir, 'nav2_unity.rviz')],
             parameters=[{'use_sim_time':True}]
-        ),
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(get_package_share_directory('nav2_bringup'), 'launch', 'navigation_launch.py')
-            ),
-            launch_arguments={
-                'use_sim_time': 'true'
-            }.items()
-        ),
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(get_package_share_directory('slam_toolbox'), 'launch', 'online_async_launch.py')
-            ),
-            launch_arguments={
-                'use_sim_time': 'true'
-            }.items()
         )
     })
