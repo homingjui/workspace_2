@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msg_manage/srv/TwistSrv.srv
+// generated code does not contain a copyright notice
+
+
+module msg_manage {
+  module srv {
+    struct TwistSrv_Request {
+      double linear;
+
+      double angular;
+    };
+    struct TwistSrv_Response {
+      boolean result;
+    };
+  };
+};

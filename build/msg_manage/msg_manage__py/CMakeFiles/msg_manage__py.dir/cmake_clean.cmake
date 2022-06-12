@@ -6,11 +6,15 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/msg_manage/action/_testaction.py"
   "../rosidl_generator_py/msg_manage/action/_testaction_s.c"
   "../rosidl_generator_py/msg_manage/msg/__init__.py"
+  "../rosidl_generator_py/msg_manage/msg/_motor2.py"
+  "../rosidl_generator_py/msg_manage/msg/_motor2_s.c"
   "../rosidl_generator_py/msg_manage/msg/_num.py"
   "../rosidl_generator_py/msg_manage/msg/_num_s.c"
   "../rosidl_generator_py/msg_manage/srv/__init__.py"
   "../rosidl_generator_py/msg_manage/srv/_add_three_ints.py"
   "../rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c"
+  "../rosidl_generator_py/msg_manage/srv/_twist_srv.py"
+  "../rosidl_generator_py/msg_manage/srv/_twist_srv_s.c"
   "CMakeFiles/msg_manage__py"
 )
 

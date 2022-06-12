@@ -1,0 +1,15 @@
+[2.998s] Invoking command in '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs -- -j4 -l4
+[3.339s] [  1%] Built target unity_robotics_demo_msgs__cpp
+[3.442s] [ 12%] Built target unity_robotics_demo_msgs__rosidl_generator_c
+[3.564s] [ 23%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp
+[3.603s] [ 34%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp
+[3.661s] [ 45%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c
+[3.687s] [ 56%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[3.713s] [ 67%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c
+[3.831s] [ 78%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c
+[3.931s] [ 78%] Built target unity_robotics_demo_msgs
+[4.035s] [ 80%] Built target unity_robotics_demo_msgs__py
+[4.170s] [ 89%] Built target unity_robotics_demo_msgs__python
+[4.342s] [ 92%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c__pyext
+[4.382s] [ 96%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[4.392s] [100%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c__pyext

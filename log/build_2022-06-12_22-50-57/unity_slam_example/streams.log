@@ -1,0 +1,21 @@
+[4.457s] Invoking command in '/home/jetson/Desktop/workspace_2/src/unity_slam_example': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jetson/Desktop/workspace_2/build/unity_slam_example/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_slam_example --record /home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log --single-version-externally-managed
+[5.926s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.927s]   warnings.warn(
+[5.930s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.931s]   warnings.warn(
+[6.106s] running egg_info
+[6.110s] writing ../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO
+[6.113s] writing dependency_links to ../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt
+[6.115s] writing requirements to ../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt
+[6.117s] writing top-level names to ../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt
+[6.129s] reading manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[6.134s] writing manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[6.135s] running build
+[6.136s] running install
+[6.141s] running install_data
+[6.145s] running install_egg_info
+[6.156s] removing '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info' (and everything under it)
+[6.156s] Copying ../../build/unity_slam_example/unity_slam_example.egg-info to /home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info
+[6.161s] running install_scripts
+[6.250s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log'
+[6.366s] Invoked command in '/home/jetson/Desktop/workspace_2/src/unity_slam_example' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jetson/Desktop/workspace_2/build/unity_slam_example/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_slam_example --record /home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log --single-version-externally-managed

@@ -1,0 +1,620 @@
+[0.000000] (-) TimerEvent: {}
+[0.002163] (-) JobUnselected: {'identifier': 'project_2'}
+[0.002662] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.002854] (-) JobUnselected: {'identifier': 'unity_robotics_demo'}
+[0.002986] (-) JobUnselected: {'identifier': 'unity_robotics_demo_msgs'}
+[0.003114] (-) JobUnselected: {'identifier': 'unity_slam_example'}
+[0.003291] (msg_manage) JobQueued: {'identifier': 'msg_manage', 'dependencies': OrderedDict()}
+[0.003484] (msg_manage) JobStarted: {'identifier': 'msg_manage'}
+[0.090338] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'cmake'}
+[0.093613] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'build'}
+[0.097322] (msg_manage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/workspace_2/build/msg_manage', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/workspace_2/build/msg_manage', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7541'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Desktop/workspace_2/src/msg_manage'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '7151'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1424520038953'), ('JETSON_CUDNN', '8.2.1.32'), ('JOURNAL_STREAM', '8:39895'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano20:@/tmp/.ICE-unix/7577,unix/nano20:/tmp/.ICE-unix/7577'), ('INVOCATION_ID', 'f0f611e506ef4dcab37078fca317b4a6'), ('JETSON_OPENCV', '4.5.3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e125b6bf_0d5b_4343_8f21_fcdc5f88fd68'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/msg_manage:/opt/ros/foxy:/home/jetson/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/workspace_2/build/msg_manage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy')]), 'shell': False}
+[0.101914] (-) TimerEvent: {}
+[0.202637] (-) TimerEvent: {}
+[0.241042] (msg_manage) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake/cmake)\n'}
+[0.302734] (-) TimerEvent: {}
+[0.353547] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.354163] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.402982] (-) TimerEvent: {}
+[0.503615] (-) TimerEvent: {}
+[0.604314] (-) TimerEvent: {}
+[0.704945] (-) TimerEvent: {}
+[0.805574] (-) TimerEvent: {}
+[0.906297] (-) TimerEvent: {}
+[1.007028] (-) TimerEvent: {}
+[1.107668] (-) TimerEvent: {}
+[1.208255] (-) TimerEvent: {}
+[1.308847] (-) TimerEvent: {}
+[1.409493] (-) TimerEvent: {}
+[1.430381] (msg_manage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/home/jetson/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[1.509686] (-) TimerEvent: {}
+[1.610336] (-) TimerEvent: {}
+[1.711016] (-) TimerEvent: {}
+[1.740471] (msg_manage) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[1.759064] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.780685] (msg_manage) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[1.811185] (-) TimerEvent: {}
+[1.911886] (-) TimerEvent: {}
+[2.012629] (-) TimerEvent: {}
+[2.113393] (-) TimerEvent: {}
+[2.214179] (-) TimerEvent: {}
+[2.315101] (-) TimerEvent: {}
+[2.415767] (-) TimerEvent: {}
+[2.456259] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.515919] (-) TimerEvent: {}
+[2.616574] (-) TimerEvent: {}
+[2.677203] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.716930] (-) TimerEvent: {}
+[2.817523] (-) TimerEvent: {}
+[2.918189] (-) TimerEvent: {}
+[3.019017] (-) TimerEvent: {}
+[3.119655] (-) TimerEvent: {}
+[3.220331] (-) TimerEvent: {}
+[3.320948] (-) TimerEvent: {}
+[3.419048] (msg_manage) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake_ros/cmake)\n'}
+[3.421059] (-) TimerEvent: {}
+[3.521620] (-) TimerEvent: {}
+[3.622232] (-) TimerEvent: {}
+[3.722968] (-) TimerEvent: {}
+[3.823572] (-) TimerEvent: {}
+[3.924195] (-) TimerEvent: {}
+[4.015006] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.024328] (-) TimerEvent: {}
+[4.124903] (-) TimerEvent: {}
+[4.141858] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.225130] (-) TimerEvent: {}
+[4.259244] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.263165] (msg_manage) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/home/jetson/ros2_foxy/ros2-linux/share/python_cmake_module/cmake)\n'}
+[4.325376] (-) TimerEvent: {}
+[4.371615] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.372193] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.372554] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[4.425586] (-) TimerEvent: {}
+[4.513266] (msg_manage) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.525739] (msg_manage) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.526251] (-) TimerEvent: {}
+[4.533224] (msg_manage) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.575893] (msg_manage) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.627040] (-) TimerEvent: {}
+[4.728203] (-) TimerEvent: {}
+[4.830374] (-) TimerEvent: {}
+[4.901092] (msg_manage) StdoutLine: {'line': b'-- Generating done\n'}
+[4.913528] (msg_manage) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Desktop/workspace_2/build/msg_manage\n'}
+[4.930683] (-) TimerEvent: {}
+[5.019657] (msg_manage) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.030835] (-) TimerEvent: {}
+[5.060240] (msg_manage) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.130988] (-) TimerEvent: {}
+[5.231655] (-) TimerEvent: {}
+[5.332535] (-) TimerEvent: {}
+[5.433264] (-) TimerEvent: {}
+[5.533911] (-) TimerEvent: {}
+[5.634715] (-) TimerEvent: {}
+[5.735926] (-) TimerEvent: {}
+[5.836564] (-) TimerEvent: {}
+[5.937223] (-) TimerEvent: {}
+[6.037837] (-) TimerEvent: {}
+[6.138502] (-) TimerEvent: {}
+[6.239162] (-) TimerEvent: {}
+[6.339757] (-) TimerEvent: {}
+[6.440342] (-) TimerEvent: {}
+[6.540960] (-) TimerEvent: {}
+[6.641664] (-) TimerEvent: {}
+[6.742297] (-) TimerEvent: {}
+[6.842928] (-) TimerEvent: {}
+[6.943517] (-) TimerEvent: {}
+[7.044141] (-) TimerEvent: {}
+[7.144730] (-) TimerEvent: {}
+[7.245381] (-) TimerEvent: {}
+[7.346031] (-) TimerEvent: {}
+[7.446741] (-) TimerEvent: {}
+[7.547422] (-) TimerEvent: {}
+[7.648406] (-) TimerEvent: {}
+[7.737193] (msg_manage) StdoutLine: {'line': b'[  3%] Built target msg_manage__cpp\n'}
+[7.748581] (-) TimerEvent: {}
+[7.803552] (msg_manage) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.812637] (msg_manage) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.830835] (msg_manage) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.845003] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_generator_c\x1b[0m\n'}
+[7.848747] (-) TimerEvent: {}
+[7.912692] (msg_manage) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/num__functions.c.o\x1b[0m\n'}
+[7.948910] (-) TimerEvent: {}
+[8.050391] (-) TimerEvent: {}
+[8.151386] (-) TimerEvent: {}
+[8.252286] (-) TimerEvent: {}
+[8.296374] (msg_manage) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/motor2__functions.c.o\x1b[0m\n'}
+[8.352500] (-) TimerEvent: {}
+[8.453652] (-) TimerEvent: {}
+[8.459397] (msg_manage) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[8.553833] (-) TimerEvent: {}
+[8.651238] (msg_manage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/action/detail/testaction__functions.c.o\x1b[0m\n'}
+[8.654091] (-) TimerEvent: {}
+[8.754772] (-) TimerEvent: {}
+[8.855688] (-) TimerEvent: {}
+[8.956805] (-) TimerEvent: {}
+[9.017731] (msg_manage) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libmsg_manage__rosidl_generator_c.so\x1b[0m\n'}
+[9.057530] (-) TimerEvent: {}
+[9.158151] (-) TimerEvent: {}
+[9.258915] (-) TimerEvent: {}
+[9.294793] (msg_manage) StdoutLine: {'line': b'[ 18%] Built target msg_manage__rosidl_generator_c\n'}
+[9.344769] (msg_manage) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.359080] (-) TimerEvent: {}
+[9.459737] (-) TimerEvent: {}
+[9.560677] (-) TimerEvent: {}
+[9.661362] (-) TimerEvent: {}
+[9.762328] (-) TimerEvent: {}
+[9.816410] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.862674] (-) TimerEvent: {}
+[9.884984] (msg_manage) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.962711] (-) TimerEvent: {}
+[10.063683] (-) TimerEvent: {}
+[10.164653] (-) TimerEvent: {}
+[10.228691] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[10.264831] (-) TimerEvent: {}
+[10.296579] (msg_manage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[10.365027] (-) TimerEvent: {}
+[10.471772] (-) TimerEvent: {}
+[10.579078] (-) TimerEvent: {}
+[10.683580] (-) TimerEvent: {}
+[10.784459] (-) TimerEvent: {}
+[10.800158] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[10.884633] (-) TimerEvent: {}
+[10.886287] (msg_manage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[10.984815] (-) TimerEvent: {}
+[10.991965] (msg_manage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/motor2__type_support.cpp.o\x1b[0m\n'}
+[11.084989] (-) TimerEvent: {}
+[11.185863] (-) TimerEvent: {}
+[11.286589] (-) TimerEvent: {}
+[11.387346] (-) TimerEvent: {}
+[11.459473] (msg_manage) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/motor2__type_support.cpp.o\x1b[0m\n'}
+[11.487772] (-) TimerEvent: {}
+[11.588542] (-) TimerEvent: {}
+[11.689430] (-) TimerEvent: {}
+[11.790513] (-) TimerEvent: {}
+[11.892194] (-) TimerEvent: {}
+[11.998380] (-) TimerEvent: {}
+[12.057109] (msg_manage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.098610] (-) TimerEvent: {}
+[12.172938] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.198788] (-) TimerEvent: {}
+[12.245416] (msg_manage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[12.298968] (-) TimerEvent: {}
+[12.400006] (-) TimerEvent: {}
+[12.402605] (msg_manage) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/motor2__type_support.c.o\x1b[0m\n'}
+[12.500192] (-) TimerEvent: {}
+[12.597310] (msg_manage) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/motor2__type_support.cpp.o\x1b[0m\n'}
+[12.600388] (-) TimerEvent: {}
+[12.613384] (msg_manage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.645563] (msg_manage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[12.700572] (-) TimerEvent: {}
+[12.801376] (msg_manage) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/action/detail/testaction__type_support.c.o\x1b[0m\n'}
+[12.802044] (-) TimerEvent: {}
+[12.902989] (-) TimerEvent: {}
+[13.004066] (-) TimerEvent: {}
+[13.024745] (msg_manage) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libmsg_manage__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.104249] (-) TimerEvent: {}
+[13.198233] (msg_manage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/action/testaction__type_support.cpp.o\x1b[0m\n'}
+[13.204443] (-) TimerEvent: {}
+[13.275782] (msg_manage) StdoutLine: {'line': b'[ 45%] Built target msg_manage__rosidl_typesupport_introspection_c\n'}
+[13.304634] (-) TimerEvent: {}
+[13.322452] (msg_manage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/action/detail/testaction__type_support.cpp.o\x1b[0m\n'}
+[13.404819] (-) TimerEvent: {}
+[13.505521] (-) TimerEvent: {}
+[13.606228] (-) TimerEvent: {}
+[13.707267] (-) TimerEvent: {}
+[13.752903] (msg_manage) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.807452] (-) TimerEvent: {}
+[13.908174] (-) TimerEvent: {}
+[14.009191] (-) TimerEvent: {}
+[14.110200] (-) TimerEvent: {}
+[14.210730] (msg_manage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[14.211504] (-) TimerEvent: {}
+[14.312477] (-) TimerEvent: {}
+[14.413181] (-) TimerEvent: {}
+[14.465281] (msg_manage) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.513351] (-) TimerEvent: {}
+[14.614033] (-) TimerEvent: {}
+[14.656675] (msg_manage) StdoutLine: {'line': b'[ 52%] Built target msg_manage__rosidl_typesupport_cpp\n'}
+[14.714216] (-) TimerEvent: {}
+[14.718697] (msg_manage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/action/detail/dds_fastrtps/testaction__type_support.cpp.o\x1b[0m\n'}
+[14.814400] (-) TimerEvent: {}
+[14.875314] (msg_manage) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.914638] (-) TimerEvent: {}
+[15.015698] (-) TimerEvent: {}
+[15.116713] (-) TimerEvent: {}
+[15.198041] (msg_manage) StdoutLine: {'line': b'[ 56%] Built target msg_manage__rosidl_typesupport_introspection_cpp\n'}
+[15.216924] (-) TimerEvent: {}
+[15.317976] (-) TimerEvent: {}
+[15.418662] (-) TimerEvent: {}
+[15.519352] (-) TimerEvent: {}
+[15.620064] (-) TimerEvent: {}
+[15.720867] (-) TimerEvent: {}
+[15.757720] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_c\x1b[0m\n'}
+[15.816441] (msg_manage) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/num__type_support.cpp.o\x1b[0m\n'}
+[15.817133] (msg_manage) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/motor2__type_support.cpp.o\x1b[0m\n'}
+[15.821046] (-) TimerEvent: {}
+[15.900128] (msg_manage) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[15.921295] (-) TimerEvent: {}
+[15.948428] (msg_manage) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/action/testaction__type_support.cpp.o\x1b[0m\n'}
+[16.021518] (-) TimerEvent: {}
+[16.122438] (-) TimerEvent: {}
+[16.138945] (msg_manage) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.222681] (-) TimerEvent: {}
+[16.299592] (msg_manage) StdoutLine: {'line': b'[ 65%] Built target msg_manage__rosidl_typesupport_c\n'}
+[16.322847] (-) TimerEvent: {}
+[16.423488] (-) TimerEvent: {}
+[16.524147] (-) TimerEvent: {}
+[16.624783] (-) TimerEvent: {}
+[16.698429] (msg_manage) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.725005] (-) TimerEvent: {}
+[16.825813] (-) TimerEvent: {}
+[16.927137] (-) TimerEvent: {}
+[17.027853] (-) TimerEvent: {}
+[17.128031] (msg_manage) StdoutLine: {'line': b'[ 67%] Built target msg_manage__rosidl_typesupport_fastrtps_cpp\n'}
+[17.128633] (-) TimerEvent: {}
+[17.174026] (msg_manage) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.228858] (-) TimerEvent: {}
+[17.329565] (-) TimerEvent: {}
+[17.430229] (-) TimerEvent: {}
+[17.531221] (-) TimerEvent: {}
+[17.631815] (-) TimerEvent: {}
+[17.732407] (-) TimerEvent: {}
+[17.833065] (-) TimerEvent: {}
+[17.933709] (-) TimerEvent: {}
+[18.034368] (-) TimerEvent: {}
+[18.135068] (-) TimerEvent: {}
+[18.235703] (-) TimerEvent: {}
+[18.336357] (-) TimerEvent: {}
+[18.437273] (-) TimerEvent: {}
+[18.537954] (-) TimerEvent: {}
+[18.638635] (-) TimerEvent: {}
+[18.739277] (-) TimerEvent: {}
+[18.839921] (-) TimerEvent: {}
+[18.940562] (-) TimerEvent: {}
+[19.041178] (-) TimerEvent: {}
+[19.141825] (-) TimerEvent: {}
+[19.242449] (-) TimerEvent: {}
+[19.343259] (-) TimerEvent: {}
+[19.443930] (-) TimerEvent: {}
+[19.495510] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[19.544109] (-) TimerEvent: {}
+[19.580856] (msg_manage) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[19.588963] (msg_manage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[19.589680] (msg_manage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/motor2__type_support_c.cpp.o\x1b[0m\n'}
+[19.609713] (msg_manage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/action/detail/testaction__type_support_c.cpp.o\x1b[0m\n'}
+[19.644291] (-) TimerEvent: {}
+[19.745028] (-) TimerEvent: {}
+[19.845764] (-) TimerEvent: {}
+[19.946675] (-) TimerEvent: {}
+[20.047733] (-) TimerEvent: {}
+[20.148790] (-) TimerEvent: {}
+[20.249763] (-) TimerEvent: {}
+[20.350515] (-) TimerEvent: {}
+[20.451297] (-) TimerEvent: {}
+[20.552059] (-) TimerEvent: {}
+[20.652787] (-) TimerEvent: {}
+[20.753876] (-) TimerEvent: {}
+[20.854992] (-) TimerEvent: {}
+[20.956003] (-) TimerEvent: {}
+[21.056732] (-) TimerEvent: {}
+[21.157412] (-) TimerEvent: {}
+[21.209185] (msg_manage) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.257709] (-) TimerEvent: {}
+[21.358445] (-) TimerEvent: {}
+[21.459263] (-) TimerEvent: {}
+[21.559988] (-) TimerEvent: {}
+[21.571042] (msg_manage) StdoutLine: {'line': b'[ 78%] Built target msg_manage__rosidl_typesupport_fastrtps_c\n'}
+[21.653552] (msg_manage) StdoutLine: {'line': b'[ 78%] Built target msg_manage\n'}
+[21.660139] (-) TimerEvent: {}
+[21.738150] (msg_manage) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.760387] (-) TimerEvent: {}
+[21.861025] (-) TimerEvent: {}
+[21.961666] (-) TimerEvent: {}
+[22.062263] (-) TimerEvent: {}
+[22.162928] (-) TimerEvent: {}
+[22.263590] (-) TimerEvent: {}
+[22.364247] (-) TimerEvent: {}
+[22.464937] (-) TimerEvent: {}
+[22.565619] (-) TimerEvent: {}
+[22.666246] (-) TimerEvent: {}
+[22.767042] (-) TimerEvent: {}
+[22.867896] (-) TimerEvent: {}
+[22.968823] (-) TimerEvent: {}
+[23.070008] (-) TimerEvent: {}
+[23.170898] (-) TimerEvent: {}
+[23.271750] (-) TimerEvent: {}
+[23.372706] (-) TimerEvent: {}
+[23.473551] (-) TimerEvent: {}
+[23.574396] (-) TimerEvent: {}
+[23.675255] (-) TimerEvent: {}
+[23.776097] (-) TimerEvent: {}
+[23.876964] (-) TimerEvent: {}
+[23.977793] (-) TimerEvent: {}
+[24.078625] (-) TimerEvent: {}
+[24.179471] (-) TimerEvent: {}
+[24.280308] (-) TimerEvent: {}
+[24.388899] (-) TimerEvent: {}
+[24.489744] (-) TimerEvent: {}
+[24.590661] (-) TimerEvent: {}
+[24.691508] (-) TimerEvent: {}
+[24.792120] (-) TimerEvent: {}
+[24.892964] (-) TimerEvent: {}
+[24.993808] (-) TimerEvent: {}
+[25.094631] (-) TimerEvent: {}
+[25.195470] (-) TimerEvent: {}
+[25.296308] (-) TimerEvent: {}
+[25.397154] (-) TimerEvent: {}
+[25.497999] (-) TimerEvent: {}
+[25.598863] (-) TimerEvent: {}
+[25.699709] (-) TimerEvent: {}
+[25.800552] (-) TimerEvent: {}
+[25.901402] (-) TimerEvent: {}
+[26.002267] (-) TimerEvent: {}
+[26.102944] (-) TimerEvent: {}
+[26.203853] (-) TimerEvent: {}
+[26.304705] (-) TimerEvent: {}
+[26.405551] (-) TimerEvent: {}
+[26.506184] (-) TimerEvent: {}
+[26.606828] (-) TimerEvent: {}
+[26.707968] (-) TimerEvent: {}
+[26.808574] (-) TimerEvent: {}
+[26.909229] (-) TimerEvent: {}
+[27.010070] (-) TimerEvent: {}
+[27.110955] (-) TimerEvent: {}
+[27.211880] (-) TimerEvent: {}
+[27.308637] (msg_manage) StdoutLine: {'line': b'[ 80%] Built target msg_manage__py\n'}
+[27.312019] (-) TimerEvent: {}
+[27.358259] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__python\x1b[0m\n'}
+[27.412246] (-) TimerEvent: {}
+[27.442750] (msg_manage) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o\x1b[0m\n'}
+[27.444716] (msg_manage) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.o\x1b[0m\n'}
+[27.454285] (msg_manage) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[27.476579] (msg_manage) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o\x1b[0m\n'}
+[27.512429] (-) TimerEvent: {}
+[27.613117] (-) TimerEvent: {}
+[27.714075] (-) TimerEvent: {}
+[27.814789] (-) TimerEvent: {}
+[27.915562] (-) TimerEvent: {}
+[28.016262] (-) TimerEvent: {}
+[28.116896] (-) TimerEvent: {}
+[28.152713] (msg_manage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_manage/libmsg_manage__python.so\x1b[0m\n'}
+[28.217104] (-) TimerEvent: {}
+[28.317782] (-) TimerEvent: {}
+[28.341701] (msg_manage) StdoutLine: {'line': b'[ 89%] Built target msg_manage__python\n'}
+[28.389577] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[28.390716] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[28.391282] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[28.418044] (-) TimerEvent: {}
+[28.459522] (msg_manage) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.474117] (msg_manage) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.485493] (msg_manage) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.518229] (-) TimerEvent: {}
+[28.618968] (-) TimerEvent: {}
+[28.719661] (-) TimerEvent: {}
+[28.820370] (-) TimerEvent: {}
+[28.921079] (-) TimerEvent: {}
+[28.928619] (msg_manage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.962367] (msg_manage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.981900] (msg_manage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.021273] (-) TimerEvent: {}
+[29.110947] (msg_manage) StdoutLine: {'line': b'[100%] Built target msg_manage__rosidl_typesupport_c__pyext\n'}
+[29.121760] (-) TimerEvent: {}
+[29.156950] (msg_manage) StdoutLine: {'line': b'[100%] Built target msg_manage__rosidl_typesupport_introspection_c__pyext\n'}
+[29.222007] (-) TimerEvent: {}
+[29.291088] (msg_manage) StdoutLine: {'line': b'[100%] Built target msg_manage__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.322244] (-) TimerEvent: {}
+[29.335256] (msg_manage) CommandEnded: {'returncode': 0}
+[29.422447] (-) TimerEvent: {}
+[29.523681] (-) TimerEvent: {}
+[29.624708] (-) TimerEvent: {}
+[29.726043] (-) TimerEvent: {}
+[29.738224] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'install'}
+[29.783393] (msg_manage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Desktop/workspace_2/build/msg_manage'], 'cwd': '/home/jetson/Desktop/workspace_2/build/msg_manage', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7541'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Desktop/workspace_2/src/msg_manage'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '7151'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1424520038953'), ('JETSON_CUDNN', '8.2.1.32'), ('JOURNAL_STREAM', '8:39895'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano20:@/tmp/.ICE-unix/7577,unix/nano20:/tmp/.ICE-unix/7577'), ('INVOCATION_ID', 'f0f611e506ef4dcab37078fca317b4a6'), ('JETSON_OPENCV', '4.5.3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e125b6bf_0d5b_4343_8f21_fcdc5f88fd68'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/msg_manage:/opt/ros/foxy:/home/jetson/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/workspace_2/build/msg_manage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy')]), 'shell': False}
+[29.820036] (msg_manage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.820705] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/rosidl_interfaces/msg_manage\n'}
+[29.821325] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[29.822012] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[29.823064] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/add_three_ints.h\n'}
+[29.823663] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[29.824103] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.h\n'}
+[29.824637] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__struct.h\n'}
+[29.825005] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__functions.c\n'}
+[29.825434] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__functions.h\n'}
+[29.825808] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action\n'}
+[29.826116] (-) TimerEvent: {}
+[29.826632] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail\n'}
+[29.827156] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__functions.h\n'}
+[29.827646] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__struct.h\n'}
+[29.827982] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__type_support.h\n'}
+[29.828344] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__functions.c\n'}
+[29.828715] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/testaction.h\n'}
+[29.829080] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[29.829404] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[29.829769] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__struct.h\n'}
+[29.830137] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.h\n'}
+[29.830502] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__struct.h\n'}
+[29.830997] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__type_support.h\n'}
+[29.831333] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__functions.h\n'}
+[29.831698] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__functions.c\n'}
+[29.832078] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__functions.c\n'}
+[29.832475] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__functions.h\n'}
+[29.832866] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/motor2.h\n'}
+[29.833244] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/num.h\n'}
+[29.833563] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.834333] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/library_path.sh\n'}
+[29.834755] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/library_path.dsv\n'}
+[29.836257] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_generator_c.so\n'}
+[29.837852] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_generator_c.so" to ""\n'}
+[29.838623] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[29.839222] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[29.839753] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[29.840095] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[29.840597] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action\n'}
+[29.840923] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail\n'}
+[29.841289] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_fastrtps_c.h\n'}
+[29.841667] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[29.842011] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[29.842346] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[29.842736] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_fastrtps_c.h\n'}
+[29.843082] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.844349] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_c.so\n'}
+[29.845913] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.846400] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[29.847033] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[29.847410] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[29.847987] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/dds_fastrtps\n'}
+[29.848330] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.848826] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action\n'}
+[29.849200] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail\n'}
+[29.849572] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.849937] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/dds_fastrtps\n'}
+[29.850318] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[29.850959] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[29.851342] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.851685] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.852001] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/dds_fastrtps\n'}
+[29.852317] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.852740] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.854841] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.855533] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[29.856018] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[29.856448] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[29.856846] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[29.857264] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.c\n'}
+[29.857586] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action\n'}
+[29.857967] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail\n'}
+[29.858341] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_introspection_c.h\n'}
+[29.859032] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__type_support.c\n'}
+[29.859474] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[29.859858] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[29.860187] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_introspection_c.h\n'}
+[29.860554] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[29.860936] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__type_support.c\n'}
+[29.861278] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.c\n'}
+[29.861601] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.862806] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_c.so\n'}
+[29.864633] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.866881] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_c.so\n'}
+[29.868432] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_c.so" to ""\n'}
+[29.869026] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[29.869458] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[29.869856] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[29.870273] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__traits.hpp\n'}
+[29.870703] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__builder.hpp\n'}
+[29.871123] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__struct.hpp\n'}
+[29.871559] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/add_three_ints.hpp\n'}
+[29.871937] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action\n'}
+[29.872307] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail\n'}
+[29.872635] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__traits.hpp\n'}
+[29.873009] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__struct.hpp\n'}
+[29.873370] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__builder.hpp\n'}
+[29.873718] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/testaction.hpp\n'}
+[29.874355] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[29.874871] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/num.hpp\n'}
+[29.875307] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[29.875698] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__builder.hpp\n'}
+[29.876079] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__traits.hpp\n'}
+[29.876400] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__builder.hpp\n'}
+[29.876771] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__struct.hpp\n'}
+[29.877139] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__traits.hpp\n'}
+[29.877507] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__struct.hpp\n'}
+[29.877848] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/motor2.hpp\n'}
+[29.878336] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage\n'}
+[29.878924] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv\n'}
+[29.879340] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail\n'}
+[29.879722] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.cpp\n'}
+[29.880135] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.880478] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action\n'}
+[29.880854] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail\n'}
+[29.881174] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__type_support.cpp\n'}
+[29.881617] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.881943] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg\n'}
+[29.882311] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail\n'}
+[29.882700] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.883067] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.883435] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__type_support.cpp\n'}
+[29.883899] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.cpp\n'}
+[29.886314] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_cpp.so\n'}
+[29.888214] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.890077] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_cpp.so\n'}
+[29.891535] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_cpp.so" to ""\n'}
+[29.891994] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/pythonpath.sh\n'}
+[29.892382] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/pythonpath.dsv\n'}
+[29.892810] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/__init__.py\n'}
+[29.926347] (-) TimerEvent: {}
+[30.026983] (-) TimerEvent: {}
+[30.040738] (msg_manage) StdoutLine: {'line': b"Compiling '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/__init__.py'...\n"}
+[30.065386] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg\n'}
+[30.066206] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_motor2_s.c\n'}
+[30.066880] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/__init__.py\n'}
+[30.067392] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_motor2.py\n'}
+[30.068083] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_num.py\n'}
+[30.069196] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_num_s.c\n'}
+[30.070231] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv\n'}
+[30.071091] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_add_three_ints_s.c\n'}
+[30.071510] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/__init__.py\n'}
+[30.072012] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_add_three_ints.py\n'}
+[30.072380] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action\n'}
+[30.072774] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action/_testaction_s.c\n'}
+[30.073147] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action/__init__.py\n'}
+[30.073489] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action/_testaction.py\n'}
+[30.076763] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[30.078782] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[30.081657] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[30.083833] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[30.086924] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[30.088799] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[30.091213] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__python.so\n'}
+[30.092721] (msg_manage) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__python.so" to ""\n'}
+[30.093162] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Num.idl\n'}
+[30.093565] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Motor2.idl\n'}
+[30.093980] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts.idl\n'}
+[30.094359] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/action/Testaction.idl\n'}
+[30.094857] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Num.msg\n'}
+[30.095204] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Motor2.msg\n'}
+[30.095618] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts.srv\n'}
+[30.095988] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts_Request.msg\n'}
+[30.096395] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts_Response.msg\n'}
+[30.096784] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/action/Testaction.action\n'}
+[30.097160] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/package_run_dependencies/msg_manage\n'}
+[30.097783] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/parent_prefix_path/msg_manage\n'}
+[30.098169] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/ament_prefix_path.sh\n'}
+[30.098719] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/ament_prefix_path.dsv\n'}
+[30.099088] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/path.sh\n'}
+[30.099491] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/path.dsv\n'}
+[30.099918] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.bash\n'}
+[30.100290] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.sh\n'}
+[30.100756] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.zsh\n'}
+[30.101189] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.dsv\n'}
+[30.101604] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.dsv\n'}
+[30.101964] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/packages/msg_manage\n'}
+[30.103302] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cExport.cmake\n'}
+[30.103739] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.105588] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.106016] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.108159] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cExport.cmake\n'}
+[30.108612] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.110189] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cppExport.cmake\n'}
+[30.112038] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.112616] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.114259] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cppExport.cmake\n'}
+[30.114938] (msg_manage) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.115416] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake-extras.cmake\n'}
+[30.115792] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.116193] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.116601] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.117021] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.117436] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.117913] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.118294] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manageConfig.cmake\n'}
+[30.118715] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manageConfig-version.cmake\n'}
+[30.119077] (msg_manage) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.xml\n'}
+[30.125183] (msg_manage) CommandEnded: {'returncode': 0}
+[30.129059] (-) TimerEvent: {}
+[30.229682] (-) TimerEvent: {}
+[30.330661] (-) TimerEvent: {}
+[30.431394] (-) TimerEvent: {}
+[30.532044] (-) TimerEvent: {}
+[30.633367] (-) TimerEvent: {}
+[30.668670] (msg_manage) JobEnded: {'identifier': 'msg_manage', 'rc': 0}
+[30.671502] (-) EventReactorShutdown: {}

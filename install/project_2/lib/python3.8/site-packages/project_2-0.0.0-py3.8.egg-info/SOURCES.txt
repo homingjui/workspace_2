@@ -8,8 +8,11 @@ setup.py
 ../../build/project_2/project_2.egg-info/requires.txt
 ../../build/project_2/project_2.egg-info/top_level.txt
 ../../build/project_2/project_2.egg-info/zip-safe
+launch/slam_tcp.py
 launch/test_launch.py
 project_2/__init__.py
+project_2/motor_cmd.py
+project_2/slam_navigation.py
 project_2/test_action_client.py
 project_2/test_action_server.py
 project_2/test_client.py
@@ -22,6 +25,7 @@ project_2/test_pub.py
 project_2/test_service.py
 project_2/test_sub.py
 resource/project_2
+rviz/nav2_unity.rviz
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

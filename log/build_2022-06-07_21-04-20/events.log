@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000675] (-) JobUnselected: {'identifier': 'project_2'}
+[0.000864] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.000990] (-) JobUnselected: {'identifier': 'unity_robotics_demo'}
+[0.001118] (-) JobUnselected: {'identifier': 'unity_robotics_demo_msgs'}
+[0.001243] (-) JobUnselected: {'identifier': 'unity_slam_example'}
+[0.001365] (msg_manage) JobQueued: {'identifier': 'msg_manage', 'dependencies': OrderedDict()}
+[0.004726] (msg_manage) JobStarted: {'identifier': 'msg_manage'}
+[0.085774] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'cmake'}
+[0.088706] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'build'}
+[0.091915] (msg_manage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/workspace_2/build/msg_manage', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/workspace_2/build/msg_manage', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7541'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/Desktop/workspace_2/src/msg_manage'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '7151'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1424520038953'), ('JETSON_CUDNN', '8.2.1.32'), ('JOURNAL_STREAM', '8:39895'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano20:@/tmp/.ICE-unix/7577,unix/nano20:/tmp/.ICE-unix/7577'), ('INVOCATION_ID', 'f0f611e506ef4dcab37078fca317b4a6'), ('JETSON_OPENCV', '4.5.3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e125b6bf_0d5b_4343_8f21_fcdc5f88fd68'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/msg_manage:/opt/ros/foxy:/home/jetson/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/workspace_2/build/msg_manage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy')]), 'shell': False}
+[0.101004] (-) TimerEvent: {}
+[0.205691] (-) TimerEvent: {}
+[0.216428] (msg_manage) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake/cmake)\n'}
+[0.305848] (-) TimerEvent: {}
+[0.317309] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.317961] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.405994] (-) TimerEvent: {}
+[0.506786] (-) TimerEvent: {}
+[0.607409] (-) TimerEvent: {}
+[0.708018] (-) TimerEvent: {}
+[0.808684] (-) TimerEvent: {}
+[0.909272] (-) TimerEvent: {}
+[1.009919] (-) TimerEvent: {}
+[1.110784] (-) TimerEvent: {}
+[1.211422] (-) TimerEvent: {}
+[1.312153] (-) TimerEvent: {}
+[1.390464] (msg_manage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/home/jetson/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[1.412300] (-) TimerEvent: {}
+[1.512911] (-) TimerEvent: {}
+[1.613485] (-) TimerEvent: {}
+[1.672626] (msg_manage) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[1.686735] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.701946] (msg_manage) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[1.713690] (-) TimerEvent: {}
+[1.814418] (-) TimerEvent: {}
+[1.915027] (-) TimerEvent: {}
+[2.015636] (-) TimerEvent: {}
+[2.116256] (-) TimerEvent: {}
+[2.216980] (-) TimerEvent: {}
+[2.297448] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.317182] (-) TimerEvent: {}
+[2.417767] (-) TimerEvent: {}
+[2.503405] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.517981] (-) TimerEvent: {}
+[2.618696] (-) TimerEvent: {}
+[2.719349] (-) TimerEvent: {}
+[2.819942] (-) TimerEvent: {}
+[2.920604] (-) TimerEvent: {}
+[3.021266] (-) TimerEvent: {}
+[3.121879] (-) TimerEvent: {}
+[3.180994] (msg_manage) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake_ros/cmake)\n'}
+[3.222093] (-) TimerEvent: {}
+[3.322734] (-) TimerEvent: {}
+[3.423418] (-) TimerEvent: {}
+[3.524045] (-) TimerEvent: {}
+[3.624678] (-) TimerEvent: {}
+[3.725408] (-) TimerEvent: {}
+[3.772256] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.825576] (-) TimerEvent: {}
+[3.897198] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.925822] (-) TimerEvent: {}
+[4.018584] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.019952] (msg_manage) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/home/jetson/ros2_foxy/ros2-linux/share/python_cmake_module/cmake)\n'}
+[4.025997] (-) TimerEvent: {}
+[4.126159] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.126829] (-) TimerEvent: {}
+[4.127210] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.127666] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[4.227011] (-) TimerEvent: {}
+[4.254863] (msg_manage) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.267567] (msg_manage) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.273972] (msg_manage) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.300201] (msg_manage) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.327176] (-) TimerEvent: {}
+[4.427860] (-) TimerEvent: {}
+[4.528789] (-) TimerEvent: {}
+[4.541874] (msg_manage) StdoutLine: {'line': b'-- Generating done\n'}
+[4.557505] (msg_manage) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Desktop/workspace_2/build/msg_manage\n'}
+[4.628976] (-) TimerEvent: {}
+[4.680246] (msg_manage) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.721170] (msg_manage) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.730871] (-) TimerEvent: {}
+[4.831883] (-) TimerEvent: {}
+[4.932568] (-) TimerEvent: {}
+[5.033208] (-) TimerEvent: {}
+[5.133914] (-) TimerEvent: {}
+[5.234587] (-) TimerEvent: {}
+[5.335225] (-) TimerEvent: {}
+[5.435930] (-) TimerEvent: {}
+[5.536600] (-) TimerEvent: {}
+[5.637274] (-) TimerEvent: {}
+[5.737933] (-) TimerEvent: {}
+[5.838684] (-) TimerEvent: {}
+[5.939279] (-) TimerEvent: {}
+[6.039866] (-) TimerEvent: {}
+[6.140490] (-) TimerEvent: {}
+[6.241198] (-) TimerEvent: {}
+[6.341853] (-) TimerEvent: {}
+[6.442533] (-) TimerEvent: {}
+[6.543192] (-) TimerEvent: {}
+[6.643804] (-) TimerEvent: {}
+[6.744403] (-) TimerEvent: {}
+[6.845018] (-) TimerEvent: {}
+[6.945634] (-) TimerEvent: {}
+[7.046243] (-) TimerEvent: {}
+[7.146967] (-) TimerEvent: {}
+[7.247679] (-) TimerEvent: {}
+[7.348447] (-) TimerEvent: {}
+[7.447094] (msg_manage) StdoutLine: {'line': b'[  3%] Built target msg_manage__cpp\n'}
+[7.448605] (-) TimerEvent: {}
+[7.507985] (msg_manage) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.521602] (msg_manage) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.538347] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_generator_c\x1b[0m\n'}
+[7.540944] (msg_manage) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.548794] (-) TimerEvent: {}
+[7.594060] (msg_manage) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/num__functions.c.o\x1b[0m\n'}
+[7.648985] (-) TimerEvent: {}
+[7.749677] (-) TimerEvent: {}
+[7.754872] (msg_manage) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/motor2__functions.c.o\x1b[0m\n'}
+[7.809719] (msg_manage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_c/msg_manage/msg/detail/motor2__functions.h:19\x1b[m\x1b[K,\n'}
+[7.810528] (msg_manage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_c/msg_manage/msg/detail/motor2__functions.c:4\x1b[m\x1b[K:\n'}
+[7.811037] (msg_manage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_c/msg_manage/msg/detail/motor2__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_manage/msg/detail/time__struct.h: No such file or directory\n'}
+[7.811463] (msg_manage) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"msg_manage/msg/detail/time__struct.h"\x1b[m\x1b[K\n'}
+[7.811966] (msg_manage) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.812437] (msg_manage) StderrLine: {'line': b'compilation terminated.\n'}
+[7.815633] (msg_manage) StderrLine: {'line': b'make[2]: *** [CMakeFiles/msg_manage__rosidl_generator_c.dir/build.make:160: CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/motor2__functions.c.o] Error 1\n'}
+[7.816266] (msg_manage) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:271: CMakeFiles/msg_manage__rosidl_generator_c.dir/all] Error 2\n'}
+[7.816679] (msg_manage) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[7.849841] (-) TimerEvent: {}
+[7.950781] (-) TimerEvent: {}
+[8.051680] (-) TimerEvent: {}
+[8.152570] (-) TimerEvent: {}
+[8.253276] (-) TimerEvent: {}
+[8.353948] (-) TimerEvent: {}
+[8.454649] (-) TimerEvent: {}
+[8.555725] (-) TimerEvent: {}
+[8.656801] (-) TimerEvent: {}
+[8.757763] (-) TimerEvent: {}
+[8.858669] (-) TimerEvent: {}
+[8.959621] (-) TimerEvent: {}
+[9.060560] (-) TimerEvent: {}
+[9.161551] (-) TimerEvent: {}
+[9.262578] (-) TimerEvent: {}
+[9.336596] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.362737] (-) TimerEvent: {}
+[9.395358] (msg_manage) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/motor2__type_support.cpp.o\x1b[0m\n'}
+[9.404408] (msg_manage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.463017] (-) TimerEvent: {}
+[9.564156] (-) TimerEvent: {}
+[9.574638] (msg_manage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_cpp/msg_manage/msg/motor2__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[9.575355] (msg_manage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_cpp/msg_manage/msg/detail/motor2__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_manage/msg/detail/time__struct.hpp: No such file or directory\n'}
+[9.575880] (msg_manage) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"msg_manage/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[9.576393] (msg_manage) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.576884] (msg_manage) StderrLine: {'line': b'compilation terminated.\n'}
+[9.581709] (msg_manage) StderrLine: {'line': b'make[2]: *** [CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/build.make:105: CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/motor2__type_support.cpp.o] Error 1\n'}
+[9.583293] (msg_manage) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[9.664612] (-) TimerEvent: {}
+[9.752471] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.764778] (-) TimerEvent: {}
+[9.817612] (msg_manage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/motor2__type_support.cpp.o\x1b[0m\n'}
+[9.825806] (msg_manage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[9.864956] (-) TimerEvent: {}
+[9.965922] (-) TimerEvent: {}
+[10.002743] (msg_manage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/motor2__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[10.003656] (msg_manage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_cpp/msg_manage/msg/detail/motor2__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_manage/msg/detail/time__struct.hpp: No such file or directory\n'}
+[10.004375] (msg_manage) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"msg_manage/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[10.004893] (msg_manage) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.005350] (msg_manage) StderrLine: {'line': b'compilation terminated.\n'}
+[10.010734] (msg_manage) StderrLine: {'line': b'make[2]: *** [CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/build.make:119: CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/motor2__type_support.cpp.o] Error 1\n'}
+[10.011376] (msg_manage) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[10.066110] (-) TimerEvent: {}
+[10.167120] (-) TimerEvent: {}
+[10.267861] (-) TimerEvent: {}
+[10.342470] (msg_manage) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_manage__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[10.368058] (-) TimerEvent: {}
+[10.423112] (msg_manage) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/motor2__type_support.cpp.o\x1b[0m\n'}
+[10.426003] (msg_manage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[10.468207] (-) TimerEvent: {}
+[10.527680] (msg_manage) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[10.565845] (msg_manage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[10.568380] (-) TimerEvent: {}
+[10.602890] (msg_manage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/motor2__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[10.603910] (msg_manage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/motor2__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[10.604580] (msg_manage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_cpp/msg_manage/msg/detail/motor2__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_manage/msg/detail/time__struct.hpp: No such file or directory\n'}
+[10.605189] (msg_manage) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"msg_manage/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[10.605685] (msg_manage) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.606135] (msg_manage) StderrLine: {'line': b'compilation terminated.\n'}
+[10.609312] (msg_manage) StderrLine: {'line': b'make[2]: *** [CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/build.make:119: CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/motor2__type_support.cpp.o] Error 1\n'}
+[10.609990] (msg_manage) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[10.668622] (-) TimerEvent: {}
+[10.769305] (-) TimerEvent: {}
+[10.870440] (-) TimerEvent: {}
+[10.904228] (msg_manage) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[10.970620] (-) TimerEvent: {}
+[11.071407] (-) TimerEvent: {}
+[11.172238] (-) TimerEvent: {}
+[11.272957] (-) TimerEvent: {}
+[11.373655] (-) TimerEvent: {}
+[11.474399] (-) TimerEvent: {}
+[11.575113] (-) TimerEvent: {}
+[11.675806] (-) TimerEvent: {}
+[11.776596] (-) TimerEvent: {}
+[11.877768] (-) TimerEvent: {}
+[11.978548] (-) TimerEvent: {}
+[12.079276] (-) TimerEvent: {}
+[12.116136] (msg_manage) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:418: CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[12.117798] (msg_manage) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[12.124578] (msg_manage) CommandEnded: {'returncode': 2}
+[12.179812] (-) TimerEvent: {}
+[12.281114] (-) TimerEvent: {}
+[12.381691] (-) TimerEvent: {}
+[12.482416] (-) TimerEvent: {}
+[12.583846] (-) TimerEvent: {}
+[12.596110] (msg_manage) JobEnded: {'identifier': 'msg_manage', 'rc': 2}
+[12.608118] (-) EventReactorShutdown: {}

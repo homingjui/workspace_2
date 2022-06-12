@@ -54,9 +54,13 @@ CMAKE_BINARY_DIR = /home/jetson/Desktop/workspace_2/build/msg_manage
 include CMakeFiles/msg_manage.dir/progress.make
 
 CMakeFiles/msg_manage: /home/jetson/Desktop/workspace_2/src/msg_manage/msg/Num.msg
+CMakeFiles/msg_manage: /home/jetson/Desktop/workspace_2/src/msg_manage/msg/Motor2.msg
 CMakeFiles/msg_manage: /home/jetson/Desktop/workspace_2/src/msg_manage/srv/AddThreeInts.srv
 CMakeFiles/msg_manage: rosidl_cmake/srv/AddThreeInts_Request.msg
 CMakeFiles/msg_manage: rosidl_cmake/srv/AddThreeInts_Response.msg
+CMakeFiles/msg_manage: /home/jetson/Desktop/workspace_2/src/msg_manage/srv/TwistSrv.srv
+CMakeFiles/msg_manage: rosidl_cmake/srv/TwistSrv_Request.msg
+CMakeFiles/msg_manage: rosidl_cmake/srv/TwistSrv_Response.msg
 CMakeFiles/msg_manage: /home/jetson/Desktop/workspace_2/src/msg_manage/action/Testaction.action
 CMakeFiles/msg_manage: /home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/msg_manage: /home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalStatus.idl

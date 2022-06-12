@@ -70,9 +70,22 @@ CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/msg/_num_s.c -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.s
 
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o: CMakeFiles/msg_manage__python.dir/flags.make
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o: rosidl_generator_py/msg_manage/msg/_motor2_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o   -c /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/msg/_motor2_s.c
+
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/msg/_motor2_s.c > CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.i
+
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/msg/_motor2_s.c -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.s
+
 CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o: CMakeFiles/msg_manage__python.dir/flags.make
 CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o: rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o   -c /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c
 
 CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.i: cmake_force
@@ -83,9 +96,22 @@ CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.s
 
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.o: CMakeFiles/msg_manage__python.dir/flags.make
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.o: rosidl_generator_py/msg_manage/srv/_twist_srv_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.o   -c /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c
+
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c > CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.i
+
+CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.s
+
 CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o: CMakeFiles/msg_manage__python.dir/flags.make
 CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o: rosidl_generator_py/msg_manage/action/_testaction_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o   -c /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage/action/_testaction_s.c
 
 CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.i: cmake_force
@@ -99,14 +125,18 @@ CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testact
 # Object files for target msg_manage__python
 msg_manage__python_OBJECTS = \
 "CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.o" \
+"CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o" \
 "CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o" \
+"CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.o" \
 "CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o"
 
 # External object files for target msg_manage__python
 msg_manage__python_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.o
+rosidl_generator_py/msg_manage/libmsg_manage__python.so: CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o
+rosidl_generator_py/msg_manage/libmsg_manage__python.so: CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.o
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: CMakeFiles/msg_manage__python.dir/build.make
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: libmsg_manage__rosidl_generator_c.so
@@ -138,7 +168,7 @@ rosidl_generator_py/msg_manage/libmsg_manage__python.so: /home/jetson/ros2_foxy/
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: /home/jetson/ros2_foxy/ros2-linux/lib/librcpputils.so
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: /home/jetson/ros2_foxy/ros2-linux/lib/librcutils.so
 rosidl_generator_py/msg_manage/libmsg_manage__python.so: CMakeFiles/msg_manage__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/msg_manage/libmsg_manage__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/msg_manage/libmsg_manage__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msg_manage__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

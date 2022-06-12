@@ -9,11 +9,13 @@ setup(
     version='0.0.0',
     packages=[package_name],
     data_files=[
-        ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
+        ('share/ament_index/resource_index/packages',['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name), 
-            glob('launch/test_launch.py')),
+        (os.path.join('share', package_name), [
+                                                'launch/test_launch.py',
+                                                'rviz/nav2_unity.rviz',
+                                                'launch/slam_tcp.py'
+                                                ]),
 
     ],
     install_requires=['setuptools'],
@@ -34,6 +36,9 @@ setup(
             'service2 = project_2.test_mysrv:main',
             'client2 = project_2.test_mysrv2:main',
             'param_test = project_2.test_parm:main',
+            'motor_cmd = project_2.motor_cmd:main',
+            'slam_navigation = project_2.slam_navigation:main',
+
 
         ],
     },

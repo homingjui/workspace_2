@@ -1,0 +1,67 @@
+running egg_info
+writing ../../build/project_2/project_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_service.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_parm.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/slam_navigation.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_mysrv2.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_action_server.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/motor_run.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_mymsg2.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_sub.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/motor_cmd.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_pub.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_mymsg.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_mysrv.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/__init__.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_client.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/test_action_client.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_service.py to test_service.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_parm.py to test_parm.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/slam_navigation.py to slam_navigation.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_mysrv2.py to test_mysrv2.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_action_server.py to test_action_server.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/motor_run.py to motor_run.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_mymsg2.py to test_mymsg2.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_sub.py to test_sub.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/motor_cmd.py to motor_cmd.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_pub.py to test_pub.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_mymsg.py to test_mymsg.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_mysrv.py to test_mysrv.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_client.py to test_client.cpython-38.pyc
+byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/test_action_client.py to test_action_client.cpython-38.pyc
+running install_data
+creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index
+creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index
+creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index/packages
+copying resource/project_2 -> /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+copying launch/test_launch.py -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+copying rviz/nav2_unity.rviz -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+copying launch/slam_tcp.py -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+running install_egg_info
+Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing client2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing listener script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing listener2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing motor_cmd script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing param_test script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing service script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing service2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing slam_navigation script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing talker script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+Installing talker2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'

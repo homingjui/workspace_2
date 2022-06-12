@@ -1,8 +1,14 @@
 action/Testaction.action
 action/Testaction.idl
+msg/Motor2.idl
+msg/Motor2.msg
 msg/Num.idl
 msg/Num.msg
 srv/AddThreeInts.idl
 srv/AddThreeInts.srv
 srv/AddThreeInts_Request.msg
 srv/AddThreeInts_Response.msg
+srv/TwistSrv.idl
+srv/TwistSrv.srv
+srv/TwistSrv_Request.msg
+srv/TwistSrv_Response.msg

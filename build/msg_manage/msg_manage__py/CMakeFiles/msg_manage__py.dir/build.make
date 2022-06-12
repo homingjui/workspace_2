@@ -57,13 +57,17 @@ msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/_msg_ma
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_introspection_c.c
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_c.c
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/msg/_num.py
+msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/msg/_motor2.py
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/srv/_add_three_ints.py
+msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/srv/_twist_srv.py
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/action/_testaction.py
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/msg/__init__.py
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/srv/__init__.py
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/action/__init__.py
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/msg/_num_s.c
+msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/msg/_motor2_s.c
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c
+msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/srv/_twist_srv_s.c
 msg_manage__py/CMakeFiles/msg_manage__py: rosidl_generator_py/msg_manage/action/_testaction_s.c
 
 
@@ -81,7 +85,9 @@ rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: /home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: /home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_manage/msg/Num.idl
+rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_manage/msg/Motor2.idl
 rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_manage/srv/AddThreeInts.idl
+rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_manage/srv/TwistSrv.idl
 rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_manage/action/Testaction.idl
 rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: /home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c: /home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalStatus.idl
@@ -102,8 +108,14 @@ rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_c.c: rosidl_g
 rosidl_generator_py/msg_manage/msg/_num.py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/msg/_num.py
 
+rosidl_generator_py/msg_manage/msg/_motor2.py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/msg/_motor2.py
+
 rosidl_generator_py/msg_manage/srv/_add_three_ints.py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/srv/_add_three_ints.py
+
+rosidl_generator_py/msg_manage/srv/_twist_srv.py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/srv/_twist_srv.py
 
 rosidl_generator_py/msg_manage/action/_testaction.py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/action/_testaction.py
@@ -120,8 +132,14 @@ rosidl_generator_py/msg_manage/action/__init__.py: rosidl_generator_py/msg_manag
 rosidl_generator_py/msg_manage/msg/_num_s.c: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/msg/_num_s.c
 
+rosidl_generator_py/msg_manage/msg/_motor2_s.c: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/msg/_motor2_s.c
+
 rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c
+
+rosidl_generator_py/msg_manage/srv/_twist_srv_s.c: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/srv/_twist_srv_s.c
 
 rosidl_generator_py/msg_manage/action/_testaction_s.c: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_manage/action/_testaction_s.c
@@ -131,13 +149,17 @@ msg_manage__py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesuppo
 msg_manage__py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_introspection_c.c
 msg_manage__py: rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_c.c
 msg_manage__py: rosidl_generator_py/msg_manage/msg/_num.py
+msg_manage__py: rosidl_generator_py/msg_manage/msg/_motor2.py
 msg_manage__py: rosidl_generator_py/msg_manage/srv/_add_three_ints.py
+msg_manage__py: rosidl_generator_py/msg_manage/srv/_twist_srv.py
 msg_manage__py: rosidl_generator_py/msg_manage/action/_testaction.py
 msg_manage__py: rosidl_generator_py/msg_manage/msg/__init__.py
 msg_manage__py: rosidl_generator_py/msg_manage/srv/__init__.py
 msg_manage__py: rosidl_generator_py/msg_manage/action/__init__.py
 msg_manage__py: rosidl_generator_py/msg_manage/msg/_num_s.c
+msg_manage__py: rosidl_generator_py/msg_manage/msg/_motor2_s.c
 msg_manage__py: rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c
+msg_manage__py: rosidl_generator_py/msg_manage/srv/_twist_srv_s.c
 msg_manage__py: rosidl_generator_py/msg_manage/action/_testaction_s.c
 msg_manage__py: msg_manage__py/CMakeFiles/msg_manage__py.dir/build.make
 

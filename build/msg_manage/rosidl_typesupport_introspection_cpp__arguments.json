@@ -4,7 +4,9 @@
   "template_dir": "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
     "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:msg/Num.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:msg/Motor2.idl",
     "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:srv/AddThreeInts.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:srv/TwistSrv.idl",
     "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage:action/Testaction.idl"
   ],
   "ros_interface_dependencies": [
@@ -26,7 +28,9 @@
     "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
     "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/msg/Num.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/msg/Motor2.idl",
     "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/srv/AddThreeInts.idl",
+    "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/srv/TwistSrv.idl",
     "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/action/Testaction.idl",
     "/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalInfo.idl",
     "/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/msg/GoalStatus.idl",

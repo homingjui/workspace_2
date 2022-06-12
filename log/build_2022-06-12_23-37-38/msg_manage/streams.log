@@ -1,0 +1,332 @@
+[0.332s] Invoking command in '/home/jetson/Desktop/workspace_2/build/msg_manage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/msg_manage -- -j4 -l4
+[3.350s] -- Found ament_cmake: 0.9.9 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[3.350s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.351s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.351s] -- Found ament_lint_auto: 0.9.6 (/home/jetson/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[3.352s] -- Found rosidl_default_generators: 1.0.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)
+[3.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.353s] -- Found rosidl_adapter: 1.2.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[3.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.353s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.343s] -- Found ament_cmake_ros: 0.9.2 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake_ros/cmake)
+[5.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.499s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.503s] -- Found python_cmake_module: 0.8.1 (/home/jetson/ros2_foxy/ros2-linux/share/python_cmake_module/cmake)
+[5.643s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.644s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.645s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[5.842s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.867s] -- Added test 'lint_cmake' to check CMake code style
+[5.917s] -- Added test 'xmllint' to check XML markup files
+[5.979s] -- Configuring done
+[6.400s] -- Generating done
+[6.420s] -- Build files have been written to: /home/jetson/Desktop/workspace_2/build/msg_manage
+[6.557s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.626s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.185s] [35m[1mScanning dependencies of target msg_manage__rosidl_generator_c[0m
+[10.281s] [  4%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/num__functions.c.o[0m
+[10.297s] [  6%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/motor2__functions.c.o[0m
+[10.307s] [  7%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.c.o[0m
+[10.323s] [  7%] Built target msg_manage__cpp
+[10.401s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.824s] [ 11%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/srv/detail/twist_srv__functions.c.o[0m
+[10.883s] [ 12%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/action/detail/testaction__functions.c.o[0m
+[10.902s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.062s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.460s] [ 17%] [32m[1mLinking C shared library libmsg_manage__rosidl_generator_c.so[0m
+[11.921s] [ 17%] Built target msg_manage__rosidl_generator_c
+[12.041s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.764s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_introspection_cpp[0m
+[13.892s] [ 20%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.cpp.o[0m
+[13.932s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_cpp[0m
+[14.041s] [ 22%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.o[0m
+[15.029s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_fastrtps_cpp[0m
+[15.134s] [ 23%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[15.464s] [ 25%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/motor2__type_support.cpp.o[0m
+[15.489s] [ 26%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/motor2__type_support.cpp.o[0m
+[15.623s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_introspection_c[0m
+[15.709s] [ 28%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.c.o[0m
+[15.857s] [ 30%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/motor2__type_support.c.o[0m
+[16.013s] [ 31%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/srv/detail/add_three_ints__type_support.c.o[0m
+[16.178s] [ 33%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/srv/detail/twist_srv__type_support.c.o[0m
+[16.345s] [ 34%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/action/detail/testaction__type_support.c.o[0m
+[16.536s] [ 36%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp.o[0m
+[16.579s] [ 38%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.cpp.o[0m
+[16.589s] [ 39%] [32m[1mLinking C shared library libmsg_manage__rosidl_typesupport_introspection_c.so[0m
+[16.742s] [ 39%] Built target msg_manage__rosidl_typesupport_introspection_c
+[16.797s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.862s] [ 42%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/motor2__type_support.cpp.o[0m
+[17.660s] [ 44%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/twist_srv__type_support.cpp.o[0m
+[17.713s] [ 46%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/twist_srv__type_support.cpp.o[0m
+[18.535s] [ 47%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[18.792s] [ 49%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/action/testaction__type_support.cpp.o[0m
+[18.888s] [ 50%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/action/detail/testaction__type_support.cpp.o[0m
+[19.046s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_c[0m
+[19.119s] [ 52%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/num__type_support.cpp.o[0m
+[19.265s] [ 53%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/motor2__type_support.cpp.o[0m
+[19.413s] [ 55%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.cpp.o[0m
+[19.562s] [ 57%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/srv/twist_srv__type_support.cpp.o[0m
+[19.716s] [ 58%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/action/testaction__type_support.cpp.o[0m
+[20.005s] [ 60%] [32m[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_c.so[0m
+[20.106s] [ 61%] [32m[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_cpp.so[0m
+[20.203s] [ 61%] Built target msg_manage__rosidl_typesupport_c
+[20.260s] [ 63%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/twist_srv__type_support.cpp.o[0m
+[20.318s] [ 63%] Built target msg_manage__rosidl_typesupport_cpp
+[20.332s] [ 65%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/action/detail/dds_fastrtps/testaction__type_support.cpp.o[0m
+[20.360s] [ 66%] [32m[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_introspection_cpp.so[0m
+[20.688s] [ 66%] Built target msg_manage__rosidl_typesupport_introspection_cpp
+[22.255s] [ 68%] [32m[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.665s] [ 68%] Built target msg_manage__rosidl_typesupport_fastrtps_cpp
+[22.713s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.367s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_fastrtps_c[0m
+[25.467s] [ 73%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/motor2__type_support_c.cpp.o[0m
+[25.468s] [ 73%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[25.473s] [ 74%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.cpp.o[0m
+[25.473s] [ 76%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/twist_srv__type_support_c.cpp.o[0m
+[26.860s] [ 77%] [32mBuilding CXX object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/action/detail/testaction__type_support_c.cpp.o[0m
+[28.205s] [ 79%] [32m[1mLinking CXX shared library libmsg_manage__rosidl_typesupport_fastrtps_c.so[0m
+[28.573s] [ 79%] Built target msg_manage__rosidl_typesupport_fastrtps_c
+[28.654s] [ 79%] Built target msg_manage
+[28.739s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[35.322s] [ 80%] Built target msg_manage__py
+[35.371s] [35m[1mScanning dependencies of target msg_manage__python[0m
+[35.464s] [ 82%] [32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_motor2_s.c.o[0m
+[35.468s] [ 84%] [32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.o[0m
+[35.469s] [ 85%] [32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_twist_srv_s.c.o[0m
+[35.484s] [ 87%] [32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o[0m
+[35.935s] [ 88%] [32mBuilding C object CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/action/_testaction_s.c.o[0m
+[36.515s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/msg_manage/libmsg_manage__python.so[0m
+[36.696s] [ 90%] Built target msg_manage__python
+[36.749s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_introspection_c__pyext[0m
+[36.756s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_c__pyext[0m
+[36.764s] [35m[1mScanning dependencies of target msg_manage__rosidl_typesupport_fastrtps_c__pyext[0m
+[36.841s] [ 92%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[36.857s] [ 93%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_c.c.o[0m
+[36.867s] [ 95%] [32mBuilding C object CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_manage/_msg_manage_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[37.351s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[37.351s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[37.388s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[37.550s] [100%] Built target msg_manage__rosidl_typesupport_c__pyext
+[37.566s] [100%] Built target msg_manage__rosidl_typesupport_introspection_c__pyext
+[37.682s] [100%] Built target msg_manage__rosidl_typesupport_fastrtps_c__pyext
+[37.729s] Invoked command in '/home/jetson/Desktop/workspace_2/build/msg_manage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/Desktop/workspace_2/build/msg_manage -- -j4 -l4
+[38.213s] Invoking command in '/home/jetson/Desktop/workspace_2/build/msg_manage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/msg_manage
+[38.246s] -- Install configuration: ""
+[38.246s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/rosidl_interfaces/msg_manage
+[38.247s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage
+[38.247s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv
+[38.248s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/add_three_ints.h
+[38.248s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail
+[38.249s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__functions.c
+[38.249s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.h
+[38.249s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__struct.h
+[38.250s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__type_support.h
+[38.250s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__struct.h
+[38.250s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__functions.c
+[38.251s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__functions.h
+[38.251s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__functions.h
+[38.252s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/twist_srv.h
+[38.252s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action
+[38.253s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail
+[38.253s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__functions.h
+[38.253s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__struct.h
+[38.254s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__type_support.h
+[38.254s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__functions.c
+[38.254s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/testaction.h
+[38.255s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg
+[38.255s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail
+[38.256s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__struct.h
+[38.256s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.h
+[38.257s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__struct.h
+[38.257s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__type_support.h
+[38.257s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__functions.h
+[38.258s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__functions.c
+[38.258s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__functions.c
+[38.258s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__functions.h
+[38.259s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/motor2.h
+[38.259s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/num.h
+[38.260s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_generator_c__visibility_control.h
+[38.260s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/library_path.sh
+[38.261s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/library_path.dsv
+[38.265s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_generator_c.so
+[38.267s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_generator_c.so" to ""
+[38.267s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage
+[38.267s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv
+[38.268s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail
+[38.268s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[38.269s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__rosidl_typesupport_fastrtps_c.h
+[38.269s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action
+[38.269s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail
+[38.270s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_fastrtps_c.h
+[38.270s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg
+[38.271s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail
+[38.271s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[38.271s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_fastrtps_c.h
+[38.272s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.273s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_c.so
+[38.275s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_c.so" to ""
+[38.275s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage
+[38.276s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv
+[38.276s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail
+[38.276s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[38.277s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/dds_fastrtps
+[38.277s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[38.278s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action
+[38.278s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail
+[38.278s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_fastrtps_cpp.hpp
+[38.279s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/dds_fastrtps
+[38.279s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg
+[38.280s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail
+[38.280s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[38.280s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_fastrtps_cpp.hpp
+[38.281s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/dds_fastrtps
+[38.281s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[38.282s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_cpp.so
+[38.284s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_fastrtps_cpp.so" to ""
+[38.285s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage
+[38.286s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv
+[38.286s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail
+[38.286s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[38.287s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__rosidl_typesupport_introspection_c.h
+[38.287s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.c
+[38.288s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__type_support.c
+[38.288s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action
+[38.288s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail
+[38.289s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_introspection_c.h
+[38.289s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__type_support.c
+[38.290s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg
+[38.290s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail
+[38.290s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_introspection_c.h
+[38.291s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_introspection_c.h
+[38.291s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__type_support.c
+[38.291s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.c
+[38.292s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.294s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_c.so
+[38.295s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_c.so" to ""
+[38.297s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_c.so
+[38.298s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_c.so" to ""
+[38.299s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage
+[38.299s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv
+[38.300s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail
+[38.300s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__struct.hpp
+[38.301s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__builder.hpp
+[38.301s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__traits.hpp
+[38.301s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__traits.hpp
+[38.302s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__builder.hpp
+[38.302s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__struct.hpp
+[38.303s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/add_three_ints.hpp
+[38.303s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/twist_srv.hpp
+[38.304s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action
+[38.304s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail
+[38.304s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__traits.hpp
+[38.305s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__struct.hpp
+[38.305s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__builder.hpp
+[38.306s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/testaction.hpp
+[38.306s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg
+[38.307s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/num.hpp
+[38.307s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail
+[38.307s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__builder.hpp
+[38.308s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__traits.hpp
+[38.308s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__builder.hpp
+[38.309s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__struct.hpp
+[38.309s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__traits.hpp
+[38.309s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__struct.hpp
+[38.310s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/motor2.hpp
+[38.310s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage
+[38.311s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv
+[38.311s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail
+[38.311s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__rosidl_typesupport_introspection_cpp.hpp
+[38.312s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__type_support.cpp
+[38.313s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/twist_srv__type_support.cpp
+[38.313s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[38.314s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action
+[38.314s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail
+[38.314s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__type_support.cpp
+[38.315s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/action/detail/testaction__rosidl_typesupport_introspection_cpp.hpp
+[38.315s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg
+[38.315s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail
+[38.316s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[38.316s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__rosidl_typesupport_introspection_cpp.hpp
+[38.317s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/motor2__type_support.cpp
+[38.317s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/include/msg_manage/msg/detail/num__type_support.cpp
+[38.320s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_cpp.so
+[38.322s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_introspection_cpp.so" to ""
+[38.324s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_cpp.so
+[38.325s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__rosidl_typesupport_cpp.so" to ""
+[38.326s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/pythonpath.sh
+[38.326s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/pythonpath.dsv
+[38.326s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/__init__.py
+[38.468s] Compiling '/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/__init__.py'...
+[38.489s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg
+[38.490s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_motor2_s.c
+[38.490s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/__init__.py
+[38.491s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_motor2.py
+[38.491s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_num.py
+[38.491s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg/_num_s.c
+[38.492s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv
+[38.493s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_twist_srv.py
+[38.493s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_add_three_ints_s.c
+[38.494s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_twist_srv_s.c
+[38.494s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/__init__.py
+[38.495s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/srv/_add_three_ints.py
+[38.495s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action
+[38.496s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action/_testaction_s.c
+[38.496s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action/__init__.py
+[38.497s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/action/_testaction.py
+[38.501s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[38.503s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[38.505s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[38.507s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[38.510s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[38.512s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[38.514s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__python.so
+[38.516s] -- Set runtime path of "/home/jetson/Desktop/workspace_2/install/msg_manage/lib/libmsg_manage__python.so" to ""
+[38.517s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Num.idl
+[38.517s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Motor2.idl
+[38.518s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts.idl
+[38.519s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/TwistSrv.idl
+[38.519s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/action/Testaction.idl
+[38.520s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Num.msg
+[38.520s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/msg/Motor2.msg
+[38.520s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts.srv
+[38.521s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts_Request.msg
+[38.521s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/AddThreeInts_Response.msg
+[38.522s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/TwistSrv.srv
+[38.522s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/TwistSrv_Request.msg
+[38.523s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/srv/TwistSrv_Response.msg
+[38.523s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/action/Testaction.action
+[38.523s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/package_run_dependencies/msg_manage
+[38.524s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/parent_prefix_path/msg_manage
+[38.524s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/ament_prefix_path.sh
+[38.525s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/ament_prefix_path.dsv
+[38.525s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/path.sh
+[38.526s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/environment/path.dsv
+[38.526s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.bash
+[38.527s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.sh
+[38.527s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.zsh
+[38.528s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/local_setup.dsv
+[38.528s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.dsv
+[38.529s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/ament_index/resource_index/packages/msg_manage
+[38.529s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cExport.cmake
+[38.530s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cExport-noconfig.cmake
+[38.530s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cExport.cmake
+[38.531s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.531s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cExport.cmake
+[38.532s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cExport-noconfig.cmake
+[38.533s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_generator_cppExport.cmake
+[38.534s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cppExport.cmake
+[38.535s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.536s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cppExport.cmake
+[38.537s] -- Installing: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manage__rosidl_typesupport_cppExport-noconfig.cmake
+[38.537s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake-extras.cmake
+[38.538s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.538s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_libraries-extras.cmake
+[38.539s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_targets-extras.cmake
+[38.540s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.540s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.540s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.542s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manageConfig.cmake
+[38.542s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/cmake/msg_manageConfig-version.cmake
+[38.543s] -- Up-to-date: /home/jetson/Desktop/workspace_2/install/msg_manage/share/msg_manage/package.xml
+[38.554s] Invoked command in '/home/jetson/Desktop/workspace_2/build/msg_manage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/Desktop/workspace_2/build/msg_manage
