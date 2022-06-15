@@ -1,0 +1,31 @@
+[3.606s] Invoking command in '/home/jetson/Desktop/workspace_2/src/project_2': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[4.848s] running egg_info
+[4.854s] writing ../../build/project_2/project_2.egg-info/PKG-INFO
+[4.855s] writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+[4.855s] writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+[4.856s] writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+[4.856s] writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+[4.872s] reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.877s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.878s] running build
+[4.878s] running build_py
+[4.882s] running install
+[4.886s] running install_lib
+[4.895s] running install_data
+[4.898s] running install_egg_info
+[4.904s] removing '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info' (and everything under it)
+[4.905s] Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info
+[4.908s] running install_scripts
+[4.986s] Installing client script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.987s] Installing client2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.988s] Installing listener script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.989s] Installing listener2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.989s] Installing motor_cmd script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.990s] Installing param_test script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.990s] Installing service script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.990s] Installing service2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.991s] Installing slam_navigation script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.991s] Installing talker script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.992s] Installing talker2 script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.994s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'
+[5.099s] Invoked command in '/home/jetson/Desktop/workspace_2/src/project_2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed

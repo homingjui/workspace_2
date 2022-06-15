@@ -1,5 +1,5 @@
 from example_interfaces.srv import AddTwoInts
-
+import time
 import rclpy
 from rclpy.node import Node
 
@@ -13,7 +13,8 @@ class MinimalService(Node):
     def add_two_ints_callback(self, request, response):
         response.sum = request.a + request.b
         self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
-
+        time.sleep(5)
+        self.get_logger().info('send')
         return response
 
 

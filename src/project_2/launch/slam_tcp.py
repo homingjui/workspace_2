@@ -16,6 +16,12 @@ def generate_launch_description():
                 os.path.join(get_package_share_directory('ros_tcp_endpoint'), 'launch', 'endpoint.py')
             ),
         ),
+        #Node(
+        #    package='project_2',
+        #    executable='slam_navigation',
+        #    name='slam_navigation_node',
+        #    output='screen',
+        #),
         #IncludeLaunchDescription(
         #    PythonLaunchDescriptionSource(
         #        os.path.join(get_package_share_directory('nav2_bringup'), 'launch', 'slam_launch.py')
