@@ -50,6 +50,7 @@ class motor_cmd_node(Node):
         elif data.linear == 0:
             self.logger("turning")
             
+            self.turn_d = 0
             self.done_turn_ang = self.car_tf[2]+data.angular
             if self.car_tf[2] > 0 :
                 if self.done_turn_ang > 180:
@@ -72,11 +73,13 @@ class motor_cmd_node(Node):
                         +str(self.car_tf[2]))
             last_d = self.car_tf[2]
             while abs(self.done_turn_ang-self.car_tf[2])>self.turn_d*1.5:
-                self.turn_d = max(self.turn_d,last_d-self.car_tf[2])
+                if last_d == self.car_tf[2]:
+                    continue
+                self.turn_d = max(self.turn_d,abs(last_d-self.car_tf[2]))
                 print("trun..."+str(self.done_turn_ang-self.car_tf[2])+" "
                         +str(self.done_turn_ang)+" "
                         +str(self.car_tf[2])+" "
-                        +str(self.turn_d),end='\r')
+                        +str(self.turn_d),end='\t\t\r')
                 last_d = self.car_tf[2]
                 
             #self.logger("done turn")
@@ -87,14 +90,16 @@ class motor_cmd_node(Node):
             response.result = True
             return response
         else:
-            self.logger("running")
-            x = 40
-            if data.angular < 0 :
-                motor_data.speed_l = data.linear + 0.05*(data.angular/x)
-                motor_data.speed_r = data.linear - 0.05*(data.angular/x)
+            kp = 1/20
+            p = 0.05*abs(data.angular)*kp
+            if data.angular > 0 :
+                self.logger("running L")
+                motor_data.speed_l = data.linear - p
+                motor_data.speed_r = data.linear + p
             else:
-                motor_data.speed_l = data.linear - 0.05*(data.angular/x)
-                motor_data.speed_r = data.linear + 0.05*(data.angular/x)
+                self.logger("running R")
+                motor_data.speed_l = data.linear + p
+                motor_data.speed_r = data.linear - p
             self.publisher_.publish(motor_data)
             return response
 

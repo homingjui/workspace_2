@@ -3,6 +3,7 @@ ros2 interface show /msg
 
 show path
 ros2 pkg prefix <pkg_name>
+/opt/ros/foxy/share/nav2_bringup
 
 creat new pkg
 ros2 pkg create --build-type ament_cmake project2

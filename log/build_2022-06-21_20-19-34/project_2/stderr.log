@@ -1,0 +1,5 @@
+  File "/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/slam_navigation.py", line 52
+    return np.sqrt((x1[0]-x2[0])**2+(x1[1]-x2[1])**2i)
+                                                    ^
+SyntaxError: invalid syntax
+

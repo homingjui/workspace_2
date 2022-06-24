@@ -14,7 +14,12 @@ setup(
         (os.path.join('share', package_name), [
                                                 'launch/test_launch.py',
                                                 'rviz/nav2_unity.rviz',
-                                                'launch/slam_tcp.py'
+                                                'launch/slam_tcp.py',
+                                                'launch/slam_launch.py',
+                                                'launch/offline_launch.py',
+                                                'launch/online_sync_launch.py',
+                                                'params/nav2_params.yaml',
+                                                'params/mapper_params_offline.yaml'
                                                 ]),
 
     ],

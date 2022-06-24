@@ -31,6 +31,11 @@
 /home/jetson/Desktop/workspace_2/install/project_2/share/project_2/test_launch.py
 /home/jetson/Desktop/workspace_2/install/project_2/share/project_2/nav2_unity.rviz
 /home/jetson/Desktop/workspace_2/install/project_2/share/project_2/slam_tcp.py
+/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/slam_launch.py
+/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/offline_launch.py
+/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/online_sync_launch.py
+/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/nav2_params.yaml
+/home/jetson/Desktop/workspace_2/install/project_2/share/project_2/mapper_params_offline.yaml
 /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info/top_level.txt
 /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info/entry_points.txt
 /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info/dependency_links.txt

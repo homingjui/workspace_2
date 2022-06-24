@@ -1,0 +1,223 @@
+import rclpy
+import time
+import numpy as np
+from rclpy.node import Node
+from msg_manage.srv import TwistSrv
+from tf2_msgs.msg import TFMessage
+from scipy.spatial.transform import Rotation
+from nav_msgs.msg import Path
+from geometry_msgs.msg import PoseStamped
+from visualization_msgs.msg import Marker
+from geometry_msgs.msg import Point
+from sensor_msgs.msg import LaserScan
+
+class slam_navigation_node(Node):
+    def __init__(self):
+        super().__init__('slam_navigation_node')
+        
+        self.motor_cmd_client = self.create_client(TwistSrv, 'motor_cmd_servise')
+        while not self.motor_cmd_client.wait_for_service(timeout_sec=3.0):
+            self.logger('motor_cmd_servise not found, waiting again...')
+        self.logger("find motor_cmd_servise")
+
+        self.create_subscription(TFMessage,'tf',self.get_tf,10)
+        self.create_subscription(LaserScan,'scan',self.get_scan,10)
+
+        self.path_pub = self.create_publisher(Path, 'path', 10)
+        self.marker_pub = self.create_publisher(Marker, 'marker', 10)
+
+
+        timer_period = 0.5  # seconds
+        self.timer = self.create_timer(timer_period, self.controller)
+        
+        self.count = 0
+        self.car_pos = [0,0]
+        self.car_tf = [0,0,0]
+        self.now_dot = -1
+        self.rout = np.array([[0,0],[0,5.5],[-3,5.5],[-3,4.5],[0,4.5],[0,0]])
+        self.done_turning = True
+        self.min_dist = np.inf
+
+        self.path_msg = Path()
+        self.path_msg.header.frame_id = "/odom"
+        for i in self.rout:
+            pose = PoseStamped()
+            pose.pose.position.x = i[0]
+            pose.pose.position.y = i[1]
+            pose.pose.position.z = 0.0
+
+            pose.pose.orientation.x = 0.0
+            pose.pose.orientation.y = 0.0
+            pose.pose.orientation.z = 0.0
+            pose.pose.orientation.w = 0.0
+            self.path_msg.poses.append(pose)
+
+        self.markers = Marker()
+        self.markers.header.frame_id = '/base_scan'
+        self.markers.action = Marker.ADD
+        self.markers.type = 5
+        self.markers.color.a = 0.4
+        self.markers.color.r = 0.0
+        self.markers.color.g = 1.0
+        self.markers.color.b = 0.0
+        self.markers.scale.x = 0.02
+        #self.marker_pub.publish(self.markers)
+
+        self.check_diat = 3 
+        self.logger("car pos initial")
+
+
+    def logger(self,data):
+        self.get_logger().info(str(data))
+    
+    def get_deg(self,vac1,vac2):
+        vac1 = np.array(vac1)
+        vac2 = np.array(vac2)
+        norm = np.linalg.norm(vac1)*np.linalg.norm(vac2)
+        rho = np.arcsin(np.cross(vac1,vac2)/norm)
+        cos_ang= vac1.dot(vac2) / norm
+        ang=np.rad2deg(np.arccos(cos_ang))
+        if rho<0:
+            return -ang
+        return ang
+    def get_dist(self,x1,x2):
+        return np.sqrt((x1[0]-x2[0])**2+(x1[1]-x2[1])**2)
+    def send_motor_cmd(self,lin,ang):
+        request = TwistSrv.Request()
+        request.linear = lin
+        request.angular = ang
+        return self.motor_cmd_client.call_async(request)
+
+    def get_scan(self,data):
+        point0 = Point()
+        point1 = Point()
+        print(data.angle_min)
+        print(data.angle_max)
+        print(np.pi/data.angle_increment)
+        print(len(data.ranges))
+        
+        points = [point0,point1]*3
+        print(points)
+
+
+
+    def get_tf(self,data):
+        for i in data.transforms:
+            if i.child_frame_id == "base_footprint":
+                self.car_pos = [i.transform.translation.x,i.transform.translation.y]
+                tfx = i.transform.rotation.x
+                tfy = i.transform.rotation.y
+                tfz = i.transform.rotation.z
+                tfw = i.transform.rotation.w
+                rot = Rotation.from_quat([tfx, tfy, tfz, tfw])
+                self.car_tf = rot.as_euler('xyz')
+                #self.logger(self.car_pos)
+                #self.logger(self.car_tf)
+
+    def show_going_str(self):
+        if self.done_turning:
+            if self.now_dot == -1:
+                run_str="start->"
+            else:
+                run_str="start__"
+            for i in range(len(self.rout)):
+                if i == self.now_dot:
+                    run_str += str(i)+"->"
+                else:
+                    run_str += str(i)+"__"
+        else:
+            if self.now_dot == -1:
+                run_str="[start]__"
+            else:
+                run_str="start__"
+            for i in range(len(self.rout)):
+                if i == self.now_dot+1:
+                    run_str += "["+str(i)+"]__"
+                else:
+                    run_str += str(i)+"__"
+
+        return str(run_str[:-2])
+
+    def controller(self):
+        self.path_pub.publish(self.path_msg)
+        return
+        if self.done_turning:       ##### check turning
+            self.logger(self.show_going_str())
+            if self.now_dot == -1:      ##### for initial
+            
+                deg = self.get_deg([np.cos(self.car_tf[2]),np.sin(self.car_tf[2])],
+                                    self.rout[0]-self.car_pos)
+                dist = self.get_dist(self.rout[0],self.car_pos)
+                self.min_dist = min(dist,self.min_dist)
+                deg2 = self.get_deg([np.cos(self.car_tf[2]),np.sin(self.car_tf[2])],
+                                    self.rout[1]-self.car_pos)
+                
+                if abs(deg) > 5 and self.min_dist > 0.1:
+                    self.logger("turn:"+str(deg))
+                    self.response = self.send_motor_cmd(0.0,deg)
+                    self.done_turning = False
+                elif self.min_dist > 0.1:
+                    self.logger("dist:"+str(dist)+" "+str(deg))
+                    self.response = self.send_motor_cmd(0.3,deg)
+                elif abs(deg2) > 5:
+                    self.logger("turn2:"+str(deg2))
+                    self.response = self.send_motor_cmd(0.0,deg2)
+                    self.done_turning = False
+
+                else:        
+                    self.logger("car pos initial done!!")
+                    self.now_dot = 0
+                    self.min_dist = np.inf
+
+
+            else:
+
+                deg = self.get_deg([np.cos(self.car_tf[2]),np.sin(self.car_tf[2])],
+                                    self.rout[self.now_dot+1]-self.car_pos)
+                dist = self.get_dist(self.rout[self.now_dot+1],self.car_pos) 
+                self.min_dist = min(dist,self.min_dist)
+
+                if self.min_dist > 0.1:
+###### if imu not at center of turning circle, something will go wrong
+                    self.logger("dist:"+str(dist)+" "+str(deg))
+                    self.response = self.send_motor_cmd(0.3,deg)
+                else:
+                    if self.now_dot+1 == len(self.rout)-1:
+                        self.send_motor_cmd(0.0,0.0)
+                        self.logger("done all")
+                        while True:
+                            print("......")
+                            time.sleep(1)
+                    
+                    deg2 = self.get_deg([np.cos(self.car_tf[2]),np.sin(self.car_tf[2])],
+                                        self.rout[self.now_dot+2]-self.car_pos)
+                    if abs(deg2) > 5:
+                        self.logger("turn:"+str(deg2))
+                        self.response = self.send_motor_cmd(0.0,deg2)
+                        self.done_turning = False
+                    else:
+                        self.now_dot += 1
+                        self.min_dist = np.inf
+
+        else:
+            print(self.show_going_str()+"  wait turn"+"."*(self.count%5)+" "*5,end='\r')
+            self.count += 1
+            if self.response.done():
+                self.done_turning = True
+                print("\ndone turn!")
+                self.count = 0
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    print("slam navigation start")
+    slam_navigation = slam_navigation_node()
+
+    rclpy.spin(slam_navigation)
+
+    slam_navigation.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

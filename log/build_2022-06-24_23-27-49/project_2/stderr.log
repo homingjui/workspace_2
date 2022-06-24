@@ -1,0 +1,5 @@
+  File "/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/slam_navigation.py", line 211
+    self.reach_dist = self.get_dist(self.car_pos,self.car_last_pos)*1.5,self.reach_dist)
+                                                                                       ^
+SyntaxError: unmatched ')'
+

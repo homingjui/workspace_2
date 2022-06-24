@@ -1,0 +1,14 @@
+running egg_info
+writing ../../build/project_2/project_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying rviz/nav2_unity.rviz -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2

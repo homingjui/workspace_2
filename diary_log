@@ -1,0 +1,31 @@
+2022
+
+____
+1.Make massages can be send between ros and unity.
+Message from unity, TF, and from ros, motor_cmd, can recive by each devices.
+
+____
+1.Set agv to initial pose.
+Let agv turn to face to first point of path, and move forward untill reach the target.
+
+0623
+1.Make AGV finish all path and found that P control gose wrong.Let AGV move to each point setted by the path. Must reset some parameters before going to a new point. When the arror correction output added to each wheel speed forget to add "abs", that makes Left:[l+(+e) l-(+e)] Right:[l-(-e) l+(-e)] leads same result...
+
+
+0624
+1.Tried to make slam works.
+It can be lunch by pakages "nav2_bringup slam_toolbox" whitch refer to unity_slam_example. But no mater which way to creat the map, it all ran with an error that saied time stamp of TF "map" and any other TF were different!! There was already /clock topic before slam node launch. This leads the error mention above. I tried to fix this with make slam node useexternal /clock, but not fix this yet... Move forward first and leave this here. This won't influences avoidance works.
+2.Add markers on 3d visualization.
+Publish topic "path" and "forward_looking" that shows path and scanner ROI.
+marker mag is setted bt point list and color list, but it can't be setted with array like way. It must setted index by index. This make performance efficiency slow!!
+
+0624
+1.reach_dist setting
+Try to make the setting of reach_dist(how far to stor the car before reach target) are self adjustment for any car. If it's set to the largest distence that car walks, once the car move farther than anyother step, this value will be stuck at there. I hope this value response fast but not influences by noise. Let reach_dist a array with lenth 3. When getting new distence, append to this array with two indexes. After sorting array, drop the first and last element to keep the length of array consistent. The canter value are used for reach_dist. As this, reach_dist will be damage only if two or more noise receive, the same, it will recover after two normal values.
+2.unity car punch.
+The components of agv are setted to "ArticulationBody", that forms part of a Physics articulation. Therefore, it cannot be move by changing it's position. The way to move AGV we usually do is let the wheels rotation, but when we need to displacement agv for testing control algorithm, there is a function call "AddForce" that applies a force to ArticulationBody. Whith this function, we can simulation moving AGV by hand.
+
+
+
+0625
+1.Rebuild control algorithm.
