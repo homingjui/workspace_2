@@ -24,6 +24,8 @@ class motor_cmd_node(Node):
         self.done_turn_ang = 0
         self.start_ang = 0
         self.turn_d = 0
+        self.going = False
+        self.update_time = 0
 
     def logger(self,data):
         self.get_logger().info(str(data))
@@ -38,9 +40,19 @@ class motor_cmd_node(Node):
                 rot = Rotation.from_quat([tfx, tfy, tfz, tfw])
                 self.car_tf = np.rad2deg(rot.as_euler('xyz'))
                 #self.logger(self.car_tf)
+                if self.going:
+                    if time.time() - self.update_time > 1.0:
+                        self.logger("timeout stop !!")
+                        motor_data = Motor2()
+                        motor_data.speed_l = 0.0
+                        motor_data.speed_r = 0.0
+                        self.publisher_.publish(motor_data)
+                        self.going = False
+
 
     def set_cmd(self, data, response):
         motor_data = Motor2()
+        self.going = False
         if data.linear == 0 and data.angular == 0:
             self.logger("stop")
             motor_data.speed_l = 0.0
@@ -90,7 +102,9 @@ class motor_cmd_node(Node):
             response.result = True
             return response
         else:
-            kp = 1/20
+            self.going = True
+            self.update_time = time.time()
+            kp = 1/25
             p = 0.05*abs(data.angular)*kp
             if data.angular > 0 :
                 self.logger("running L")

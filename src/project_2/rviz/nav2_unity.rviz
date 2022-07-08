@@ -8,8 +8,8 @@ Panels:
         - /Status1
         - /Marker1/Topic1
         - /Marker1/Namespaces1
-        - /Marker2
         - /Marker2/Status1
+        - /Marker3
       Splitter Ratio: 0.5757575631141663
     Tree Height: 781
   - Class: rviz_common/Selection
@@ -132,7 +132,7 @@ Visualization Manager:
       Enabled: true
       Name: Marker
       Namespaces:
-        {}
+        "": true
       Topic:
         Depth: 1
         Durability Policy: Volatile
@@ -179,7 +179,7 @@ Visualization Manager:
       Enabled: true
       Name: Marker
       Namespaces:
-        {}
+        "": true
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -200,6 +200,18 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /img_pub
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        "": true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /went_marker
       Value: true
   Enabled: true
   Global Options:
@@ -243,7 +255,7 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: 0.009999999776482582
+      Angle: 0.004999999888241291
       Class: rviz_default_plugins/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
@@ -253,11 +265,11 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 78.85212707519531
+      Scale: 91.1260986328125
       Target Frame: odom
       Value: TopDownOrtho (rviz_default_plugins)
-      X: -0.28529733419418335
-      Y: 0.7928292751312256
+      X: -1.6289547681808472
+      Y: 1.559077262878418
     Saved: ~
 Window Geometry:
   Displays:

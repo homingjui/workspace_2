@@ -6,26 +6,69 @@ Message from unity, TF, and from ros, motor_cmd, can recive by each devices.
 
 ____
 1.Set agv to initial pose.
-Let agv turn to face to first point of path, and move forward untill reach the target.
+Let agv turn towards the first point of path, and move forward untill reach the target.
+
+0622
+1.Make AGV finish all pathes and found that there's something wrong in P controller. When AGV move to each point setted by the path, must reset some parameters before going to a new point. When the arror correction output added to each wheel speed, I forgot to add "abs", that makde Left:[l+(+e) l-(+e)] Right:[l-(-e) l+(-e)] leads same result...
+
 
 0623
-1.Make AGV finish all path and found that P control gose wrong.Let AGV move to each point setted by the path. Must reset some parameters before going to a new point. When the arror correction output added to each wheel speed forget to add "abs", that makes Left:[l+(+e) l-(+e)] Right:[l-(-e) l+(-e)] leads same result...
-
-
-0624
 1.Tried to make slam works.
 It can be lunch by pakages "nav2_bringup slam_toolbox" whitch refer to unity_slam_example. But no mater which way to creat the map, it all ran with an error that saied time stamp of TF "map" and any other TF were different!! There was already /clock topic before slam node launch. This leads the error mention above. I tried to fix this with make slam node useexternal /clock, but not fix this yet... Move forward first and leave this here. This won't influences avoidance works.
 2.Add markers on 3d visualization.
 Publish topic "path" and "forward_looking" that shows path and scanner ROI.
-marker mag is setted bt point list and color list, but it can't be setted with array like way. It must setted index by index. This make performance efficiency slow!!
+marker msg is setted by point list and color list, but it can't be setted with array like way. It must setted index by index. This make performance efficiency slow!! Add a flag 'new_pose' to make marker stick to agv on visualize panel.
 
 0624
 1.reach_dist setting
-Try to make the setting of reach_dist(how far to stor the car before reach target) are self adjustment for any car. If it's set to the largest distence that car walks, once the car move farther than anyother step, this value will be stuck at there. I hope this value response fast but not influences by noise. Let reach_dist a array with lenth 3. When getting new distence, append to this array with two indexes. After sorting array, drop the first and last element to keep the length of array consistent. The canter value are used for reach_dist. As this, reach_dist will be damage only if two or more noise receive, the same, it will recover after two normal values.
+Try to make the setting of reach_dist(how far to stop the car before reach target) are self adjustment for any car. If it's set to the largest distence that car moves, once the car move farther than anyother step, this value will be stuck at there. I hope this value response fast but not influences by noise. Let reach_dist a array with 3 indexes. When getting new distence, append to this array with two indexes. After sorting the array, drop the first and last element to keep the length of array consistent. The canter value are used for reach_dist. As this, reach_dist will be damage only if two or more noise receive, the same, it will recovered after two normal values.
 2.unity car punch.
 The components of agv are setted to "ArticulationBody", that forms part of a Physics articulation. Therefore, it cannot be move by changing it's position. The way to move AGV we usually do is let the wheels rotation, but when we need to displacement agv for testing control algorithm, there is a function call "AddForce" that applies a force to ArticulationBody. Whith this function, we can simulation moving AGV by hand.
 
-
-
 0625
 1.Rebuild control algorithm.
+The orignal controller was making the agv towards target but not follow the path. But the ideal controller is make the agv follow the path and back to the path fast and smooth when agv not on it. Normally, people use PID control, but kp ki and kd have to setted by try error when we don't have mathematical model of our system. In addition, kp ki and kd may need adjust when system is changed. Therefore I tried to design a new controller that can preformance like ideal PID controller. First, I analyzed the path of a agv which controled by ideal PID controller. The angle between agv and target path are static whan error (distance between agv and path) is larger than a value, and the angle decrease when agv get closer to the path. Second, write a function that caculate the ideal angle correspond to the error. Last calculate angle between agv and target path, and we can get 'fix angle' that ideal angle minus agv angle. But agv could be at left or right of the path, so we need to calaulate the fix angle is postive or negative. After all, the simulation looks well, maby when agv fixing angle gose alittle too fast. Besides, when agv are hand moved and move exceed the target point, it will run forward forever. I'll fix this tomorrowXD
+
+0626
+The stable time of this controller seems not so ideal. But this can be fix well and immediately by decrease control period from 1.0 to 0.25.
+
+0706
+went_markers
+publish a marker shows the path that agv gose through.
+timeout stop
+make motor_cmd node send stop command automatic if it dosen't receive data for 1 sec.
+wait first data
+the navigation node will run what ever it get TF from agv or not in the first. But this will cost the command navigation calculated are wrong and the agv still active according to this wrong command.
+Adding a flag that check is the TF are received to solve this problem.
+
+0707
+calculate new path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

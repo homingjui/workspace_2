@@ -27,9 +27,10 @@ class slam_navigation_node(Node):
         self.path_pub = self.create_publisher(Path, 'path', 10)
         self.marker_pub = self.create_publisher(Marker, 'marker', 10)
         self.car_marker_pub = self.create_publisher(Marker, 'car_marker', 10)
+        self.went_marker_pub = self.create_publisher(Marker, 'went_marker', 10)
 
 
-        timer_period = 0.5  # seconds
+        timer_period = 0.25  # seconds
         self.timer = self.create_timer(timer_period, self.controller)
         
         self.count = 0
@@ -40,7 +41,7 @@ class slam_navigation_node(Node):
         self.rout = np.array([[0,0],[0,5.5],[-3,5.5],[-3,4.5],[0,4.5],[0,0]])
         self.done_turning = True
         self.min_dist = np.inf
-        self.reach_dist = np.array([0.0,0.0,0.0])
+        self.reach_dist = np.array([0.2,0.2,0.2])
 
         self.path_msg = Path()
         self.path_msg.header.frame_id = "/odom"
@@ -69,9 +70,18 @@ class slam_navigation_node(Node):
         self.car_markers.type = 5
         self.car_markers.scale.x = 0.02
 
-
+        self.went_markers = Marker()
+        self.went_markers.header.frame_id = '/odom'
+        self.went_markers.action = Marker.ADD
+        self.went_markers.type = 4
+        self.went_markers.scale.x = 0.02
+        self.went_markers.points=[]
+        self.went_markers.colors=[]
+        
         self.check_dist = 3
-        self.color_a = 0.1
+        self.color_a = 0.2
+        self.back_ang = 60
+        self.adjustment_dist = 1
         self.logger("car pos initial")
 
 
@@ -128,6 +138,8 @@ class slam_navigation_node(Node):
         #print(np.pi/data.angle_increment)
         #print(len(data.ranges))
         for index,item in enumerate(data.ranges):
+            if index % 4 != 0:
+                continue
             point1 = Point()
             color = ColorRGBA()
             color.a = self.color_a
@@ -140,6 +152,7 @@ class slam_navigation_node(Node):
             else:
                 point1.x = self.check_dist * np.cos(data.angle_min+data.angle_increment*index)
                 point1.y = self.check_dist * np.sin(data.angle_min+data.angle_increment*index)
+                point1.z = -1.0
                 color.g = 1.0
             points.extend([point0,point1])
             colors.extend([color,color])
@@ -163,6 +176,16 @@ class slam_navigation_node(Node):
                 #self.logger(self.car_pos)
                 #self.logger(self.car_tf)
                 self.new_pose = True
+                
+                point = Point()
+                color = ColorRGBA()
+                point.x, point.y = self.car_pos[0], self.car_pos[1]
+                color.r, color.g, color.a = 1.0, 0.5, 1.0
+                self.went_markers.points.append(point)
+                self.went_markers.colors.append(color)
+                self.went_marker_pub.publish(self.went_markers)
+
+
 
     def show_going_str(self):
         if self.done_turning:
@@ -188,6 +211,12 @@ class slam_navigation_node(Node):
 
         return str(run_str[:-2])
 
+    def nonPID_controller(self,e):
+        self.back_ang = 60
+        self.adjustment_dist = 0.5
+        if e >= self.adjustment_dist:
+            return self.back_ang
+        return self.back_ang * ( e / self.adjustment_dist )
 
 
     def controller(self):
@@ -255,12 +284,23 @@ class slam_navigation_node(Node):
                 self.min_dist = min(dist,self.min_dist)
 
                 if self.min_dist > self.reach_dist[1]:  ##### still not reach target point
-                    self.logger("dist:"+str(dist)+" "+str(deg))
+
                     error_point = self.p4(self.rout[self.now_dot], 
                                           self.rout[self.now_dot+1], 
                                           self.car_pos)
+                    error = self.get_dist(error_point,self.car_pos)
                     
-                    self.response = self.send_motor_cmd(0.3,deg)
+                    error_sign = self.get_deg(self.car_pos-self.rout[self.now_dot],
+                                               self.rout[self.now_dot+1]-self.rout[self.now_dot])
+                    deg_car2path = self.get_deg(self.rout[self.now_dot+1]-self.rout[self.now_dot],
+                                                [np.cos(self.car_tf[2]),np.sin(self.car_tf[2])],)
+                    
+                    deg2 = self.nonPID_controller(error)*np.sign(error_sign) - deg_car2path
+
+                    print(deg2, error_sign, deg_car2path)
+
+                    self.response = self.send_motor_cmd(0.3,deg2)
+                    self.logger("dist:"+str(dist)+" "+str(deg2))
                     
                     points.extend(self.add_point(point0,error_point))
                     colors.extend(self.add_color([0.0, 0.0, 1.0, 1.0]))
