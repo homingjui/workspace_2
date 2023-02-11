@@ -1,1 +1,1 @@
-msg_manage:nav2_bringup:python3-numpy:rclpy:ros2launch:rviz2:sensor_msgs:sensor_msgs_py:slam_toolbox:std_msgs
+geometry_msgs:msg_manage:nav2_bringup:python3-numpy:rclpy:ros2launch:rviz2:sensor_msgs:sensor_msgs_py:slam_toolbox:std_msgs:visualization_msgs

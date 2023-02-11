@@ -278,7 +278,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so"
-         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage:/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/lib:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:"
+         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage:/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/lib:/home/jetson/ros2_foxy/ros2-linux/share/geometry_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/std_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so")
@@ -301,7 +301,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so"
-         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage:/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/lib:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:"
+         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage:/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/lib:/home/jetson/ros2_foxy/ros2-linux/share/geometry_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/std_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so")
@@ -324,7 +324,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so"
-         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage:/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/lib:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:"
+         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_generator_py/msg_manage:/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/lib:/home/jetson/ros2_foxy/ros2-linux/share/geometry_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/std_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so")
@@ -347,7 +347,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmsg_manage__python.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmsg_manage__python.so"
-         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/lib:"
+         OLD_RPATH "/home/jetson/Desktop/workspace_2/build/msg_manage:/home/jetson/ros2_foxy/ros2-linux/share/geometry_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/std_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib:/home/jetson/ros2_foxy/ros2-linux/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmsg_manage__python.so")
@@ -376,6 +376,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_manage/action" TYPE FILE FILES "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/action/Testaction.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_manage/msg" TYPE FILE FILES "/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_adapter/msg_manage/msg/Vehicle.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -412,6 +416,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_manage/action" TYPE FILE FILES "/home/jetson/Desktop/workspace_2/src/msg_manage/action/Testaction.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_manage/msg" TYPE FILE FILES "/home/jetson/Desktop/workspace_2/src/msg_manage/msg/Vehicle.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

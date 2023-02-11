@@ -1,0 +1,70 @@
+[5.906s] Invoking command in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build install --prefix /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint --record /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[7.870s] running egg_info
+[7.874s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[7.876s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[7.878s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[7.880s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[7.880s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[7.881s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[7.890s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[7.900s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[7.902s] adding license file 'LICENSE'
+[7.906s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[7.908s] running build
+[7.909s] running build_py
+[7.911s] creating /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build
+[7.912s] creating /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib
+[7.913s] creating /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.915s] copying ros_tcp_endpoint/communication.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.917s] copying ros_tcp_endpoint/tcp_sender.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.919s] copying ros_tcp_endpoint/client.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.921s] copying ros_tcp_endpoint/thread_pauser.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.925s] copying ros_tcp_endpoint/publisher.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.928s] copying ros_tcp_endpoint/service.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.930s] copying ros_tcp_endpoint/server.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.932s] copying ros_tcp_endpoint/exceptions.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.934s] copying ros_tcp_endpoint/unity_service.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.935s] copying ros_tcp_endpoint/subscriber.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.937s] copying ros_tcp_endpoint/__init__.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.939s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[7.941s] running install
+[7.946s] running install_lib
+[7.952s] creating /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.954s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.956s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.958s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.960s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.961s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.963s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.965s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.967s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.968s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.969s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.971s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.973s] copying /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[7.976s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc
+[7.979s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc
+[7.986s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc
+[7.991s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc
+[7.993s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc
+[7.995s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc
+[7.999s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc
+[8.008s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc
+[8.011s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc
+[8.013s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc
+[8.016s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc
+[8.018s] byte-compiling /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc
+[8.019s] running install_data
+[8.023s] creating /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ament_index
+[8.026s] creating /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ament_index/resource_index
+[8.027s] creating /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[8.029s] copying resource/ros_tcp_endpoint -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[8.031s] copying package.xml -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[8.032s] creating /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[8.033s] copying launch/endpoint.py -> /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[8.034s] running install_egg_info
+[8.041s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[8.048s] running install_scripts
+[8.156s] Installing default_server_endpoint script to /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[8.159s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log'
+[8.416s] Invoked command in '/home/jetson/Desktop/workspace_2/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/build install --prefix /home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint --record /home/jetson/Desktop/workspace_2/build/ros_tcp_endpoint/install.log --single-version-externally-managed

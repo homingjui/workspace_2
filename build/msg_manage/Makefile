@@ -456,6 +456,33 @@ rosidl_generator_c/msg_manage/msg/detail/num__functions.c.s:
 	$(MAKE) -f CMakeFiles/msg_manage__rosidl_generator_c.dir/build.make CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/num__functions.c.s
 .PHONY : rosidl_generator_c/msg_manage/msg/detail/num__functions.c.s
 
+rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.o: rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.o
+
+.PHONY : rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.o
+
+# target to build an object file
+rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.o:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_generator_c.dir/build.make CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.o
+.PHONY : rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.o
+
+rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.i: rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.i
+
+.PHONY : rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.i:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_generator_c.dir/build.make CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.i
+.PHONY : rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.i
+
+rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.s: rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.s
+
+.PHONY : rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.s:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_generator_c.dir/build.make CMakeFiles/msg_manage__rosidl_generator_c.dir/rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.s
+.PHONY : rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.c.s
+
 rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.o: rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.c.o
 
 .PHONY : rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.o
@@ -672,6 +699,33 @@ rosidl_generator_py/msg_manage/msg/_num_s.c.s:
 	$(MAKE) -f CMakeFiles/msg_manage__python.dir/build.make CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_num_s.c.s
 .PHONY : rosidl_generator_py/msg_manage/msg/_num_s.c.s
 
+rosidl_generator_py/msg_manage/msg/_vehicle_s.o: rosidl_generator_py/msg_manage/msg/_vehicle_s.c.o
+
+.PHONY : rosidl_generator_py/msg_manage/msg/_vehicle_s.o
+
+# target to build an object file
+rosidl_generator_py/msg_manage/msg/_vehicle_s.c.o:
+	$(MAKE) -f CMakeFiles/msg_manage__python.dir/build.make CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_vehicle_s.c.o
+.PHONY : rosidl_generator_py/msg_manage/msg/_vehicle_s.c.o
+
+rosidl_generator_py/msg_manage/msg/_vehicle_s.i: rosidl_generator_py/msg_manage/msg/_vehicle_s.c.i
+
+.PHONY : rosidl_generator_py/msg_manage/msg/_vehicle_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/msg_manage/msg/_vehicle_s.c.i:
+	$(MAKE) -f CMakeFiles/msg_manage__python.dir/build.make CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_vehicle_s.c.i
+.PHONY : rosidl_generator_py/msg_manage/msg/_vehicle_s.c.i
+
+rosidl_generator_py/msg_manage/msg/_vehicle_s.s: rosidl_generator_py/msg_manage/msg/_vehicle_s.c.s
+
+.PHONY : rosidl_generator_py/msg_manage/msg/_vehicle_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/msg_manage/msg/_vehicle_s.c.s:
+	$(MAKE) -f CMakeFiles/msg_manage__python.dir/build.make CMakeFiles/msg_manage__python.dir/rosidl_generator_py/msg_manage/msg/_vehicle_s.c.s
+.PHONY : rosidl_generator_py/msg_manage/msg/_vehicle_s.c.s
+
 rosidl_generator_py/msg_manage/srv/_add_three_ints_s.o: rosidl_generator_py/msg_manage/srv/_add_three_ints_s.c.o
 
 .PHONY : rosidl_generator_py/msg_manage/srv/_add_three_ints_s.o
@@ -806,6 +860,33 @@ rosidl_typesupport_c/msg_manage/msg/num__type_support.s: rosidl_typesupport_c/ms
 rosidl_typesupport_c/msg_manage/msg/num__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/num__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/msg_manage/msg/num__type_support.cpp.s
+
+rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.o: rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.o
+
+rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.i: rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.i
+
+rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.s: rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp.s
 
 rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.o: rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.cpp.o
 
@@ -942,6 +1023,33 @@ rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.s
 
+rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.o: rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o
+
+rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.i: rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.i
+
+rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.s: rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.s
+
 rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.o: rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.o
@@ -1076,6 +1184,33 @@ rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.s: rosid
 rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.o: rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.i: rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.s: rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/add_three_ints__type_support_c.o: rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/add_three_ints__type_support_c.cpp.o
 
@@ -1212,6 +1347,33 @@ rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_sup
 	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.o: rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.i: rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.s: rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.o: rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.o
@@ -1346,6 +1508,33 @@ rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.s: ro
 rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.c.s:
 	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.c.s
+
+rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.o: rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.o:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.o
+
+rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.i: rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.i:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.i
+
+rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.s: rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.s:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.c.s
 
 rosidl_typesupport_introspection_c/msg_manage/srv/detail/add_three_ints__type_support.o: rosidl_typesupport_introspection_c/msg_manage/srv/detail/add_three_ints__type_support.c.o
 
@@ -1482,6 +1671,33 @@ rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.cpp
 	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.o: rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.i: rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.s: rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/msg_manage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.o: rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.o
@@ -1574,6 +1790,9 @@ help:
 	@echo "... rosidl_generator_c/msg_manage/msg/detail/num__functions.o"
 	@echo "... rosidl_generator_c/msg_manage/msg/detail/num__functions.i"
 	@echo "... rosidl_generator_c/msg_manage/msg/detail/num__functions.s"
+	@echo "... rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.o"
+	@echo "... rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.i"
+	@echo "... rosidl_generator_c/msg_manage/msg/detail/vehicle__functions.s"
 	@echo "... rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.o"
 	@echo "... rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.i"
 	@echo "... rosidl_generator_c/msg_manage/srv/detail/add_three_ints__functions.s"
@@ -1598,6 +1817,9 @@ help:
 	@echo "... rosidl_generator_py/msg_manage/msg/_num_s.o"
 	@echo "... rosidl_generator_py/msg_manage/msg/_num_s.i"
 	@echo "... rosidl_generator_py/msg_manage/msg/_num_s.s"
+	@echo "... rosidl_generator_py/msg_manage/msg/_vehicle_s.o"
+	@echo "... rosidl_generator_py/msg_manage/msg/_vehicle_s.i"
+	@echo "... rosidl_generator_py/msg_manage/msg/_vehicle_s.s"
 	@echo "... rosidl_generator_py/msg_manage/srv/_add_three_ints_s.o"
 	@echo "... rosidl_generator_py/msg_manage/srv/_add_three_ints_s.i"
 	@echo "... rosidl_generator_py/msg_manage/srv/_add_three_ints_s.s"
@@ -1613,6 +1835,9 @@ help:
 	@echo "... rosidl_typesupport_c/msg_manage/msg/num__type_support.o"
 	@echo "... rosidl_typesupport_c/msg_manage/msg/num__type_support.i"
 	@echo "... rosidl_typesupport_c/msg_manage/msg/num__type_support.s"
+	@echo "... rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.o"
+	@echo "... rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.i"
+	@echo "... rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.s"
 	@echo "... rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.o"
 	@echo "... rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.i"
 	@echo "... rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.s"
@@ -1628,6 +1853,9 @@ help:
 	@echo "... rosidl_typesupport_cpp/msg_manage/msg/num__type_support.o"
 	@echo "... rosidl_typesupport_cpp/msg_manage/msg/num__type_support.i"
 	@echo "... rosidl_typesupport_cpp/msg_manage/msg/num__type_support.s"
+	@echo "... rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.o"
+	@echo "... rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.i"
+	@echo "... rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.s"
 	@echo "... rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.o"
 	@echo "... rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.i"
 	@echo "... rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.s"
@@ -1643,6 +1871,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/num__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/msg/detail/vehicle__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/add_three_ints__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/add_three_ints__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/msg_manage/srv/detail/add_three_ints__type_support_c.s"
@@ -1658,6 +1889,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/num__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/msg/detail/dds_fastrtps/vehicle__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/msg_manage/srv/detail/dds_fastrtps/add_three_ints__type_support.s"
@@ -1673,6 +1907,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/msg_manage/msg/detail/num__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/msg_manage/msg/detail/vehicle__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/msg_manage/srv/detail/add_three_ints__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/msg_manage/srv/detail/add_three_ints__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/msg_manage/srv/detail/add_three_ints__type_support.s"
@@ -1688,6 +1925,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/num__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/msg/detail/vehicle__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/msg_manage/srv/detail/add_three_ints__type_support.s"

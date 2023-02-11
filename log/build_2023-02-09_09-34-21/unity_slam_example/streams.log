@@ -1,0 +1,17 @@
+[4.127s] Invoking command in '/home/jetson/Desktop/workspace_2/src/unity_slam_example': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jetson/Desktop/workspace_2/build/unity_slam_example/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_slam_example --record /home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log --single-version-externally-managed
+[5.512s] running egg_info
+[5.514s] writing ../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO
+[5.515s] writing dependency_links to ../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt
+[5.517s] writing requirements to ../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt
+[5.517s] writing top-level names to ../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt
+[5.526s] reading manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[5.531s] writing manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[5.531s] running build
+[5.532s] running install
+[5.535s] running install_data
+[5.538s] running install_egg_info
+[5.548s] removing '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info' (and everything under it)
+[5.549s] Copying ../../build/unity_slam_example/unity_slam_example.egg-info to /home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info
+[5.553s] running install_scripts
+[5.639s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log'
+[5.748s] Invoked command in '/home/jetson/Desktop/workspace_2/src/unity_slam_example' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /home/jetson/Desktop/workspace_2/build/unity_slam_example/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_slam_example --record /home/jetson/Desktop/workspace_2/build/unity_slam_example/install.log --single-version-externally-managed

@@ -3,7 +3,7 @@ import numpy as np
 from struct import unpack 
 from scipy.spatial.transform import Rotation
 from scipy.constants import g as g_constant
-
+import time
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
@@ -15,8 +15,8 @@ from tf2_ros import TransformBroadcaster
 class Imu_reader(Node):
     def __init__(self):
         super().__init__('imu_reader')
-        self.imu_pub = self.create_publisher(Imu, 'imu', 10)
-        self.arrow_pub = self.create_publisher(MarkerArray, 'arrow_marker', 10)
+        #self.imu_pub = self.create_publisher(Imu, 'imu', 10)
+        #self.arrow_pub = self.create_publisher(MarkerArray, 'arrow_marker', 10)
         self.tf_broadcaster = TransformBroadcaster(self)
         COM_PORT = '/dev/imu'
         BAUD_RATES = 921600
@@ -54,6 +54,7 @@ class Imu_reader(Node):
         self.tf_broadcaster.sendTransform(tf)
     
     def send_arrow(self,frame_id,length,trans=[0.0,0.0,0.0]):
+        print(length);
         length[2]=-length[2]
         length[1],length[2]=length[2],length[1]
 
@@ -112,9 +113,9 @@ class Imu_reader(Node):
             if data_arr[1] == b'\x41':
                 print("AHRS")
 
-                rpy_acc = b''.join(data_arr[ 7 : 7+4*3 ])
-                rpy_acc = list(np.array(unpack('3f',rpy_acc))/10.0)
-                self.send_tf('RPY_acc',xyz=rpy_acc)
+                #rpy_acc = b''.join(data_arr[ 7 : 7+4*3 ])
+                #rpy_acc = list(np.array(unpack('3f',rpy_acc))/10.0)
+                #self.send_tf('RPY_acc',xyz=rpy_acc)
 
                 #rpy = b''.join(data_arr[ 7+12 : 7+12+4*3 ])
                 #rpy = unpack('3f',rpy)
@@ -127,10 +128,10 @@ class Imu_reader(Node):
 
 
             elif data_arr[1] == b'\x40':
-                print("imu")
+                #print("imu")
                 acc = b''.join(data_arr[ 7+12 : 7+12+4*3 ])
                 acc = list(np.array(unpack('3f',acc)))
-                self.send_arrow('acc',acc)
+                #self.send_arrow('acc',acc)
 
             '''
             elif data_arr[1] == b'\x42':

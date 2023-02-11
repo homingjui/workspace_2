@@ -5,6 +5,7 @@
     "/home/jetson/Desktop/workspace_2/src/msg_manage:msg/Motor2.msg",
     "/home/jetson/Desktop/workspace_2/src/msg_manage:srv/AddThreeInts.srv",
     "/home/jetson/Desktop/workspace_2/src/msg_manage:srv/TwistSrv.srv",
-    "/home/jetson/Desktop/workspace_2/src/msg_manage:action/Testaction.action"
+    "/home/jetson/Desktop/workspace_2/src/msg_manage:action/Testaction.action",
+    "/home/jetson/Desktop/workspace_2/src/msg_manage:msg/Vehicle.msg"
   ]
 }

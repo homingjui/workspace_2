@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.002525] (msg_manage) JobQueued: {'identifier': 'msg_manage', 'dependencies': OrderedDict()}
+[0.003149] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.005048] (unity_robotics_demo) JobQueued: {'identifier': 'unity_robotics_demo', 'dependencies': OrderedDict()}
+[0.007476] (unity_robotics_demo_msgs) JobQueued: {'identifier': 'unity_robotics_demo_msgs', 'dependencies': OrderedDict()}
+[0.008432] (unity_slam_example) JobQueued: {'identifier': 'unity_slam_example', 'dependencies': OrderedDict()}
+[0.008708] (project_2) JobQueued: {'identifier': 'project_2', 'dependencies': OrderedDict([('msg_manage', '/home/jetson/Desktop/workspace_2/install/msg_manage')])}
+[0.008907] (msg_manage) JobStarted: {'identifier': 'msg_manage'}
+[0.075820] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.098670] (-) TimerEvent: {}
+[0.145733] (unity_robotics_demo) JobStarted: {'identifier': 'unity_robotics_demo'}
+[0.199933] (-) TimerEvent: {}
+[0.214162] (unity_robotics_demo_msgs) JobStarted: {'identifier': 'unity_robotics_demo_msgs'}
+[0.284853] (msg_manage) JobProgress: {'identifier': 'msg_manage', 'progress': 'cmake'}
+[0.287067] (msg_manage) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Desktop/workspace_2/src/msg_manage', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/workspace_2/install/msg_manage'], 'cwd': '/home/jetson/Desktop/workspace_2/build/msg_manage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7654'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '7252'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '0421519012898'), ('JETSON_CUDNN', '8.2.1.32'), ('JOURNAL_STREAM', '8:41042'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano20:@/tmp/.ICE-unix/7690,unix/nano20:/tmp/.ICE-unix/7690'), ('INVOCATION_ID', 'd50ff37212e34e2788f4543b75782581'), ('JETSON_OPENCV', '4.5.3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a018c22d_2622_42b1_9aca_0fe9eb51a5a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/msg_manage:/opt/ros/foxy:/home/jetson/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/workspace_2/build/msg_manage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy')]), 'shell': False}
+[0.300262] (-) TimerEvent: {}
+[0.401492] (-) TimerEvent: {}
+[0.502473] (-) TimerEvent: {}
+[0.603174] (-) TimerEvent: {}
+[0.704128] (-) TimerEvent: {}
+[0.804900] (-) TimerEvent: {}
+[0.905582] (-) TimerEvent: {}
+[1.006256] (-) TimerEvent: {}
+[1.106921] (-) TimerEvent: {}
+[1.207628] (-) TimerEvent: {}
+[1.308379] (-) TimerEvent: {}
+[1.409104] (-) TimerEvent: {}
+[1.509812] (-) TimerEvent: {}
+[1.610549] (-) TimerEvent: {}
+[1.711952] (-) TimerEvent: {}
+[1.818241] (-) TimerEvent: {}
+[1.919175] (-) TimerEvent: {}
+[2.019906] (-) TimerEvent: {}
+[2.120633] (-) TimerEvent: {}
+[2.221293] (-) TimerEvent: {}
+[2.321962] (-) TimerEvent: {}
+[2.422654] (-) TimerEvent: {}
+[2.523325] (-) TimerEvent: {}
+[2.624051] (-) TimerEvent: {}
+[2.724779] (-) TimerEvent: {}
+[2.825444] (-) TimerEvent: {}
+[2.926323] (-) TimerEvent: {}
+[3.026988] (-) TimerEvent: {}
+[3.127774] (-) TimerEvent: {}
+[3.228610] (-) TimerEvent: {}
+[3.251939] (msg_manage) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake/cmake)\n'}
+[3.253527] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.254064] (msg_manage) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.254520] (msg_manage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/home/jetson/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[3.254934] (msg_manage) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[3.255323] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.255719] (msg_manage) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[3.256109] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.256581] (msg_manage) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/home/jetson/ros2_foxy/ros2-linux/share/geometry_msgs/cmake)\n'}
+[3.257097] (msg_manage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.259577] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'cmake'}
+[3.270335] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'build'}
+[3.270957] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7654'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '7252'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install:/home/jetson/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '0421519012898'), ('JETSON_CUDNN', '8.2.1.32'), ('JOURNAL_STREAM', '8:41042'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_foxy/ros2-linux/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/ros2_foxy/ros2-linux/lib/pkgconfig'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jetson/ros2_foxy/ros2-linux/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano20:@/tmp/.ICE-unix/7690,unix/nano20:/tmp/.ICE-unix/7690'), ('INVOCATION_ID', 'd50ff37212e34e2788f4543b75782581'), ('JETSON_OPENCV', '4.5.3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a018c22d_2622_42b1_9aca_0fe9eb51a5a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/home/jetson/Desktop/workspace_2/install/msg_manage:/opt/ros/foxy:/home/jetson/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/ros2_foxy/ros2-linux:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy')]), 'shell': False}
+[3.329240] (-) TimerEvent: {}
+[3.431198] (-) TimerEvent: {}
+[3.532008] (-) TimerEvent: {}
+[3.555029] (unity_robotics_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target unity_robotics_demo_msgs__cpp\x1b[0m\n'}
+[3.595866] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.632187] (-) TimerEvent: {}
+[3.688860] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.732681] (-) TimerEvent: {}
+[3.833800] (-) TimerEvent: {}
+[3.934573] (-) TimerEvent: {}
+[4.035642] (-) TimerEvent: {}
+[4.136720] (-) TimerEvent: {}
+[4.237454] (-) TimerEvent: {}
+[4.312994] (msg_manage) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake_ros/cmake)\n'}
+[4.337621] (-) TimerEvent: {}
+[4.438677] (-) TimerEvent: {}
+[4.539403] (-) TimerEvent: {}
+[4.640521] (-) TimerEvent: {}
+[4.741297] (-) TimerEvent: {}
+[4.842023] (-) TimerEvent: {}
+[4.943172] (-) TimerEvent: {}
+[5.043972] (-) TimerEvent: {}
+[5.144769] (-) TimerEvent: {}
+[5.245875] (-) TimerEvent: {}
+[5.346663] (-) TimerEvent: {}
+[5.447697] (-) TimerEvent: {}
+[5.548757] (-) TimerEvent: {}
+[5.650978] (-) TimerEvent: {}
+[5.752897] (-) TimerEvent: {}
+[5.853748] (-) TimerEvent: {}
+[5.954532] (-) TimerEvent: {}
+[5.955789] (msg_manage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.984817] (unity_robotics_demo_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.988187] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 40, in <module>\n'}
+[5.992849] (unity_robotics_demo_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.993596] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 40, in <module>\n'}
+[5.999070] (unity_robotics_demo_msgs) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_generator_c/unity_robotics_demo_msgs/msg/pos_rot.h'\n"}
+[5.999773] (unity_robotics_demo_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[6.000466] (unity_robotics_demo_msgs) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_generator_cpp/unity_robotics_demo_msgs/msg/pos_rot.hpp'\n"}
+[6.014601] (unity_robotics_demo_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[6.020774] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main\n'}
+[6.025454] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/home/jetson/ros2_foxy/ros2-linux/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main\n'}
+[6.026111] (unity_robotics_demo_msgs) StderrLine: {'line': b'    return generate_cpp(\n'}
+[6.026763] (unity_robotics_demo_msgs) StderrLine: {'line': b'    return generate_c(\n'}
+[6.027466] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 38, in generate_cpp\n'}
+[6.028130] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 37, in generate_c\n'}
+[6.035592] (unity_robotics_demo_msgs) StderrLine: {'line': b'    generate_files(\n'}
+[6.036367] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[6.037906] (unity_robotics_demo_msgs) StderrLine: {'line': b'    expand_template(\n'}
+[6.038603] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[6.039254] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[6.039917] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[6.040622] (unity_robotics_demo_msgs) StderrLine: {'line': b'    generate_files(\n'}
+[6.041288] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[6.041898] (unity_robotics_demo_msgs) StderrLine: {'line': b'    expand_template(\n'}
+[6.042521] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[6.043194] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[6.051304] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[6.052117] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[6.068027] (-) TimerEvent: {}
+[6.076572] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[6.077419] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[6.078071] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[6.078661] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[6.079206] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[6.079714] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[6.080261] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[6.090847] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[6.100570] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[6.102231] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[6.102973] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[6.103675] (msg_manage) CommandEnded: {'returncode': -2}
+[6.129965] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[6.130734] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[6.131368] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[6.132008] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[6.132743] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[6.147404] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[6.151176] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[6.152078] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[6.153143] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[6.153799] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[6.154543] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[6.154934] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[6.155404] (unity_robotics_demo_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[6.155979] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[6.156549] (unity_robotics_demo_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[6.157021] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "<string>", line 3, in <module>\n'}
+[6.157654] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[6.158869] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[6.159476] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[6.160048] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[6.160624] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[6.161257] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[6.161647] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[6.162230] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[6.162659] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[6.163220] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[6.163587] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[6.164145] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[6.164823] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[6.165779] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[6.166234] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[6.166821] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[6.167785] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[6.168167] (-) TimerEvent: {}
+[6.170862] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[6.171495] (unity_robotics_demo_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[6.172173] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[6.173037] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[6.173477] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[6.174034] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1956, in one\n'}
+[6.176078] (unity_robotics_demo_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[6.176722] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[6.177206] (unity_robotics_demo_msgs) StderrLine: {'line': b'    if not self:\n'}
+[6.180359] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1679, in __bool__\n'}
+[6.181191] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[6.181765] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[6.182348] (unity_robotics_demo_msgs) StderrLine: {'line': b'    def __bool__(self): return self.pointer < len(self.buffer) # 3.x\n'}
+[6.183069] (unity_robotics_demo_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[6.183724] (unity_robotics_demo_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[6.184198] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[6.184728] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[6.185468] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[6.185937] (unity_robotics_demo_msgs) StderrLine: {'line': b'    token.scan(self)\n'}
+[6.186320] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan\n'}
+[6.186775] (unity_robotics_demo_msgs) StderrLine: {'line': b"    i = scanner.complex('{', '}', 0)\n"}
+[6.187175] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1914, in complex\n'}
+[6.187537] (unity_robotics_demo_msgs) StderrLine: {'line': b'    i += 1\n'}
+[6.189111] (unity_robotics_demo_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[6.190052] (unity_robotics_demo_msgs) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7f8fcdf3a0>\n'}
+[6.194395] (unity_robotics_demo_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.194972] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[6.197374] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[6.197802] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize\n'}
+[6.198385] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[6.198742] (unity_robotics_demo_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[6.199080] (unity_robotics_demo_msgs) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7f811551f0>\n'}
+[6.199912] (unity_robotics_demo_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.201922] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[6.203091] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[6.205705] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize\n'}
+[6.206247] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[6.207083] (unity_robotics_demo_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[6.210069] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__rosidl_generator_c.dir/build.make:139: rosidl_generator_c/unity_robotics_demo_msgs/msg/pos_rot.h] Interrupt\n'}
+[6.210644] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/unity_robotics_demo_msgs__rosidl_generator_c.dir/all] Interrupt\n'}
+[6.211326] (unity_robotics_demo_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[6.212270] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__cpp.dir/build.make:155: rosidl_generator_cpp/unity_robotics_demo_msgs/msg/pos_rot.hpp] Interrupt\n'}
+[6.217507] (msg_manage) JobEnded: {'identifier': 'msg_manage', 'rc': 'SIGINT'}
+[6.221965] (unity_robotics_demo) JobEnded: {'identifier': 'unity_robotics_demo', 'rc': 'SIGINT'}
+[6.224005] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 'SIGINT'}
+[6.224951] (unity_robotics_demo_msgs) JobEnded: {'identifier': 'unity_robotics_demo_msgs', 'rc': 'SIGINT'}
+[6.235540] (unity_slam_example) JobSkipped: {'identifier': 'unity_slam_example'}
+[6.235747] (project_2) JobSkipped: {'identifier': 'project_2'}
+[6.235955] (-) EventReactorShutdown: {}

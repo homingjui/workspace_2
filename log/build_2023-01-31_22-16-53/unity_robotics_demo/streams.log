@@ -1,0 +1,41 @@
+[5.970s] Invoking command in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_robotics_demo --record /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log --single-version-externally-managed
+[8.192s] running egg_info
+[8.196s] creating ../../build/unity_robotics_demo/unity_robotics_demo.egg-info
+[8.201s] writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[8.201s] writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[8.202s] writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[8.202s] writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[8.203s] writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[8.211s] writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[8.219s] reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[8.223s] writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[8.224s] running build
+[8.225s] running build_py
+[8.226s] creating /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build
+[8.228s] creating /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib
+[8.228s] creating /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[8.229s] copying unity_robotics_demo/position_service.py -> /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[8.229s] copying unity_robotics_demo/color_publisher.py -> /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[8.230s] copying unity_robotics_demo/__init__.py -> /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[8.230s] running install
+[8.231s] running install_lib
+[8.235s] creating /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[8.236s] copying /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib/unity_robotics_demo/position_service.py -> /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[8.236s] copying /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib/unity_robotics_demo/color_publisher.py -> /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[8.237s] copying /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build/lib/unity_robotics_demo/__init__.py -> /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo
+[8.239s] byte-compiling /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/position_service.py to position_service.cpython-38.pyc
+[8.240s] byte-compiling /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/color_publisher.py to color_publisher.cpython-38.pyc
+[8.242s] byte-compiling /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo/__init__.py to __init__.cpython-38.pyc
+[8.242s] running install_data
+[8.245s] creating /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/ament_index
+[8.246s] creating /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/ament_index/resource_index
+[8.247s] creating /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/ament_index/resource_index/packages
+[8.247s] copying resource/unity_robotics_demo -> /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/ament_index/resource_index/packages
+[8.248s] copying package.xml -> /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/share/unity_robotics_demo
+[8.248s] running install_egg_info
+[8.256s] Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info
+[8.260s] running install_scripts
+[8.374s] Installing color_publisher script to /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/unity_robotics_demo
+[8.376s] Installing position_service script to /home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/unity_robotics_demo
+[8.377s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log'
+[8.689s] Invoked command in '/home/jetson/Desktop/workspace_2/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/build install --prefix /home/jetson/Desktop/workspace_2/install/unity_robotics_demo --record /home/jetson/Desktop/workspace_2/build/unity_robotics_demo/install.log --single-version-externally-managed

@@ -1,0 +1,36 @@
+[0.311s] Invoking command in '/home/jetson/Desktop/workspace_2/build/msg_manage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake /home/jetson/Desktop/workspace_2/src/msg_manage -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/workspace_2/install/msg_manage
+[3.344s] -- The C compiler identification is GNU 8.4.0
+[3.345s] -- The CXX compiler identification is GNU 8.4.0
+[3.346s] -- Check for working C compiler: /usr/bin/cc
+[3.347s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.348s] -- Detecting C compiler ABI info
+[3.348s] -- Detecting C compiler ABI info - done
+[3.349s] -- Detecting C compile features
+[3.349s] -- Detecting C compile features - done
+[3.350s] -- Check for working CXX compiler: /usr/bin/c++
+[3.350s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.350s] -- Detecting CXX compiler ABI info
+[3.351s] -- Detecting CXX compiler ABI info - done
+[3.351s] -- Detecting CXX compile features
+[3.352s] -- Detecting CXX compile features - done
+[3.352s] -- Found ament_cmake: 0.9.9 (/home/jetson/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[3.353s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.353s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.450s] -- Found ament_lint_auto: 0.9.6 (/home/jetson/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[3.858s] -- Found rosidl_default_generators: 1.0.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)
+[3.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.931s] -- Found rosidl_adapter: 1.2.1 (/home/jetson/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[4.405s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.536s] -- Found FastRTPS: /home/jetson/ros2_foxy/ros2-linux/include  
+[5.010s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.289s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.146s] CMake Error at /home/jetson/ros2_foxy/ros2-linux/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[6.146s]   rosidl_generate_interfaces() the passed dependency 'geometry_msgs' has not
+[6.147s]   been found before using find_package()
+[6.147s] Call Stack (most recent call first):
+[6.147s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[6.148s] 
+[6.148s] 
+[6.155s] -- Configuring incomplete, errors occurred!
+[6.155s] See also "/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles/CMakeOutput.log".
+[6.181s] Invoked command in '/home/jetson/Desktop/workspace_2/build/msg_manage' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/Desktop/workspace_2/install/unity_slam_example:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint:/home/jetson/Desktop/workspace_2/install/project_2:/opt/ros/foxy /usr/bin/cmake /home/jetson/Desktop/workspace_2/src/msg_manage -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/workspace_2/install/msg_manage

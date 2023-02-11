@@ -84,6 +84,16 @@ rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aar
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: libmsg_manage__rosidl_typesupport_c.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/librmw.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: libmsg_manage__rosidl_generator_c.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libgeometry_msgs__rosidl_generator_c.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libstd_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libstd_msgs__rosidl_typesupport_cpp.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libaction_msgs__rosidl_generator_c.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/libaction_msgs__rosidl_typesupport_c.so
@@ -106,8 +116,10 @@ rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aar
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/librosidl_runtime_c.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/librcpputils.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/lib/librcutils.so
-rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib/libaction_msgs__python.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so
+rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/share/action_msgs/cmake/../../../lib/libaction_msgs__python.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake/../../../lib/libunique_identifier_msgs__python.so
 rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so: CMakeFiles/msg_manage__rosidl_typesupport_c__pyext.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/workspace_2/build/msg_manage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/msg_manage/msg_manage_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so"

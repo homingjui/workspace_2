@@ -66,6 +66,23 @@ CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_man
 CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_interface/macros.h
 CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.o: rosidl_generator_cpp/msg_manage/msg/detail/num__struct.hpp
 
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/builtin_interfaces/msg/detail/time__struct.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/geometry_msgs/msg/detail/vector3__struct.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/message_initialization.h
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/message_type_support_struct.h
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_cpp/bounded_vector.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_cpp/message_initialization.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_c/type_support_map.h
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_cpp/identifier.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_cpp/message_type_support.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_cpp/visibility_control.h
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_interface/macros.h
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/std_msgs/msg/detail/header__struct.hpp
+CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o: rosidl_generator_cpp/msg_manage/msg/detail/vehicle__struct.hpp
+
 CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp.o: rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp
 CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/message_initialization.h
 CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp.o: /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/message_type_support_struct.h

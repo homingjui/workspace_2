@@ -19,7 +19,8 @@ setup(
                                                 'launch/offline_launch.py',
                                                 'launch/online_sync_launch.py',
                                                 'params/nav2_params.yaml',
-                                                'params/mapper_params_offline.yaml'
+                                                'params/mapper_params_offline.yaml',
+                                                'launch/message_sender.py',
                                                 ]),
 
     ],
@@ -36,7 +37,11 @@ setup(
             'slam_navigation = project_2.slam_navigation:main',
             'img_processor = project_2.img_processor:main',
             'imu_reader = project_2.imu_reader:main',
-
+            'gps_reader = project_2.gps_reader:main',
+            'arduino_reader = project_2.arduino_reader:main',
+            'joy_motor= project_2.joy_motor:main',
+            'message_sender = project_2.message_sender:main',
+            #' = project_2.:main',
 
         ],
     },

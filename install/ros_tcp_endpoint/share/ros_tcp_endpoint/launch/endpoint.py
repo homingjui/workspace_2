@@ -9,7 +9,7 @@ def generate_launch_description():
             executable='default_server_endpoint',
             emulate_tty=True,
             parameters=[
-                {'ROS_IP': '134.208.0.227'},
+                {'ROS_IP': '192.168.1.100'},
                 {'ROS_TCP_PORT': 10000},
             ],
         ),

@@ -78,6 +78,26 @@ rosidl_typesupport_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/rosidl_typesupport_interface/macros.h
 
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/vehicle__type_support.cpp
+cstddef
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/rosidl_runtime_c/message_type_support_struct.h
+msg_manage/msg/rosidl_typesupport_c__visibility_control.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/msg_manage/msg/rosidl_typesupport_c__visibility_control.h
+msg_manage/msg/detail/vehicle__struct.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/msg_manage/msg/detail/vehicle__struct.h
+rosidl_typesupport_c/identifier.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/msg/rosidl_typesupport_interface/macros.h
+
 /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/srv/add_three_ints__type_support.cpp
 cstddef
 /home/jetson/Desktop/workspace_2/build/msg_manage/rosidl_typesupport_c/msg_manage/srv/cstddef
@@ -236,6 +256,14 @@ stddef.h
 stdint.h
 -
 
+/home/jetson/ros2_foxy/ros2-linux/include/geometry_msgs/msg/detail/vector3__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
 /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
 /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
@@ -266,6 +294,12 @@ rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
+/home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/string.h
+stddef.h
+-
+rosidl_runtime_c/primitives_sequence.h
+/home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+
 /home/jetson/ros2_foxy/ros2-linux/include/rosidl_runtime_c/visibility_control.h
 
 /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_c/identifier.h
@@ -291,6 +325,18 @@ cstddef
 /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_c/visibility_control.h
 
 /home/jetson/ros2_foxy/ros2-linux/include/rosidl_typesupport_interface/macros.h
+
+/home/jetson/ros2_foxy/ros2-linux/include/std_msgs/msg/detail/header__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+builtin_interfaces/msg/detail/time__struct.h
+/home/jetson/ros2_foxy/ros2-linux/include/std_msgs/msg/detail/builtin_interfaces/msg/detail/time__struct.h
+rosidl_runtime_c/string.h
+/home/jetson/ros2_foxy/ros2-linux/include/std_msgs/msg/detail/rosidl_runtime_c/string.h
 
 /home/jetson/ros2_foxy/ros2-linux/include/unique_identifier_msgs/msg/detail/uuid__struct.h
 stdbool.h
@@ -363,6 +409,18 @@ stddef.h
 -
 stdint.h
 -
+
+rosidl_generator_c/msg_manage/msg/detail/vehicle__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+std_msgs/msg/detail/header__struct.h
+rosidl_generator_c/msg_manage/msg/detail/std_msgs/msg/detail/header__struct.h
+geometry_msgs/msg/detail/vector3__struct.h
+rosidl_generator_c/msg_manage/msg/detail/geometry_msgs/msg/detail/vector3__struct.h
 
 rosidl_generator_c/msg_manage/msg/rosidl_generator_c__visibility_control.h
 

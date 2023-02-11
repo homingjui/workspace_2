@@ -1,6 +1,10 @@
 [console_scripts]
+arduino_reader = project_2.arduino_reader:main
+gps_reader = project_2.gps_reader:main
 img_processor = project_2.img_processor:main
 imu_reader = project_2.imu_reader:main
+joy_motor = project_2.joy_motor:main
+message_sender = project_2.message_sender:main
 motor_cmd = project_2.motor_cmd:main
 slam_navigation = project_2.slam_navigation:main
 

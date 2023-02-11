@@ -34,6 +34,7 @@ endif()
 
 
 find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
@@ -41,6 +42,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddThreeInts.srv"
   "srv/TwistSrv.srv"
   "action/Testaction.action"
+  "msg/Vehicle.msg"
+  DEPENDENCIES geometry_msgs
 )
 
 

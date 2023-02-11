@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_manage/msg/Vehicle.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module msg_manage {
+  module msg {
+    struct Vehicle {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Vector3 position;
+
+      double position_accuracy;
+
+      geometry_msgs::msg::Vector3 speed;
+
+      geometry_msgs::msg::Vector3 acceleration;
+
+      double heading;
+
+      double turn_angle;
+
+      double turn_rate;
+
+      uint8 control_status;
+
+      geometry_msgs::msg::Vector3 vehicle_size;
+    };
+  };
+};

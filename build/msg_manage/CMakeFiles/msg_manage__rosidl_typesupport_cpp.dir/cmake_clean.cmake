@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/action/testaction__type_support.cpp.o"
   "CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/motor2__type_support.cpp.o"
   "CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp.o"
+  "CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp.o"
   "CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp.o"
   "CMakeFiles/msg_manage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_manage/srv/twist_srv__type_support.cpp.o"
   "libmsg_manage__rosidl_typesupport_cpp.pdb"
@@ -9,6 +10,7 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_cpp/msg_manage/action/testaction__type_support.cpp"
   "rosidl_typesupport_cpp/msg_manage/msg/motor2__type_support.cpp"
   "rosidl_typesupport_cpp/msg_manage/msg/num__type_support.cpp"
+  "rosidl_typesupport_cpp/msg_manage/msg/vehicle__type_support.cpp"
   "rosidl_typesupport_cpp/msg_manage/srv/add_three_ints__type_support.cpp"
   "rosidl_typesupport_cpp/msg_manage/srv/twist_srv__type_support.cpp"
 )

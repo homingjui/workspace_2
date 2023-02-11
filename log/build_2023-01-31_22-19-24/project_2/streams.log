@@ -1,0 +1,66 @@
+[3.492s] Invoking command in '/home/jetson/Desktop/workspace_2/src/project_2': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[4.746s] running egg_info
+[4.748s] creating ../../build/project_2/project_2.egg-info
+[4.748s] writing ../../build/project_2/project_2.egg-info/PKG-INFO
+[4.749s] writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+[4.749s] writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+[4.750s] writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+[4.750s] writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+[4.756s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.764s] reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.767s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.769s] running build
+[4.769s] running build_py
+[4.770s] creating /home/jetson/Desktop/workspace_2/build/project_2/build
+[4.770s] creating /home/jetson/Desktop/workspace_2/build/project_2/build/lib
+[4.770s] creating /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.771s] copying project_2/slam_navigation.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.771s] copying project_2/gps_reader.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.772s] copying project_2/imu_reader.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.772s] copying project_2/img_processor.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.772s] copying project_2/motor_cmd.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.773s] copying project_2/joy_motor.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.773s] copying project_2/arduino_reader.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.773s] copying project_2/__init__.py -> /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2
+[4.774s] running install
+[4.776s] running install_lib
+[4.779s] creating /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.780s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/slam_navigation.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.780s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/gps_reader.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.780s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/imu_reader.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.781s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/img_processor.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.781s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/motor_cmd.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.782s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/joy_motor.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.782s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/arduino_reader.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.782s] copying /home/jetson/Desktop/workspace_2/build/project_2/build/lib/project_2/__init__.py -> /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2
+[4.785s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/slam_navigation.py to slam_navigation.cpython-38.pyc
+[4.798s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/gps_reader.py to gps_reader.cpython-38.pyc
+[4.799s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/imu_reader.py to imu_reader.cpython-38.pyc
+[4.803s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/img_processor.py to img_processor.cpython-38.pyc
+[4.806s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/motor_cmd.py to motor_cmd.cpython-38.pyc
+[4.809s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/joy_motor.py to joy_motor.cpython-38.pyc
+[4.811s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/arduino_reader.py to arduino_reader.cpython-38.pyc
+[4.812s] byte-compiling /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2/__init__.py to __init__.cpython-38.pyc
+[4.812s] running install_data
+[4.815s] creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index
+[4.816s] creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index
+[4.816s] creating /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index/packages
+[4.817s] copying resource/project_2 -> /home/jetson/Desktop/workspace_2/install/project_2/share/ament_index/resource_index/packages
+[4.817s] copying package.xml -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.818s] copying launch/test_launch.py -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.818s] copying rviz/nav2_unity.rviz -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.819s] copying launch/slam_tcp.py -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.819s] copying launch/slam_launch.py -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.819s] copying launch/offline_launch.py -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.820s] copying launch/online_sync_launch.py -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.820s] copying params/nav2_params.yaml -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.820s] copying params/mapper_params_offline.yaml -> /home/jetson/Desktop/workspace_2/install/project_2/share/project_2
+[4.821s] running install_egg_info
+[4.825s] Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info
+[4.828s] running install_scripts
+[4.902s] Installing img_processor script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.903s] Installing imu_reader script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.904s] Installing motor_cmd script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.904s] Installing slam_navigation script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.905s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'
+[5.008s] Invoked command in '/home/jetson/Desktop/workspace_2/src/project_2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
