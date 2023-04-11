@@ -15,7 +15,7 @@ class Joy_cmd(Node):
 
     
     def get_joy(self,data):
-        if data.buttons[0]!=1000:
+        if data.buttons[1]==0:
             return
         motor_data = Motor2()
         

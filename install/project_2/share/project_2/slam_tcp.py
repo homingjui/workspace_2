@@ -11,11 +11,16 @@ def generate_launch_description():
     package_dir = get_package_share_directory(package_name)
 
     return LaunchDescription({
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(get_package_share_directory('ros_tcp_endpoint'), 'launch', 'endpoint.py')
-            ),
+        Node(
+            package='ros_tcp_endpoint',
+            executable='default_server_endpoint',
+            emulate_tty=True,
+            parameters=[
+                {'ROS_IP': '192.168.1.100'},
+                {'ROS_TCP_PORT': 10000},
+            ],
         ),
+
         #Node(
         #    package='project_2',
         #    executable='slam_navigation',
@@ -29,12 +34,20 @@ def generate_launch_description():
         #),
 
 
-        #Node(
-        #    package='rviz2',
-        #    executable='rviz2',
-        #    output='screen',
-        #    arguments=['-d', os.path.join(package_dir, 'nav2_unity.rviz')],
-        #    parameters=[{'use_sim_time':True}]
-        #)
+        Node(
+            package='project_2',
+            executable='arduino_reader',
+            name='arduino_reader',
+        ),
+        Node(
+            package='project_2',
+            executable='joy_motor',
+            name='joy_motor',
+        ),
+        Node(
+            package='project_2',
+            executable='imu_reader',
+            name='imu_reader'
+        ),
     })
 

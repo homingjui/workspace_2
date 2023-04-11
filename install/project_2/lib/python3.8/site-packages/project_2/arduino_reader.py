@@ -4,7 +4,7 @@ import numpy as np
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
-
+import time
 
 
 class Arduino_reader(Node):
@@ -15,6 +15,9 @@ class Arduino_reader(Node):
         BAUD_RATES = 115200
         self.ser = serial.Serial(COM_PORT, BAUD_RATES)
         self.ser.readline()
+
+        self.hz = 10
+        self.t = time.time()
 
     def read_arduino(self):
         data = self.ser.readline().decode("utf-8")
@@ -30,7 +33,9 @@ class Arduino_reader(Node):
         joy.axes = list(map(float,data_axes))
         joy.buttons = list(map(int,data_but))
 
-        self.joy_pub.publish(joy)
+        if time.time()-self.t > 1/self.hz:
+            self.joy_pub.publish(joy)
+            self.t=time.time()
 
         #print(data)
 

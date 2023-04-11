@@ -1,0 +1,28 @@
+[3.421s] Invoking command in '/home/jetson/Desktop/workspace_2/src/project_2': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed
+[4.673s] running egg_info
+[4.675s] writing ../../build/project_2/project_2.egg-info/PKG-INFO
+[4.676s] writing dependency_links to ../../build/project_2/project_2.egg-info/dependency_links.txt
+[4.677s] writing entry points to ../../build/project_2/project_2.egg-info/entry_points.txt
+[4.677s] writing requirements to ../../build/project_2/project_2.egg-info/requires.txt
+[4.678s] writing top-level names to ../../build/project_2/project_2.egg-info/top_level.txt
+[4.691s] reading manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.695s] writing manifest file '../../build/project_2/project_2.egg-info/SOURCES.txt'
+[4.696s] running build
+[4.696s] running build_py
+[4.699s] running install
+[4.702s] running install_lib
+[4.709s] running install_data
+[4.712s] running install_egg_info
+[4.718s] removing '/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info' (and everything under it)
+[4.719s] Copying ../../build/project_2/project_2.egg-info to /home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages/project_2-0.0.0-py3.8.egg-info
+[4.722s] running install_scripts
+[4.801s] Installing arduino_reader script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.802s] Installing gps_reader script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.802s] Installing img_processor script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.803s] Installing imu_reader script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.803s] Installing joy_motor script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.804s] Installing message_sender script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.804s] Installing motor_cmd script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.804s] Installing slam_navigation script to /home/jetson/Desktop/workspace_2/install/project_2/lib/project_2
+[4.805s] writing list of installed files to '/home/jetson/Desktop/workspace_2/build/project_2/install.log'
+[4.907s] Invoked command in '/home/jetson/Desktop/workspace_2/src/project_2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs:/home/jetson/ros2_foxy/ros2-linux LD_LIBRARY_PATH=/home/jetson/Desktop/workspace_2/install/msg_manage/lib:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/jetson/ros2_foxy/ros2-linux/lib PYTHONPATH=/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/msg_manage/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_slam_example/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jetson/Desktop/workspace_2/install/project_2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/jetson/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_2 build --build-base /home/jetson/Desktop/workspace_2/build/project_2/build install --prefix /home/jetson/Desktop/workspace_2/install/project_2 --record /home/jetson/Desktop/workspace_2/build/project_2/install.log --single-version-externally-managed

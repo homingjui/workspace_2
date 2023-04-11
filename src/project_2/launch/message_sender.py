@@ -26,11 +26,11 @@ def generate_launch_description():
             executable='imu_reader',
             name='imu_reader',
         ),
-        Node(
-            package='project_2',
-            executable='joy_motor',
-            name='joy_motor',
-        ),
+        #Node(
+        #    package='project_2',
+        #    executable='joy_motor',
+        #    name='joy_motor',
+        #),
         Node(
             package='project_2',
             executable='message_sender',

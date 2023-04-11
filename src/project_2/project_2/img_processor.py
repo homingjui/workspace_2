@@ -28,9 +28,10 @@ class ImgProcessor(Node):
             return
         if data.header.frame_id == '_img':
             self.color_img = np.array(data.data,dtype=np.uint8).reshape(data.height,data.width,4)
+            self.gray_img_pub.publish(data)
             return
         if data.header.frame_id == '_depth':
-            self.gray_img_pub.publish(data)
+            #self.gray_img_pub.publish(data)
             return
         if self.color_img == "":
             return
@@ -39,7 +40,7 @@ class ImgProcessor(Node):
             t0 = time()
             my_pcl2 = PointCloud2()
             my_pcl2.header = data.header
-            my_pcl2.header.frame_id = 'base_cam'
+            my_pcl2.header.frame_id = 'base_scan'
 
             my_pcl2.height = data.height*data.width
             my_pcl2.width = 1
